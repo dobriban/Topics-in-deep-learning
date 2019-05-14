@@ -21,9 +21,9 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 * [Lecture 1: Bandits](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-1-Bandits.pdf). Presented by Edgar Dobriban.
 
-* [Lecture 2: Contextual Bandits](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-1-Bandits.pdf). Presented by Bo Zhang.
+* [Lecture 2: Contextual Bandits](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-2b-Bo-Contextual%20Bandits.pdf). Presented by Bo Zhang.
 
-* [Lecture 2b: Contextual Bandits for Mobile Health](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-2b-Bo-Contextual%20Bandits.pdf). Presented by Halley Young.
+* [Lecture 2b: Contextual Bandits for Mobile Health](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec 3a-Halley-Contextual-Bandits-for-Mobile-Health.pdf). Presented by Halley Young.
 
 * Lectures 4-9: Reinforcement learning following David Silver's course.
 
