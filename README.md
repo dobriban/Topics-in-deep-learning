@@ -8,6 +8,8 @@ The materials draw inspiration from many sources, including David Donoho's cours
 
 * [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). 
 
+Note large file size, almost 30 MB. The entire latex source is included, encouraging reuse (subject to appropriate GPL license).
+
 
 # Spring 2019
 
