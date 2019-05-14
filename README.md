@@ -13,8 +13,6 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 # Spring 2019
 
-## Syllabus 
-
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-spring-2019-syllabus.pdf). 
 
 ## Presentations
@@ -41,6 +39,28 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2018-syllabus.pdf). 
 
-## Syllabus 
-
 ## Presentations
+
+* Lectures 1-3: Lectures based on Edgar Dobriban's notes.
+
+* [Lecture 4: Generative Adversarial Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-1-Bandits.pdf). Presented by Edgar Dobriban.
+
+* [Lecture 5: Theory for Generative Adversarial Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-2b-Bo-Contextual%20Bandits.pdf). Presented by Bo Zhang.
+
+* [Lecture 6: Learning Theory for Neural Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec%203a-Halley-Contextual-Bandits-for-Mobile-Health.pdf). Presented by Halley Young.
+
+* [Lecture 7: Gradient Based Optimization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-10-Leshang-Chen-Distributed-DL-(based-on-Ben-Nun-and-Hoefler).pdf). Presented by Leshang Chen.
+
+* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-11b-Barry-Plunkett-Hierarchical-RL.pdf). Presented by Barry Plunkett.
+
+* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-11b-Barry-Plunkett-Hierarchical-RL.pdf). Presented by Barry Plunkett.
+
+* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-11b-Barry-Plunkett-Hierarchical-RL.pdf). Presented by Barry Plunkett.
+
+* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-11b-Barry-Plunkett-Hierarchical-RL.pdf). Presented by Barry Plunkett.
+
+* [Lecture 12: AutoML](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-12-Yi-AutoML.pdf). Presented by Yi Zhang.
+
+* [Lecture 13: Viusual Question Answering](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019STAT-991-Spring-2019-Lec-13-Reno-Kriz-Visual-Question-Answering.pptx). Presented by Reno Kriz.
+
+
