@@ -49,9 +49,9 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 * [Lecture 6: Learning Theory for Neural Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-6-Learning_Theory_Jacob.pdf). Presented by Jacob Seidman.
 
-* [Lecture 7: Gradient Based Optimization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-7-Gradient Descent_Matteo.pdf). Presented by Matteo Sordello.
+* [Lecture 7: Gradient Based Optimization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-7-Gradient%20Descent_Matteo.pdf). Presented by Matteo Sordello.
 
-* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec8-Sequence Learning_Carolina.pdf). Presented by Carolina Zheng.
+* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec8-Sequence%20Learning_Carolina.pdf). Presented by Carolina Zheng.
 
 * [Lecture 9: Robotics](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-9-Robotics_Ty.pptx). Presented by Ty Nguyen.
 
