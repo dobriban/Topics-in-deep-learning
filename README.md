@@ -43,24 +43,24 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 * Lectures 1-3: Lectures based on Edgar Dobriban's notes.
 
-* [Lecture 4: Generative Adversarial Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-4-GAN_Zilu.pdf). Presented by Zilu Zhou.
+* [Lecture 4: Generative Adversarial Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-4-GAN_Zilu.pdf). Presented by Zilu Zhou.
 
-* [Lecture 5: Theory for Generative Adversarial Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-5-GAN_Theory_Elzayn.pdf). Presented by Hadi Elzayn.
+* [Lecture 5: Theory for Generative Adversarial Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-5-GAN_Theory_Elzayn.pdf). Presented by Hadi Elzayn.
 
-* [Lecture 6: Learning Theory for Neural Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-6-Learning_Theory_Jacob.pdf). Presented by Jacob Seidman.
+* [Lecture 6: Learning Theory for Neural Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-6-Learning_Theory_Jacob.pdf). Presented by Jacob Seidman.
 
-* [Lecture 7: Gradient Based Optimization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-7-Gradient%20Descent_Matteo.pdf). Presented by Matteo Sordello.
+* [Lecture 7: Gradient Based Optimization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-7-Gradient%20Descent_Matteo.pdf). Presented by Matteo Sordello.
 
-* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec8-Sequence%20Learning_Carolina.pdf). Presented by Carolina Zheng.
+* [Lecture 8: Sequence Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec8-Sequence%20Learning_Carolina.pdf). Presented by Carolina Zheng.
 
-* [Lecture 9: Robotics](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-9-Robotics_Ty.pptx). Presented by Ty Nguyen.
+* [Lecture 9: Robotics](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-9-Robotics_Ty.pptx). Presented by Ty Nguyen.
 
-* [Lecture 10: Autoencoders, Physics-Informed Neural Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-10-Autoencoders+Differential-Equations_Yibo_Georgios.pdf). Presented by Yibo Yang and Georgios Kissas.
+* [Lecture 10: Autoencoders, Physics-Informed Neural Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-10-Autoencoders+Differential-Equations_Yibo_Georgios.pdf). Presented by Yibo Yang and Georgios Kissas.
 
-* [Lecture 11: Neuroscience Inspired Deep Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-11-Neuroscience-inspired-deep-learning_-_Huy.pdf). Presented by Huy Le.
+* [Lecture 11: Neuroscience Inspired Deep Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-11-Neuroscience-inspired-deep-learning_-_Huy.pdf). Presented by Huy Le.
 
-* [Lecture 12: Approximation and Estimation for Deep Learning Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-12-Approximation-and-Estimation-for-Deep-Learning-Networks_-_Jason_Klusowski.pdf). Guest lecture by Jason Klusowski.
+* [Lecture 12: Approximation and Estimation for Deep Learning Networks](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-12-Approximation-and-Estimation-for-Deep-Learning-Networks_-_Jason_Klusowski.pdf). Guest lecture by Jason Klusowski.
 
-* [Lecture 13: Deep Learning in Marketing Research](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%2018/991-Lec-13-Deep-Learning-in-Marketing-Research-Mingyung-Kim.pdf). Presented by Mingyung Kim.
+* [Lecture 13: Deep Learning in Marketing Research](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-13-Deep-Learning-in-Marketing-Research-Mingyung-Kim.pdf). Presented by Mingyung Kim.
 
 
