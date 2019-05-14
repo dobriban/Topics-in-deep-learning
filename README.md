@@ -13,6 +13,8 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 # Spring 2019
 
+Topics: sequential decision-making (from bandits to deep reinforcement learning),  distributed learning, AutoML, Visual Question Answering.
+
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-spring-2019-syllabus.pdf). 
 
 ## Presentations
@@ -31,11 +33,14 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 * [Lecture 12: AutoML](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-12-Yi-AutoML.pdf). Presented by Yi Zhang.
 
-* [Lecture 13: Viusual Question Answering](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-13-Reno-Kriz-Visual-Question-Answering.pptx). Presented by Reno Kriz.
+* [Lecture 13: Visual Question Answering](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-13-Reno-Kriz-Visual-Question-Answering.pptx). Presented by Reno Kriz.
 
 * [Lecture 13b: Visual Question Answering: Part 2](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-13b-Soham-VQA_Attention_RL.pdf). Presented by Soham Parikh.
 
 # Fall 2018
+
+Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adversarial Networks, Learning Theory, Sequence Learning, Neuroscience, etc.
+
 
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2018-syllabus.pdf). 
 
