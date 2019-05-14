@@ -15,9 +15,14 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 ## Syllabus 
 
+* [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-spring-2019-syllabus.pdf). 
+
 ## Presentations
 
+
 # Fall 2018
+
+* [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2018-syllabus.pdf). 
 
 ## Syllabus 
 
