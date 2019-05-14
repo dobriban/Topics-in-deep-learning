@@ -1,0 +1,294 @@
+%widebar!
+\makeatletter
+\newcommand*\if@single[3]{%
+  \setbox0\hbox{${\mathaccent"0362{#1}}^H$}%
+  \setbox2\hbox{${\mathaccent"0362{\kern0pt#1}}^H$}%
+  \ifdim\ht0=\ht2 #3\else #2\fi
+  }
+%The bar will be moved to the right by a half of \macc@kerna, which is computed by amsmath:
+\newcommand*\rel@kern[1]{\kern#1\dimexpr\macc@kerna}
+%If there's a superscript following the bar, then no negative kern may follow the bar;
+%an additional {} makes sure that the superscript is high enough in this case:
+\newcommand*\widebar[1]{\@ifnextchar^{{\wide@bar{#1}{0}}}{\wide@bar{#1}{1}}}
+%Use a separate algorithm for single symbols:
+\newcommand*\wide@bar[2]{\if@single{#1}{\wide@bar@{#1}{#2}{1}}{\wide@bar@{#1}{#2}{2}}}
+\newcommand*\wide@bar@[3]{%
+  \begingroup
+  \def\mathaccent##1##2{%
+%If there's more than a single symbol, use the first character instead (see below):
+    \if#32 \let\macc@nucleus\first@char \fi
+%Determine the italic correction:
+    \setbox\z@\hbox{$\macc@style{\macc@nucleus}_{}$}%
+    \setbox\tw@\hbox{$\macc@style{\macc@nucleus}{}_{}$}%
+    \dimen@\wd\tw@
+    \advance\dimen@-\wd\z@
+%Now \dimen@ is the italic correction of the symbol.
+    \divide\dimen@ 3
+    \@tempdima\wd\tw@
+    \advance\@tempdima-\scriptspace
+%Now \@tempdima is the width of the symbol.
+    \divide\@tempdima 10
+    \advance\dimen@-\@tempdima
+%Now \dimen@ = (italic correction / 3) - (Breite / 10)
+    \ifdim\dimen@>\z@ \dimen@0pt\fi
+%The bar will be shortened in the case \dimen@<0 !
+    \rel@kern{0.6}\kern-\dimen@
+    \if#31
+      \overline{\rel@kern{-0.6}\kern\dimen@\macc@nucleus\rel@kern{0.4}\kern\dimen@}%
+      \advance\dimen@0.4\dimexpr\macc@kerna
+%Place the combined final kern (-\dimen@) if it is >0 or if a superscript follows:
+      \let\final@kern#2%
+      \ifdim\dimen@<\z@ \let\final@kern1\fi
+      \if\final@kern1 \kern-\dimen@\fi
+    \else
+      \overline{\rel@kern{-0.6}\kern\dimen@#1}%
+    \fi
+  }%
+  \macc@depth\@ne
+  \let\math@bgroup\@empty \let\math@egroup\macc@set@skewchar
+  \mathsurround\z@ \frozen@everymath{\mathgroup\macc@group\relax}%
+  \macc@set@skewchar\relax
+  \let\mathaccentV\macc@nested@a
+%The following initialises \macc@kerna and calls \mathaccent:
+  \if#31
+    \macc@nested@a\relax111{#1}%
+  \else
+%If the argument consists of more than one symbol, and if the first token is
+%a letter, use that letter for the computations:
+    \def\gobble@till@marker##1\endmarker{}%
+    \futurelet\first@char\gobble@till@marker#1\endmarker
+    \ifcat\noexpand\first@char A\else
+      \def\first@char{}%
+    \fi
+    \macc@nested@a\relax111{\first@char}%
+  \fi
+  \endgroup
+}
+\makeatother
+
+
+\makeatletter
+\newcommand{\vast}{\bBigg@{3}}
+\newcommand{\Vast}{\bBigg@{4}}
+\makeatother
+
+% Better Float Defaults
+    \renewcommand{\topfraction}{0.9}	% max fraction of floats at top
+    \renewcommand{\bottomfraction}{0.8}	% max fraction of floats at bottom
+    %   Parameters for TEXT pages (not float pages):
+    \setcounter{topnumber}{2}
+    \setcounter{bottomnumber}{2}
+    \setcounter{totalnumber}{4}     % 2 may work better
+    \setcounter{dbltopnumber}{2}    % for 2-column pages
+    \renewcommand{\dbltopfraction}{0.9}	% fit big float above 2-col. text
+    \renewcommand{\textfraction}{0.07}	% allow minimal text w. figs
+    %   Parameters for FLOAT pages (not text pages):
+    \renewcommand{\floatpagefraction}{0.7}	% require fuller float pages
+	% N.B.: floatpagefraction MUST be less than topfraction !!
+    \renewcommand{\dblfloatpagefraction}{0.7}	% require fuller float pages
+
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\cc}{\mathcal{C}}
+\newcommand{\dd}{\mathcal{D}}
+\newcommand{\ee}{\mathcal{E}}
+\newcommand{\ff}{\mathcal{F}}
+\newcommand{\gcal}{\mathcal{G}}
+\newcommand{\hh}{\mathcal{H}}
+\newcommand{\ii}{\mathcal{I}}
+\newcommand{\law}{\mathcal{L}}
+\newcommand{\mm}{\mathcal{M}}
+\newcommand{\nn}{\mathcal{N}}
+\newcommand{\oo}{\mathcal{O}}
+\newcommand{\too}{\widetilde{\mathcal{O}}}
+\newcommand{\oop}{\mathcal{O}_P}
+\newcommand{\rr}{\mathcal{R}}
+\newcommand{\set}{\mathcal{S}}
+\newcommand{\tset}{\mathcal{T}}
+\newcommand{\vv}{\mathcal{V}}
+\newcommand{\xx}{\mathcal{X}}
+\newcommand{\yy}{\mathcal{Y}}
+
+\newcommand{\p}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\cb}[1]{\left\{#1\right\}}
+\newcommand{\angles}[1]{\left\langle #1\right\rangle}
+
+\newcommand{\EE}[2][]{\mathbb{E}_{#1}\left[#2\right]}
+\newcommand{\aEE}[2][]{\widetilde{\mathbb{E}}_{#1}\left[#2\right]}
+\newcommand{\PP}[2][]{\mathbb{P}_{#1}\left[#2\right]}
+\newcommand{\Var}[2][]{\operatorname{Var}_{#1}\left[#2\right]}
+\newcommand{\aVar}[2][]{\widetilde{\operatorname{Var}}_{#1}\left[#2\right]}
+\newcommand{\Cov}[2][]{\operatorname{Cov}_{#1}\left[#2\right]}
+\newcommand{\Corr}[2][]{\operatorname{Corr}_{#1}\left[#2\right]}
+\newcommand{\Bias}[2][]{\operatorname{Bias}_{#1}\left[#2\right]}
+\newcommand{\hVar}[2][]{\widehat{\operatorname{Var}}_{#1}\left[#2\right]}
+\newcommand{\hCov}[2][]{\widehat{\operatorname{Cov}}_{#1}\left[#2\right]}
+\newcommand{\hEE}[2][]{\widehat{\mathbb{E}}_{#1}\left[#2\right]}
+\newcommand{\hPP}[2][]{\widehat{\mathbb{P}}_{#1}\left[#2\right]}
+\newcommand{\med}[2][]{\operatorname{med}_{#1}\left[#2\right]}
+\newcommand{\Norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+
+\newcommand{\argmin}{\operatorname{argmin}}
+\newcommand{\argmax}{\operatorname{argmax}}
+\newcommand{\diag}{\operatorname{diag}}
+%\newcommand{\block}{\operatorname{block}}
+\newcommand{\fdr}{\operatorname{fdr}}
+\newcommand{\eqd}{\,{\buildrel d \over =}\,}
+\newcommand{\approxdot}{\,{\buildrel \cdot \over \sim\,}}
+\newcommand{\simiid}{\,{\buildrel \text{iid} \over \sim\,}}
+\newcommand{\Err}{\operatorname{Err}}
+\newcommand{\hErr}{\widehat{\operatorname{Err}}}
+\newcommand{\sign}{\operatorname{sign}}
+\newcommand{\Exp}{\operatorname{Exp}}
+\newcommand{\tr}{\operatorname{tr}}
+
+\newcommand{\limn}{\lim_{n \rightarrow \infty}}
+\newcommand{\limt}{\lim_{t \rightarrow \infty}}
+\newcommand{\lims}{\lim_{s \rightarrow \infty}}
+\newcommand{\limm}{\lim_{m \rightarrow \infty}}
+
+\newcommand{\wh}{\widehat}
+
+\newcommand{\LI}{L_1}
+\newcommand{\LII}{L_2}
+
+\newcommand{\hc}{\hat{c}}
+\newcommand{\hf}{\hat{f}}
+\newcommand{\hg}{\hat{g}}
+\newcommand{\hath}{\hat{h}}
+\newcommand{\hk}{\hat{k}}
+\newcommand{\hv}{\hat{v}}
+\newcommand{\hp}{\hat{p}}
+\newcommand{\hu}{\hat{u}}
+\newcommand{\hw}{\hat{w}}
+\newcommand{\hx}{\hat{x}}
+\newcommand{\hy}{\hat{y}}
+\newcommand{\hz}{\hat{z}}
+\newcommand{\hB}{\widehat{B}}
+\newcommand{\hC}{\widehat{C}}
+\newcommand{\hF}{\widehat{F}}
+\newcommand{\hG}{\widehat{G}}
+\newcommand{\hV}{\widehat{V}}
+\newcommand{\hX}{\widehat{X}}
+\newcommand{\hY}{\widehat{Y}}
+\newcommand{\hbeta}{\hat{\beta}}
+\newcommand{\gh}{\hat{\gamma}}
+\newcommand{\hgamma}{\hat{\gamma}}
+\newcommand{\hdelta}{\hat{\delta}}
+\newcommand{\heta}{\hat{\eta}}
+\newcommand{\hlambda}{\hat{\lambda}}
+\newcommand{\hpi}{\hat{\pi}}
+\newcommand{\hpsi}{\hat{\psi}}
+\newcommand{\hnu}{\hat{\nu}}
+\newcommand{\hmu}{\hat{\mu}}
+\newcommand{\hsigma}{\hat{\sigma}}
+\newcommand{\htau}{\hat{\tau}}
+\newcommand{\htheta}{\hat{\theta}}
+\newcommand{\hGamma}{\widehat{\Gamma}}
+\newcommand{\hDelta}{\widehat{\Delta}}
+\newcommand{\hLambda}{\widehat{\Lambda}}
+\newcommand{\hSigma}{\widehat{\Sigma}}
+
+\newcommand{\bx}{\bar{x}}
+\newcommand{\bX}{\widebar{X}}
+
+\newcommand{\tf}{\tilde{f}}
+\newcommand{\tg}{\tilde{g}}
+\newcommand{\tx}{\tilde{x}}
+\newcommand{\ty}{\tilde{y}}
+\newcommand{\tz}{\tilde{z}}
+\newcommand{\hT}{\widehat{T}}
+\newcommand{\tS}{\widetilde{S}}
+\newcommand{\tX}{\widetilde{X}}
+\newcommand{\tY}{\widetilde{Y}}
+\newcommand{\tZ}{\widetilde{Z}}
+\newcommand{\tnu}{\tilde{\nu}}
+\newcommand{\tell}{\tilde{\ell}}
+\newcommand{\cond}{\,\big|\,}
+
+\newcommand{\thy}{\tilde{\hat{y}}}
+
+\newcommand{\where}{\text{ where }}
+\newcommand{\with}{\text{ with }}
+\newcommand{\while}{\text{ while }}
+\newcommand{\whereas}{\text{ whereas }}
+\newcommand{\eqand}{\text{ and }}
+\newcommand{\eqfor}{\text{ for }}
+
+\newcommand{\poly}{\operatorname{poly}}
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+\newcommand{\cyan}[1]{\textcolor{cyan}{#1}}
+
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand\indep{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+
+\newcommand{\bmu}{\bar{\mu}}
+\newcommand{\Poisson}[1]{\operatorname{Poisson}\p{#1}}
+
+
+\usepackage{amsthm,amsmath,amssymb}
+\usepackage[authoryear]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,breaklinks]{hyperref}
+\usepackage{babel}
+\usepackage{caption, subcaption}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{algorithm}
+\usepackage{grffile}
+\usepackage{comment}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+ \usepackage{paralist}
+\usepackage{geometry} % to change the page dimensions
+%\usepackage{pgf, tikz}
+%\usetikzlibrary{arrows, automata}
+
+
+%custom commands
+\newcommand{\ep}{\varepsilon}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\N}{\mathcal{N}}
+\newcommand{\ld}{\lim_{\ep\downarrow 0}}
+\newcommand{\MSE}{\textnormal{MSE}}
+\newcommand{\goto}{\rightarrow}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\C}{\textnormal{Cov}}
+\newcommand{\V}{\textnormal{Var}}
+\newcommand{\Eff}{\textnormal{Eff}}
+\newcommand{\Fr}{\textnormal{Fr}}
+\newcommand{\op}{\textnormal{op}}
+\newcommand{\supp}{\textnormal{supp}}
+\newcommand{\bitem}{\begin{itemize}}
+\newcommand{\eitem}{\end{itemize}}
+\newcommand{\benum}{\begin{enumerate}}
+\newcommand{\eenum}{\end{enumerate}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqs}{\begin{equation*}}
+\newcommand{\eeqs}{\end{equation*}}
+\newcommand{\cmnt}[1]{{\color{red}[#1]}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{conj}{Conjecture}
+\newtheorem{rmk}{Remark}
+\theoremstyle{thm}
+
