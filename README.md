@@ -19,6 +19,8 @@ Note large file size, almost 30 MB. The entire latex source is included, encoura
 
 ## Presentations
 
+* [Lecture 1](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-1-Bandits.pdf). 
+
 
 # Fall 2018
 
