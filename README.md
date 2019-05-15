@@ -29,8 +29,6 @@ Topics: sequential decision-making (from bandits to deep reinforcement learning)
 
 * Lectures 4-9: Reinforcement learning following David Silver's course.
 
-* [Lecture 10: Distributed Deep Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-10-Leshang-Chen-Distributed-DL-(based-on-Ben-Nun-and-Hoefler).pdf). Presented by Leshang Chen.
-
 * [Lecture 11: Hierarchical Reinforcement learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-11b-Barry-Plunkett-Hierarchical-RL.pdf). Presented by Barry Plunkett.
 
 * [Lecture 12: AutoML](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-12-Yi-AutoML.pdf). Presented by Yi Zhang.
