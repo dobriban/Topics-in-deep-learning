@@ -6,7 +6,7 @@ The materials draw inspiration from many sources, including David Donoho's cours
 
 # Lecture notes
 
-* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). 
+* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). (More than 150 pages)
 
 Compared to other sources, these lecture notes are aimed at people with a basic knowledge of probability, statistics, and machine learning. They start with basic concepts from deep learning, and aim to cover selected important topics up to the cutting edge of research.
 
