@@ -2,13 +2,17 @@
 
 This repository hosts the materials for STAT 991: Topics in Deep Learning. This is a seminar class at UPenn started in 2018. It surveys advanced topics in deep learning based on student presentations. 
 
+The class will be offered again in Fall 2019.
+
 The materials draw inspiration from many sources, including David Donoho's course Stat 385 at Stanford, Andrew Ng's Deep Learning course on deeplearning.ai, CS231n at Stanford, David Silver's RL course, Tony Cai's reading group at Wharton. They may contain factual and typographical errors. Thanks to several people who have provided parts of the notes, including Zongyu Dai, Georgios Kissas, Jane Lee, Barry Plunkett, Matteo Sordello, Yibo Yang, Bo Zhang, Yi Zhang, Carolina Zheng. The images included are subject to copyright by their rightful owners, and are included here for educational purposes.
 
 # Lecture notes
 
-* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). 
+* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). (More than 150 pages)
 
-Note large file size, almost 30 MB. The entire latex source is included, encouraging reuse (subject to appropriate GPL license).
+Compared to other sources, these lecture notes are aimed at people with a basic knowledge of probability, statistics, and machine learning. They start with basic concepts from deep learning, and aim to cover selected important topics up to the cutting edge of research.
+
+Note large file size, almost 30 MB. The entire latex source is included, encouraging reuse (subject to appropriate licenses).
 
 
 # Spring 2019
@@ -26,8 +30,6 @@ Topics: sequential decision-making (from bandits to deep reinforcement learning)
 * [Lecture 2b: Contextual Bandits for Mobile Health](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec%203a-Halley-Contextual-Bandits-for-Mobile-Health.pdf). Presented by Halley Young.
 
 * Lectures 4-9: Reinforcement learning following David Silver's course.
-
-* [Lecture 10: Distributed Deep Learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-10-Leshang-Chen-Distributed-DL-(based-on-Ben-Nun-and-Hoefler).pdf). Presented by Leshang Chen.
 
 * [Lecture 11: Hierarchical Reinforcement learning](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Spring%202019/STAT-991-Spring-2019-Lec-11b-Barry-Plunkett-Hierarchical-RL.pdf). Presented by Barry Plunkett.
 
