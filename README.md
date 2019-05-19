@@ -8,11 +8,11 @@ The materials draw inspiration from many sources, including David Donoho's cours
 
 # Lecture notes
 
-* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). (More than 150 pages)
+* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). (~170 pages, file size ~30 MB.)
 
 Compared to other sources, these lecture notes are aimed at people with a basic knowledge of probability, statistics, and machine learning. They start with basic concepts from deep learning, and aim to cover selected important topics up to the cutting edge of research.
 
-Note large file size, almost 30 MB. The entire latex source is included, encouraging reuse (subject to appropriate licenses).
+The entire latex source is included, encouraging reuse (subject to appropriate licenses).
 
 
 # Spring 2019
