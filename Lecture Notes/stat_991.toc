@@ -1,89 +1,95 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Deep feedforward neural networks}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}The model}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Training}{5}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Backpropagation}{5}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Regularization}{7}{subsubsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2}Training}{6}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Backpropagation}{6}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Regularization}{8}{subsubsection.1.2.2}
 \contentsline {subsubsection}{\numberline {1.2.3}Other optimization steps}{8}{subsubsection.1.2.3}
 \contentsline {subsection}{\numberline {1.3}Notes on using DL}{9}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}Miscellanea}{14}{subsection.1.4}
-\contentsline {section}{\numberline {2}Convolutional neural networks (CNNs)}{19}{section.2}
-\contentsline {subsection}{\numberline {2.1}The problem and model}{19}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Other aspects}{21}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Training}{22}{subsection.2.3}
+\contentsline {section}{\numberline {2}Convolutional neural networks (CNNs)}{18}{section.2}
+\contentsline {subsection}{\numberline {2.1}The problem and model}{18}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Other methodology}{22}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Training}{23}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Graph CNN}{23}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Shapes beyond images, invariance}{28}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Spatial Transformer Networks}{30}{subsection.2.6}
-\contentsline {section}{\numberline {3}Recurrent neural networks (RNNs)}{31}{section.3}
-\contentsline {subsection}{\numberline {3.1}Setup}{31}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Sequence Learning}{34}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Motivation}{34}{subsubsection.3.2.1}
-\contentsline {subsection}{\numberline {3.3}Sequence Models}{37}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}RNNs}{37}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Training Challenges}{39}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}LSTM and GRU}{41}{subsubsection.3.3.3}
-\contentsline {subsection}{\numberline {3.4}Machine Translation}{42}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Attention}{45}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Transformer Model}{46}{subsubsection.3.4.2}
-\contentsline {subsection}{\numberline {3.5}Image + Text}{51}{subsection.3.5}
-\contentsline {section}{\numberline {4}Unsupervised learning}{52}{section.4}
-\contentsline {subsection}{\numberline {4.1}Setup}{52}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}PCA, AE, VAE}{53}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Generative adversarial networks (GAN)}{57}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Wasserstein GAN}{61}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}WGAN}{63}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Gradient penalty}{65}{subsubsection.4.4.2}
-\contentsline {section}{\numberline {5}Sequential decision-making: from bandits to deep reinforcement learning}{67}{section.5}
-\contentsline {subsection}{\numberline {5.1}Intro}{67}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Bandits}{69}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Policies and regret analysis}{72}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Comparing policies}{74}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Adversarial bandits}{76}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Contextual Bandits}{80}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}Software and Miscellanea}{84}{subsubsection.5.2.5}
-\contentsline {subsection}{\numberline {5.3}Reinforcement learning}{84}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Setup}{84}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}L1. Introduction}{84}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Definitions}{86}{subsubsection.5.3.3}
-\contentsline {subsubsection}{\numberline {5.3.4}Relation to Contextual Bandits}{88}{subsubsection.5.3.4}
-\contentsline {subsubsection}{\numberline {5.3.5}Markov Decision Process}{89}{subsubsection.5.3.5}
-\contentsline {subsubsection}{\numberline {5.3.6}Planning by dynamic programming}{93}{subsubsection.5.3.6}
-\contentsline {subsubsection}{\numberline {5.3.7}Model-free prediction}{93}{subsubsection.5.3.7}
-\contentsline {subsubsection}{\numberline {5.3.8}Model-free control}{94}{subsubsection.5.3.8}
-\contentsline {subsubsection}{\numberline {5.3.9}Scaling up RL. Value function approximation}{95}{subsubsection.5.3.9}
-\contentsline {subsubsection}{\numberline {5.3.10}Policy gradient}{96}{subsubsection.5.3.10}
-\contentsline {subsubsection}{\numberline {5.3.11}Integrating learning and planning}{97}{subsubsection.5.3.11}
-\contentsline {subsubsection}{\numberline {5.3.12}Hierarchical RL}{98}{subsubsection.5.3.12}
-\contentsline {subsubsection}{\numberline {5.3.13}Task-agnostic RL}{102}{subsubsection.5.3.13}
-\contentsline {subsection}{\numberline {5.4}Other topics}{103}{subsection.5.4}
-\contentsline {section}{\numberline {6}Special topics}{103}{section.6}
-\contentsline {subsection}{\numberline {6.1}Adversarial examples}{103}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Neural ODEs}{109}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Physics informed NNs (PINNs)}{110}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Information bottleneck and invariance}{110}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Gradient-based optimization}{112}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Design of new architectures - gradient computations}{122}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Distributed training}{124}{subsection.6.7}
-\contentsline {subsubsection}{\numberline {6.7.1}Notes from Smola's class}{126}{subsubsection.6.7.1}
-\contentsline {subsection}{\numberline {6.8}AutoML}{128}{subsection.6.8}
-\contentsline {subsection}{\numberline {6.9}Biological plausibility}{136}{subsection.6.9}
-\contentsline {subsection}{\numberline {6.10}Accessibility}{136}{subsection.6.10}
-\contentsline {subsection}{\numberline {6.11}Explainability (and interpretability)}{137}{subsection.6.11}
-\contentsline {subsection}{\numberline {6.12}Model compression}{139}{subsection.6.12}
-\contentsline {subsection}{\numberline {6.13}Others}{140}{subsection.6.13}
-\contentsline {subsubsection}{\numberline {6.13.1}List}{140}{subsubsection.6.13.1}
-\contentsline {subsubsection}{\numberline {6.13.2}Privacy}{141}{subsubsection.6.13.2}
-\contentsline {subsubsection}{\numberline {6.13.3}Applications}{141}{subsubsection.6.13.3}
-\contentsline {section}{\numberline {7}Theory}{141}{section.7}
-\contentsline {subsection}{\numberline {7.1}Why do we need theory?}{141}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Computational complexity and learning}{142}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Approximation theory}{145}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Optimization}{146}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Generalization}{147}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Harmonic analysis}{148}{subsection.7.6}
-\contentsline {subsection}{\numberline {7.7}Probabilistic ML}{149}{subsection.7.7}
-\contentsline {subsection}{\numberline {7.8}Information geometry}{150}{subsection.7.8}
-\contentsline {subsection}{\numberline {7.9}Random Matrix Theory}{150}{subsection.7.9}
-\contentsline {subsection}{\numberline {7.10}Physics}{152}{subsection.7.10}
-\contentsline {subsection}{\numberline {7.11}Geometry}{153}{subsection.7.11}
-\contentsline {section}{\numberline {8}How to learn practical DL}{153}{section.8}
+\contentsline {subsection}{\numberline {2.5}Other aspects}{29}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Shapes beyond images, invariance}{30}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Spatial Transformer Networks}{32}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Image denoising/compression}{33}{subsection.2.8}
+\contentsline {section}{\numberline {3}Recurrent neural networks (RNNs)}{35}{section.3}
+\contentsline {subsection}{\numberline {3.1}Setup}{35}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Sequence Learning}{40}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Motivation}{40}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Sequence Models}{41}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}RNNs}{41}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Training Challenges}{43}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}LSTM and GRU}{45}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Machine Translation}{47}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Attention}{49}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Transformer Model}{50}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5}Image + Text}{56}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Others}{57}{subsection.3.6}
+\contentsline {section}{\numberline {4}Unsupervised learning}{57}{section.4}
+\contentsline {subsection}{\numberline {4.1}Setup}{57}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}PCA, AE, VAE}{58}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Generative adversarial networks (GAN)}{63}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Wasserstein GAN}{67}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}WGAN}{69}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Gradient penalty}{71}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Other GANs}{73}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Other questions in unsupervised learning}{75}{subsection.4.6}
+\contentsline {section}{\numberline {5}Sequential decision-making: from bandits to deep reinforcement learning}{76}{section.5}
+\contentsline {subsection}{\numberline {5.1}Intro}{76}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Bandits}{77}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Policies and regret analysis}{80}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Comparing policies}{82}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Adversarial bandits}{84}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Contextual Bandits}{88}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}Software and Miscellanea}{92}{subsubsection.5.2.5}
+\contentsline {subsection}{\numberline {5.3}Reinforcement learning}{92}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Setup}{92}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}L1. Introduction}{92}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Definitions}{94}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}Relation to Contextual Bandits}{96}{subsubsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.5}Markov Decision Process}{97}{subsubsection.5.3.5}
+\contentsline {subsubsection}{\numberline {5.3.6}Planning by dynamic programming}{101}{subsubsection.5.3.6}
+\contentsline {subsubsection}{\numberline {5.3.7}Model-free prediction}{101}{subsubsection.5.3.7}
+\contentsline {subsubsection}{\numberline {5.3.8}Model-free control}{102}{subsubsection.5.3.8}
+\contentsline {subsubsection}{\numberline {5.3.9}Scaling up RL. Value function approximation}{103}{subsubsection.5.3.9}
+\contentsline {subsubsection}{\numberline {5.3.10}Policy gradient}{104}{subsubsection.5.3.10}
+\contentsline {subsubsection}{\numberline {5.3.11}Integrating learning and planning}{105}{subsubsection.5.3.11}
+\contentsline {subsubsection}{\numberline {5.3.12}Hierarchical RL}{106}{subsubsection.5.3.12}
+\contentsline {subsubsection}{\numberline {5.3.13}Task-agnostic RL}{111}{subsubsection.5.3.13}
+\contentsline {subsection}{\numberline {5.4}Other topics}{112}{subsection.5.4}
+\contentsline {section}{\numberline {6}Special topics}{113}{section.6}
+\contentsline {subsection}{\numberline {6.1}Adversarial examples}{113}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Neural ODEs}{118}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Physics informed NNs (PINNs)}{119}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Information bottleneck and invariance}{120}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Gradient-based optimization}{122}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Design of new architectures - gradient computations}{132}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Distributed training}{134}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.7.1}Notes from Smola's class}{134}{subsubsection.6.7.1}
+\contentsline {subsection}{\numberline {6.8}AutoML}{138}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Biological plausibility}{146}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Accessibility}{147}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Explainability (and interpretability)}{148}{subsection.6.11}
+\contentsline {subsection}{\numberline {6.12}Model compression}{151}{subsection.6.12}
+\contentsline {subsection}{\numberline {6.13}Others}{153}{subsection.6.13}
+\contentsline {subsubsection}{\numberline {6.13.1}List}{153}{subsubsection.6.13.1}
+\contentsline {subsubsection}{\numberline {6.13.2}Privacy}{154}{subsubsection.6.13.2}
+\contentsline {subsubsection}{\numberline {6.13.3}Applications}{154}{subsubsection.6.13.3}
+\contentsline {section}{\numberline {7}Theory}{155}{section.7}
+\contentsline {subsection}{\numberline {7.1}Why do we need theory?}{155}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Computational complexity and learning}{156}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Approximation theory}{158}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Optimization}{160}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Generalization}{161}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Nonparametric function estimation}{163}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.7}Harmonic analysis}{163}{subsection.7.7}
+\contentsline {subsection}{\numberline {7.8}Probabilistic ML}{163}{subsection.7.8}
+\contentsline {subsection}{\numberline {7.9}Information geometry}{164}{subsection.7.9}
+\contentsline {subsection}{\numberline {7.10}Random Matrix Theory}{165}{subsection.7.10}
+\contentsline {subsection}{\numberline {7.11}Physics}{166}{subsection.7.11}
+\contentsline {subsection}{\numberline {7.12}Geometry}{168}{subsection.7.12}
+\contentsline {section}{\numberline {8}How to learn practical DL}{168}{section.8}
