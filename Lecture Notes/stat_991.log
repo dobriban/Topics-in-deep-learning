@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.6)  21 MAY 2019 22:59
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.6)  19 MAY 2019 17:32
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.9)  22 MAY 2019 15:19
 entering extended mode
 **./stat_991.tex
 (stat_991.tex
@@ -105,7 +101,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
@@ -195,7 +191,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count103
 
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -238,7 +234,7 @@ Package: babel 2017/05/19 3.10 The Babel package
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
@@ -254,10 +250,10 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen117
@@ -271,12 +267,11 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count111
 Package caption Info: hyperref package is loaded.
 )
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count112
 \c@subtable=\count113
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
@@ -297,11 +292,11 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.st
+y
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count115
 \float@exts=\toks26
@@ -322,16 +317,16 @@ Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudocode
-.sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudoc
+ode.sty
 Package: algpseudocode 
 
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmicx.
-sty
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmi
+cx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -347,15 +342,14 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip54
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\latex\paralist\paralist.sty
+) (C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\latex\paralist\paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip55
 \plpartopsep=\skip56
 \plitemsep=\skip57
 \plparsep=\skip58
 \pl@lab=\toks29
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count124
 \Gm@cntv=\count125
@@ -443,7 +437,355 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-) (stat_991.aux)
+) (stat_991.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Label `arch' multiply defined.
+
+
+LaTeX Warning: Label `lenet5' multiply defined.
+
+
+LaTeX Warning: Label `AlexNet' multiply defined.
+
+
+LaTeX Warning: Label `VGG' multiply defined.
+
+
+LaTeX Warning: Label `vis' multiply defined.
+
+
+LaTeX Warning: Label `rcnn' multiply defined.
+
+
+LaTeX Warning: Label `gcnn' multiply defined.
+
+
+LaTeX Warning: Label `gcp' multiply defined.
+
+
+LaTeX Warning: Label `STN' multiply defined.
+
+
+LaTeX Warning: Label `UAIR' multiply defined.
+
+
+LaTeX Warning: Label `UAIRr' multiply defined.
+
+
+LaTeX Warning: Label `DD' multiply defined.
+
+
+LaTeX Warning: Label `rnn' multiply defined.
+
+
+LaTeX Warning: Label `lstm' multiply defined.
+
+
+LaTeX Warning: Label `attn' multiply defined.
+
+
+LaTeX Warning: Label `c' multiply defined.
+
+
+LaTeX Warning: Label `wavenet' multiply defined.
+
+
+LaTeX Warning: Label `MLP' multiply defined.
+
+
+LaTeX Warning: Label `rnn-types' multiply defined.
+
+
+LaTeX Warning: Label `Simple RNN' multiply defined.
+
+
+LaTeX Warning: Label `Teacher forcing' multiply defined.
+
+
+LaTeX Warning: Label `Gradient Clipping' multiply defined.
+
+
+LaTeX Warning: Label `ReLU' multiply defined.
+
+
+LaTeX Warning: Label `LSTM' multiply defined.
+
+
+LaTeX Warning: Label `Neural Machine Translation in 2016' multiply defined.
+
+
+LaTeX Warning: Label `Encoder-Decoder Model' multiply defined.
+
+
+LaTeX Warning: Label `Sample-rnn' multiply defined.
+
+
+LaTeX Warning: Label `Attention' multiply defined.
+
+
+LaTeX Warning: Label `Encoder-Decoder Model with Attention' multiply defined.
+
+
+LaTeX Warning: Label `A sample alignment found by RNNsearch-50' multiply define
+d.
+
+
+LaTeX Warning: Label `NMT Model Comparison' multiply defined.
+
+
+LaTeX Warning: Label `Transformer Model' multiply defined.
+
+
+LaTeX Warning: Label `Self-Attention' multiply defined.
+
+
+LaTeX Warning: Label `Self-Attention 1' multiply defined.
+
+
+LaTeX Warning: Label `Self-Attention 2' multiply defined.
+
+
+LaTeX Warning: Label `Self-Attention 3' multiply defined.
+
+
+LaTeX Warning: Label `TheT' multiply defined.
+
+
+LaTeX Warning: Label `Caption' multiply defined.
+
+
+LaTeX Warning: Label `TCN' multiply defined.
+
+
+LaTeX Warning: Label `ae0' multiply defined.
+
+
+LaTeX Warning: Label `vae' multiply defined.
+
+
+LaTeX Warning: Label `svae' multiply defined.
+
+
+LaTeX Warning: Label `Reparam' multiply defined.
+
+
+LaTeX Warning: Label `VAE_Process' multiply defined.
+
+
+LaTeX Warning: Label `gan' multiply defined.
+
+
+LaTeX Warning: Label `gan1' multiply defined.
+
+
+LaTeX Warning: Label `gan2' multiply defined.
+
+
+LaTeX Warning: Label `mc' multiply defined.
+
+
+LaTeX Warning: Label `wgan' multiply defined.
+
+
+LaTeX Warning: Label `gan_alg' multiply defined.
+
+
+LaTeX Warning: Label `wass_qual' multiply defined.
+
+
+LaTeX Warning: Label `explode' multiply defined.
+
+
+LaTeX Warning: Label `value' multiply defined.
+
+
+LaTeX Warning: Label `wgan_gp' multiply defined.
+
+
+LaTeX Warning: Label `wgan_gp_exp' multiply defined.
+
+
+LaTeX Warning: Label `cGAN' multiply defined.
+
+
+LaTeX Warning: Label `band_ex' multiply defined.
+
+
+LaTeX Warning: Label `online_ad' multiply defined.
+
+
+LaTeX Warning: Label `ada_ct' multiply defined.
+
+
+LaTeX Warning: Label `robo' multiply defined.
+
+
+LaTeX Warning: Label `rewards' multiply defined.
+
+
+LaTeX Warning: Label `opti' multiply defined.
+
+
+LaTeX Warning: Label `K=5.sigma=0.01' multiply defined.
+
+
+LaTeX Warning: Label `K=5.sigma=0.1' multiply defined.
+
+
+LaTeX Warning: Label `K=2.sigma=0.01' multiply defined.
+
+
+LaTeX Warning: Label `Thompson sampling' multiply defined.
+
+
+LaTeX Warning: Label `Stochastic Contextual Bandits: Parametric Approach III' m
+ultiply defined.
+
+
+LaTeX Warning: Label `Yang and Zhu (2002)' multiply defined.
+
+
+LaTeX Warning: Label `Adversarial Contexts with Stochastic Rewards 1' multiply 
+defined.
+
+
+LaTeX Warning: Label `Adversarial Contexts with Stochastic Rewards 2' multiply 
+defined.
+
+
+LaTeX Warning: Label `Example RL' multiply defined.
+
+
+LaTeX Warning: Label `Agent and Environment' multiply defined.
+
+
+LaTeX Warning: Label `Comparing bandits and RL' multiply defined.
+
+
+LaTeX Warning: Label `maze' multiply defined.
+
+
+LaTeX Warning: Label `maze2' multiply defined.
+
+
+LaTeX Warning: Label `Unified view of RL' multiply defined.
+
+
+LaTeX Warning: Label `maze10' multiply defined.
+
+
+LaTeX Warning: Label `natl_adv' multiply defined.
+
+
+LaTeX Warning: Label `inv' multiply defined.
+
+
+LaTeX Warning: Label `Gradient descent' multiply defined.
+
+
+LaTeX Warning: Label `Batch gradient descent vs. SGD fluctuation' multiply defi
+ned.
+
+
+LaTeX Warning: Label `Tradeoffs' multiply defined.
+
+
+LaTeX Warning: Label `Ravine' multiply defined.
+
+
+LaTeX Warning: Label `SGD with momentum' multiply defined.
+
+
+LaTeX Warning: Label `Momentum' multiply defined.
+
+
+LaTeX Warning: Label `Nesterov' multiply defined.
+
+
+LaTeX Warning: Label `animations' multiply defined.
+
+
+LaTeX Warning: Label `experiment_logistic_regression' multiply defined.
+
+
+LaTeX Warning: Label `experiment_cnn' multiply defined.
+
+
+LaTeX Warning: Label `NMT1' multiply defined.
+
+
+LaTeX Warning: Label `NMT2' multiply defined.
+
+
+LaTeX Warning: Label `mr' multiply defined.
+
+
+LaTeX Warning: Label `dgd' multiply defined.
+
+
+LaTeX Warning: Label `FireCaffe' multiply defined.
+
+
+LaTeX Warning: Label `nas' multiply defined.
+
+
+LaTeX Warning: Label `nas2' multiply defined.
+
+
+LaTeX Warning: Label `nas3' multiply defined.
+
+
+LaTeX Warning: Label `nas4' multiply defined.
+
+
+LaTeX Warning: Label `nas6' multiply defined.
+
+
+LaTeX Warning: Label `nas7' multiply defined.
+
+
+LaTeX Warning: Label `nas8' multiply defined.
+
+
+LaTeX Warning: Label `nas9' multiply defined.
+
+
+LaTeX Warning: Label `nas10' multiply defined.
+
+
+LaTeX Warning: Label `darts' multiply defined.
+
+
+LaTeX Warning: Label `Penn AI' multiply defined.
+
+
+LaTeX Warning: Label `saliency' multiply defined.
+
+
+LaTeX Warning: Label `lot' multiply defined.
+
+
+LaTeX Warning: Label `gcnn_mol' multiply defined.
+
+
+LaTeX Warning: Label `dsn' multiply defined.
+
+
+LaTeX Warning: Label `rmm' multiply defined.
+
+)
 \openout1 = `stat_991.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -482,7 +824,15 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\dobri\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\dobriban\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+Overfull \hbox (399.08693pt too wide) in paragraph at lines 54--13
+[]\OT1/cmr/m/n/10 <<<<<<< HEAD                                                 
+                                                                               
+                                                                               
+                                                                               
+                                 =======
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count141
 \scratchdimen=\dimen143
@@ -542,7 +892,11 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+[1
+
+{C:/Users/dobriban/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -560,101 +914,87 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
- (stat_991.toc [1
+ (stat_991.toc [2]
+[3]
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...al neural networks (CNNs)}{18}{section.2}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...al neural networks (CNNs)}{18}{section.2}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4] [5])
 \tf@toc=\write5
 \openout5 = `stat_991.toc'.
 
-
-<<<<<<< HEAD
-<dn.png, id=504, 803.0pt x 307.549pt>
-=======
-<dn.png, id=494, 803.0pt x 307.549pt>
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ <dn.png, id=860, 803.0pt x 307.549pt>
 File: dn.png Graphic file (type png)
  <use dn.png>
 Package pdftex.def Info: dn.png used on input line 55.
 (pdftex.def)             Requested size: 387.00153pt x 148.2225pt.
- [3]
+ [6]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
 
-<<<<<<< HEAD
-<nn_example.png, id=517, 971.12813pt x 339.51843pt>
-=======
-<nn_example.png, id=507, 971.12813pt x 339.51843pt>
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+<nn_example.png, id=875, 971.12813pt x 339.51843pt>
 File: nn_example.png Graphic file (type png)
  <use nn_example.png>
 Package pdftex.def Info: nn_example.png used on input line 118.
 (pdftex.def)             Requested size: 291.34068pt x 101.85631pt.
 
-[4 <./dn.png>]
+[7 <./dn.png>]
 Overfull \hbox (15.06453pt too wide) in paragraph at lines 161--162
 []\OT1/cmr/m/n/9 Matrices are or-ga-nized as fol-lows: columns - train-ing ex-a
 m-ples/filters, rows - units/nodes. 
  []
 
-<<<<<<< HEAD
-[5 <./nn_example.png>] [6] [7] [8] <opt.jpg, id=581, 440.64626pt x 485.815pt>
-=======
-[5 <./nn_example.png>] [6] [7] [8] <opt.jpg, id=571, 440.64626pt x 485.815pt>
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[8 <./nn_example.png>] [9] [10] [11]
+<opt.jpg, id=937, 440.64626pt x 485.815pt>
 File: opt.jpg Graphic file (type jpg)
-
-<use opt.jpg>
+ <use opt.jpg>
 Package pdftex.def Info: opt.jpg used on input line 364.
 (pdftex.def)             Requested size: 220.32259pt x 242.9069pt.
-<<<<<<< HEAD
- <ae.png, id=583, 1108.14pt x 538.01pt>
+
+<ae.png, id=939, 1108.14pt x 538.01pt>
 File: ae.png Graphic file (type png)
  <use ae.png>
 Package pdftex.def Info: ae.png used on input line 395.
 (pdftex.def)             Requested size: 332.44456pt x 161.40424pt.
- [9] [10 <./opt.jpg> <./ae.png>]
-<compute_diagram-log@2x-3.png, id=603, 1204.5pt x 943.525pt>
+ [12] [13 <./opt.jpg> <./ae.png>] <compute_diagram-log@2x-3.png, id=961, 1204.5
+pt x 943.525pt>
 File: compute_diagram-log@2x-3.png Graphic file (type png)
 
 <use compute_diagram-log@2x-3.png>
 Package pdftex.def Info: compute_diagram-log@2x-3.png used on input line 434.
 (pdftex.def)             Requested size: 361.35278pt x 283.05968pt.
- [11 <./compute_diagram-log@2x-3.png>]
-<tes.jpg, id=623, 782.925pt x 440.64626pt>
+ [14 <./compute_diagram-log@2x-3.png>]
+<tes.jpg, id=980, 782.925pt x 440.64626pt>
 File: tes.jpg Graphic file (type jpg)
  <use tes.jpg>
 Package pdftex.def Info: tes.jpg used on input line 472.
 (pdftex.def)             Requested size: 313.16446pt x 176.25537pt.
 
-<goodfellow.png, id=625, 575.14874pt x 227.85126pt>
+<goodfellow.png, id=982, 575.14874pt x 227.85126pt>
 File: goodfellow.png Graphic file (type png)
  <use goodfellow.png>
 Package pdftex.def Info: goodfellow.png used on input line 482.
-=======
- <ae.png, id=573, 1108.14pt x 538.01pt>
-File: ae.png Graphic file (type png)
- <use ae.png>
-Package pdftex.def Info: ae.png used on input line 394.
-(pdftex.def)             Requested size: 332.44456pt x 161.40424pt.
- [9] [10 <./opt.jpg> <./ae.png>]
-<compute_diagram-log@2x-3.png, id=593, 1204.5pt x 943.525pt>
-File: compute_diagram-log@2x-3.png Graphic file (type png)
-
-<use compute_diagram-log@2x-3.png>
-Package pdftex.def Info: compute_diagram-log@2x-3.png used on input line 433.
-(pdftex.def)             Requested size: 361.35278pt x 283.05968pt.
- [11 <./compute_diagram-log@2x-3.png>]
-<tes.jpg, id=613, 782.925pt x 440.64626pt>
-File: tes.jpg Graphic file (type jpg)
- <use tes.jpg>
-Package pdftex.def Info: tes.jpg used on input line 471.
-(pdftex.def)             Requested size: 313.16446pt x 176.25537pt.
-
-<goodfellow.png, id=615, 575.14874pt x 227.85126pt>
-File: goodfellow.png Graphic file (type png)
- <use goodfellow.png>
-Package pdftex.def Info: goodfellow.png used on input line 481.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 (pdftex.def)             Requested size: 287.57367pt x 113.92534pt.
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
@@ -669,8 +1009,7 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
 
-<<<<<<< HEAD
-[12 <./tes.jpg>] <Fig_GistExample.jpg, id=638, 655.44875pt x 833.1125pt>
+[15 <./tes.jpg>] <Fig_GistExample.jpg, id=996, 655.44875pt x 833.1125pt>
 File: Fig_GistExample.jpg Graphic file (type jpg)
 
 <use Fig_GistExample.jpg>
@@ -678,1532 +1017,1202 @@ Package pdftex.def Info: Fig_GistExample.jpg used on input line 515.
 (pdftex.def)             Requested size: 196.63614pt x 249.93568pt.
 
 Overfull \hbox (6.36569pt too wide) in paragraph at lines 522--523
-=======
-[12 <./tes.jpg>] <Fig_GistExample.jpg, id=628, 655.44875pt x 833.1125pt>
-File: Fig_GistExample.jpg Graphic file (type jpg)
-
-<use Fig_GistExample.jpg>
-Package pdftex.def Info: Fig_GistExample.jpg used on input line 514.
-(pdftex.def)             Requested size: 196.63614pt x 249.93568pt.
-
-Overfull \hbox (6.36569pt too wide) in paragraph at lines 521--522
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 []\OT1/cmr/m/n/9 Deep learn-ing re-places this by learn-ing fea-tures au-to-mat
 -i-cally. (1) Less time-consuming
  []
 
-<<<<<<< HEAD
-[13 <./goodfellow.png (PNG copy)>] <st.png, id=660, 803.0pt x 598.235pt>
+[16 <./goodfellow.png (PNG copy)> <./Fig_GistExample.jpg>]
+<st.png, id=1006, 803.0pt x 598.235pt>
 File: st.png Graphic file (type png)
-
-<use st.png>
+ <use st.png>
 Package pdftex.def Info: st.png used on input line 583.
 (pdftex.def)             Requested size: 401.49902pt x 299.11676pt.
- [14 <./Fig_GistExample.jpg>] [15 <./st.png (PNG copy)>]
-<mlai.jpeg, id=676, 702.625pt x 701.62125pt>
+ [17] [18 <./st.png (PNG copy)>] <mlai.jpeg, id=1032, 702.625pt x 701.62125pt>
 File: mlai.jpeg Graphic file (type jpg)
  <use mlai.jpeg>
 Package pdftex.def Info: mlai.jpeg used on input line 702.
-=======
-[13 <./goodfellow.png (PNG copy)>] <st.png, id=650, 803.0pt x 598.235pt>
-File: st.png Graphic file (type png)
-
-<use st.png>
-Package pdftex.def Info: st.png used on input line 582.
-(pdftex.def)             Requested size: 401.49902pt x 299.11676pt.
- [14 <./Fig_GistExample.jpg>] [15 <./st.png (PNG copy)>]
-<mlai.jpeg, id=666, 702.625pt x 701.62125pt>
-File: mlai.jpeg Graphic file (type jpg)
- <use mlai.jpeg>
-Package pdftex.def Info: mlai.jpeg used on input line 701.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 (pdftex.def)             Requested size: 140.5225pt x 140.32176pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-<<<<<<< HEAD
                Default added (so using `tbp') on input line 710.
 
-[16] [17 <./mlai.jpeg>] <Chart.png, id=700, 1003.75pt x 1505.625pt>
+[19] [20 <./mlai.jpeg>] <Chart.png, id=1057, 1003.75pt x 1505.625pt>
 File: Chart.png Graphic file (type png)
 
 <use Chart.png>
 Package pdftex.def Info: Chart.png used on input line 778.
 (pdftex.def)             Requested size: 351.31776pt x 526.97665pt.
- [18] [19 <./Chart.png (PNG copy)>] [20]
-<lenet.png, id=732, 1251.92719pt x 432.11438pt>
+ [21] [22 <./Chart.png (PNG copy)>] [23]
+<lenet.png, id=1091, 1251.92719pt x 432.11438pt>
 File: lenet.png Graphic file (type png)
  <use lenet.png>
-Package pdftex.def Info: lenet.png used on input line 889.
+Package pdftex.def Info: lenet.png used on input line 893.
 (pdftex.def)             Requested size: 375.58105pt x 129.6353pt.
 
-<a.png, id=733, 465.88339pt x 149.70215pt>
+<a.png, id=1092, 465.88339pt x 149.70215pt>
 File: a.png Graphic file (type png)
  <use a.png>
-Package pdftex.def Info: a.png used on input line 897.
+Package pdftex.def Info: a.png used on input line 901.
 (pdftex.def)             Requested size: 349.41168pt x 112.27632pt.
 
-<vgg.png, id=734, 1104.125pt x 647.41875pt>
+<vgg.png, id=1093, 1104.125pt x 647.41875pt>
 File: vgg.png Graphic file (type png)
  <use vgg.png>
-Package pdftex.def Info: vgg.png used on input line 905.
+Package pdftex.def Info: vgg.png used on input line 909.
 (pdftex.def)             Requested size: 331.24005pt x 194.22711pt.
 
-<vis.png, id=739, 532.6299pt x 312.2064pt>
+<vis.png, id=1098, 532.6299pt x 312.2064pt>
 File: vis.png Graphic file (type png)
  <use vis.png>
-Package pdftex.def Info: vis.png used on input line 938.
+Package pdftex.def Info: vis.png used on input line 942.
 (pdftex.def)             Requested size: 372.83838pt x 218.54298pt.
- [21 <./lenet.png>]
-Overfull \hbox (40.3291pt too wide) in paragraph at lines 943--944
-=======
-               Default added (so using `tbp') on input line 709.
-
-[16] [17 <./mlai.jpeg>] <Chart.png, id=690, 1003.75pt x 1505.625pt>
-File: Chart.png Graphic file (type png)
-
-<use Chart.png>
-Package pdftex.def Info: Chart.png used on input line 776.
-(pdftex.def)             Requested size: 351.31776pt x 526.97665pt.
- [18] [19 <./Chart.png (PNG copy)>]
-<lenet.png, id=709, 1251.92719pt x 432.11438pt>
-File: lenet.png Graphic file (type png)
- <use lenet.png>
-Package pdftex.def Info: lenet.png used on input line 856.
-(pdftex.def)             Requested size: 375.58105pt x 129.6353pt.
-
-<a.png, id=710, 465.88339pt x 149.70215pt>
-File: a.png Graphic file (type png)
- <use a.png>
-Package pdftex.def Info: a.png used on input line 864.
-(pdftex.def)             Requested size: 349.41168pt x 112.27632pt.
-
-<vgg.png, id=711, 1104.125pt x 647.41875pt>
-File: vgg.png Graphic file (type png)
- <use vgg.png>
-Package pdftex.def Info: vgg.png used on input line 872.
-(pdftex.def)             Requested size: 331.24005pt x 194.22711pt.
- [20] [21 <./lenet.png> <./a.png> <./vgg.png>] <vis.png, id=739, 532.6299pt x 3
-12.2064pt>
-File: vis.png Graphic file (type png)
-
-<use vis.png>
-Package pdftex.def Info: vis.png used on input line 901.
-(pdftex.def)             Requested size: 372.83838pt x 218.54298pt.
-
-Overfull \hbox (40.3291pt too wide) in paragraph at lines 906--907
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [24 <./lenet.png>]
+Overfull \hbox (40.3291pt too wide) in paragraph at lines 947--948
 []\OT1/cmr/m/n/9 Excellent ref-er-ence on fea-ture vi-su-al-iza-tion: [][]$\OT1
 /cmtt/m/n/9 https : / / distill . pub / 2017 / feature-[]visualization/$[][] 
  []
 
-<<<<<<< HEAD
-<deepvis.png, id=758, 276.28218pt x 667.74469pt>
+<deepvis.png, id=1117, 276.28218pt x 667.74469pt>
 File: deepvis.png Graphic file (type png)
  <use deepvis.png>
-Package pdftex.def Info: deepvis.png used on input line 965.
+Package pdftex.def Info: deepvis.png used on input line 969.
 (pdftex.def)             Requested size: 193.3962pt x 467.41809pt.
- [22 <./a.png> <./vgg.png>] <rcnn.png, id=771, 291.71484pt x 255.20343pt>
+ [25 <./a.png> <./vgg.png>] <rcnn.png, id=1131, 291.71484pt x 255.20343pt>
 File: rcnn.png Graphic file (type png)
  <use rcnn.png>
-Package pdftex.def Info: rcnn.png used on input line 989.
+Package pdftex.def Info: rcnn.png used on input line 993.
 (pdftex.def)             Requested size: 204.19897pt x 178.64117pt.
 
-Overfull \hbox (159.7895pt too wide) in paragraph at lines 1002--1003
-=======
-<rcnn.png, id=746, 291.71484pt x 255.20343pt>
-File: rcnn.png Graphic file (type png)
- <use rcnn.png>
-Package pdftex.def Info: rcnn.png used on input line 927.
-(pdftex.def)             Requested size: 204.19897pt x 178.64117pt.
-
-Overfull \hbox (159.7895pt too wide) in paragraph at lines 940--941
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (159.7895pt too wide) in paragraph at lines 1006--1007
 [][][]$\OT1/cmtt/m/n/9 https : / / blog . athelas . com / a-[]brief-[]history-[
 ]of-[]cnns-[]in-[]image-[]segmentation-[]from-[]r-[]cnn-[]to-[]mask-[]r-[]cnn-[
 ]34ea83205de4$[][] 
  []
 
-<<<<<<< HEAD
-[23 <./vis.png>] [24 <./deepvis.png>] [25 <./rcnn.png>]
-=======
-[22 <./vis.png>] [23 <./rcnn.png>]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[26 <./vis.png>] [27 <./deepvis.png>] [28 <./rcnn.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
-<<<<<<< HEAD
- [26]
+ [29]
 Missing character: There is no √ in font cmr9!
 Missing character: There is no ´ in font cmr9!
 
-<gcnn.png, id=798, 796.47563pt x 385.44pt>
+<gcnn.png, id=1157, 796.47563pt x 385.44pt>
 File: gcnn.png Graphic file (type png)
  <use gcnn.png>
-Package pdftex.def Info: gcnn.png used on input line 1176.
+Package pdftex.def Info: gcnn.png used on input line 1180.
 (pdftex.def)             Requested size: 398.23685pt x 192.71953pt.
 
-Overfull \hbox (2.02948pt too wide) in paragraph at lines 1194--1195
-=======
- [24]
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ´ in font cmr9!
-
-<gcnn.png, id=772, 796.47563pt x 385.44pt>
-File: gcnn.png Graphic file (type png)
- <use gcnn.png>
-Package pdftex.def Info: gcnn.png used on input line 1114.
-(pdftex.def)             Requested size: 398.23685pt x 192.71953pt.
-
-Overfull \hbox (2.02948pt too wide) in paragraph at lines 1132--1133
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (2.02948pt too wide) in paragraph at lines 1198--1199
 []\OT1/cmr/m/n/9 They parametrize the fil-ters $\OML/cmm/m/it/9 F$ \OT1/cmr/m/n
 /9 as poly-no-mi-als of the eigen-val-ues, $\OML/cmm/m/it/9 g[]\OT1/cmr/m/n/9 (
 ) = [][] \OML/cmm/m/it/9 []\OT1/cmr/m/n/9 []$,
  []
 
-<<<<<<< HEAD
-[27] <gcp.png, id=810, 693.34032pt x 176.91093pt>
+[30] <gcp.png, id=1168, 693.34032pt x 176.91093pt>
 File: gcp.png Graphic file (type png)
  <use gcp.png>
-Package pdftex.def Info: gcp.png used on input line 1240.
+Package pdftex.def Info: gcp.png used on input line 1244.
 (pdftex.def)             Requested size: 346.66931pt x 88.45525pt.
- [28 <./gcnn.png>] [29 <./gcp.png>]
-=======
-[25] [26 <./gcnn.png>] <gcp.png, id=791, 693.34032pt x 176.91093pt>
-File: gcp.png Graphic file (type png)
-
-<use gcp.png>
-Package pdftex.def Info: gcp.png used on input line 1178.
-(pdftex.def)             Requested size: 346.66931pt x 88.45525pt.
- [27 <./gcp.png>]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [31 <./gcnn.png>] [32 <./gcp.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
-<<<<<<< HEAD
- [30] [31] [32] [33] [34] [35]
-<SpatialTransformer.png, id=855, 615.0478pt x 277.035pt>
+ [33] [34] [35] [36] [37] [38]
+<SpatialTransformer.png, id=1215, 615.0478pt x 277.035pt>
 File: SpatialTransformer.png Graphic file (type png)
 
 <use SpatialTransformer.png>
-Package pdftex.def Info: SpatialTransformer.png used on input line 1755.
+Package pdftex.def Info: SpatialTransformer.png used on input line 1759.
 (pdftex.def)             Requested size: 246.01476pt x 110.81203pt.
- [36]
-Overfull \hbox (58.71806pt too wide) in paragraph at lines 1768--1769
-=======
- [28] [29] [30] [31]
-<SpatialTransformer.png, id=819, 615.0478pt x 277.035pt>
-File: SpatialTransformer.png Graphic file (type png)
-
-<use SpatialTransformer.png>
-Package pdftex.def Info: SpatialTransformer.png used on input line 1521.
-(pdftex.def)             Requested size: 246.01476pt x 110.81203pt.
-
-Overfull \hbox (58.71806pt too wide) in paragraph at lines 1534--1535
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [39]
+Overfull \hbox (58.71806pt too wide) in paragraph at lines 1772--1773
 []\OT1/cmr/m/n/9 See de-scrip-tion at [][]$\OT1/cmtt/m/n/9 adeshpande3 . github
  . io / The-[]9-[]Deep-[]Learning-[]Papers-[]You-[]Need-[]To-[]Know-[]About .
  []
 
-<<<<<<< HEAD
-[37 <./SpatialTransformer.png>] <UAIR.png, id=872, 905.5259pt x 369.09322pt>
+[40 <./SpatialTransformer.png>] <UAIR.png, id=1231, 905.5259pt x 369.09322pt>
 File: UAIR.png Graphic file (type png)
 
 <use UAIR.png>
-Package pdftex.def Info: UAIR.png used on input line 1821.
+Package pdftex.def Info: UAIR.png used on input line 1825.
 (pdftex.def)             Requested size: 271.65987pt x 110.72882pt.
- <UAIR_results.png, id=874, 937.3591pt x 773.0309pt>
+ <UAIR_results.png, id=1233, 937.3591pt x 773.0309pt>
 File: UAIR_results.png Graphic file (type png)
 
 <use UAIR_results.png>
-Package pdftex.def Info: UAIR_results.png used on input line 1830.
+Package pdftex.def Info: UAIR_results.png used on input line 1834.
 (pdftex.def)             Requested size: 281.2099pt x 231.91106pt.
- <DD.png, id=876, 530.41017pt x 367.80267pt>
+ <DD.png, id=1235, 530.41017pt x 367.80267pt>
 File: DD.png Graphic file (type png)
 
 <use DD.png>
-Package pdftex.def Info: DD.png used on input line 1850.
+Package pdftex.def Info: DD.png used on input line 1854.
 (pdftex.def)             Requested size: 318.24855pt x 220.6833pt.
- [38 <./UAIR.png>] [39 <./UAIR_results.png> <./DD.png>]
-<diags.jpeg, id=890, 1333.98375pt x 417.56pt>
+ [41 <./UAIR.png>] [42 <./UAIR_results.png> <./DD.png>]
+<diags.jpeg, id=1249, 1333.98375pt x 417.56pt>
 File: diags.jpeg Graphic file (type jpg)
  <use diags.jpeg>
-Package pdftex.def Info: diags.jpeg used on input line 1948.
+Package pdftex.def Info: diags.jpeg used on input line 1952.
 (pdftex.def)             Requested size: 400.19821pt x 125.26895pt.
- [40] [41 <./diags.jpeg>] <lstm.png, id=915, 807.015pt x 512.34268pt>
+ [43] [44 <./diags.jpeg>] <lstm.png, id=1275, 807.015pt x 512.34268pt>
 File: lstm.png Graphic file (type png)
  <use lstm.png>
-Package pdftex.def Info: lstm.png used on input line 2012.
+Package pdftex.def Info: lstm.png used on input line 2016.
 (pdftex.def)             Requested size: 242.10637pt x 153.70398pt.
 
-<attn.png, id=918, 803.0pt x 574.145pt>
+<attn.png, id=1278, 803.0pt x 574.145pt>
 File: attn.png Graphic file (type png)
  <use attn.png>
-Package pdftex.def Info: attn.png used on input line 2027.
+Package pdftex.def Info: attn.png used on input line 2031.
 (pdftex.def)             Requested size: 240.90186pt x 172.24483pt.
 
-<Caption4.png, id=920, 1204.5pt x 785.93625pt>
+<Caption4.png, id=1280, 1204.5pt x 785.93625pt>
 File: Caption4.png Graphic file (type png)
  <use Caption4.png>
-Package pdftex.def Info: Caption4.png used on input line 2039.
+Package pdftex.def Info: Caption4.png used on input line 2043.
 (pdftex.def)             Requested size: 481.79147pt x 314.36893pt.
 
-Overfull \hbox (51.78685pt too wide) in paragraph at lines 2039--2040
-=======
-[32 <./SpatialTransformer.png>] <UAIR.png, id=828, 905.5259pt x 369.09322pt>
-File: UAIR.png Graphic file (type png)
-
-<use UAIR.png>
-Package pdftex.def Info: UAIR.png used on input line 1587.
-(pdftex.def)             Requested size: 271.65987pt x 110.72882pt.
- <UAIR_results.png, id=830, 937.3591pt x 773.0309pt>
-File: UAIR_results.png Graphic file (type png)
-
-<use UAIR_results.png>
-Package pdftex.def Info: UAIR_results.png used on input line 1596.
-(pdftex.def)             Requested size: 281.2099pt x 231.91106pt.
- [33] [34 <./UAIR.png> <./UAIR_results.png>]
-<DD.png, id=845, 530.41017pt x 367.80267pt>
-File: DD.png Graphic file (type png)
- <use DD.png>
-Package pdftex.def Info: DD.png used on input line 1616.
-(pdftex.def)             Requested size: 318.24855pt x 220.6833pt.
- [35 <./DD.png>]
-<diags.jpeg, id=855, 1333.98375pt x 417.56pt>
-File: diags.jpeg Graphic file (type jpg)
- <use diags.jpeg>
-Package pdftex.def Info: diags.jpeg used on input line 1714.
-(pdftex.def)             Requested size: 400.19821pt x 125.26895pt.
- [36]
-<lstm.png, id=872, 807.015pt x 512.34268pt>
-File: lstm.png Graphic file (type png)
- <use lstm.png>
-Package pdftex.def Info: lstm.png used on input line 1778.
-(pdftex.def)             Requested size: 242.10637pt x 153.70398pt.
- [37 <./diags.jpeg>]
-<attn.png, id=884, 803.0pt x 574.145pt>
-File: attn.png Graphic file (type png)
- <use attn.png>
-Package pdftex.def Info: attn.png used on input line 1793.
-(pdftex.def)             Requested size: 240.90186pt x 172.24483pt.
-
-<Caption4.png, id=886, 1204.5pt x 785.93625pt>
-File: Caption4.png Graphic file (type png)
- <use Caption4.png>
-Package pdftex.def Info: Caption4.png used on input line 1805.
-(pdftex.def)             Requested size: 481.79147pt x 314.36893pt.
-
-Overfull \hbox (51.78685pt too wide) in paragraph at lines 1805--1806
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (51.78685pt too wide) in paragraph at lines 2043--2044
  [][] 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 2368) in paragraph at lines 2040--2040
+Underfull \hbox (badness 2368) in paragraph at lines 2044--2044
 []\OT1/cmr/m/n/10 Figure 27: |Cap-tion-ing, Google Brain, 2016. Show and Tell: 
-=======
-Underfull \hbox (badness 2368) in paragraph at lines 1806--1806
-[]\OT1/cmr/m/n/10 Figure 26: |Cap-tion-ing, Google Brain, 2016. Show and Tell: 
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 Lessons learned from
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 1314) in paragraph at lines 2040--2040
-=======
-Underfull \hbox (badness 1314) in paragraph at lines 1806--1806
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Underfull \hbox (badness 1314) in paragraph at lines 2044--2044
 \OT1/cmr/m/n/10 the 2015 MSCOCO Im-age Cap-tion-ing Chal-lenge. [][]$\OT1/cmtt/
 m/n/10 https : / / ai . googleblog . com / 2016 / 09 /
  []
 
-<<<<<<< HEAD
-[42 <./lstm.png>] <mlp.png, id=938, 294.09875pt x 246.9225pt>
+[45 <./lstm.png>] <mlp.png, id=1297, 294.09875pt x 246.9225pt>
 File: mlp.png Graphic file (type png)
  <use mlp.png>
-Package pdftex.def Info: mlp.png used on input line 2087.
+Package pdftex.def Info: mlp.png used on input line 2091.
 (pdftex.def)             Requested size: 171.99922pt x 144.4095pt.
 
-<rnn-types.png, id=940, 796.47563pt x 246.9225pt>
+<rnn-types.png, id=1299, 796.47563pt x 246.9225pt>
 File: rnn-types.png Graphic file (type png)
  <use rnn-types.png>
-Package pdftex.def Info: rnn-types.png used on input line 2108.
+Package pdftex.def Info: rnn-types.png used on input line 2112.
 (pdftex.def)             Requested size: 387.00153pt x 119.97578pt.
- [43 <./attn.png>] [44 <./Caption4.png> <./mlp.png>]
-<rnn.png, id=962, 489.83pt x 211.28937pt>
+ [46 <./attn.png>] [47 <./Caption4.png> <./mlp.png>]
+<rnn.png, id=1321, 489.83pt x 211.28937pt>
 File: rnn.png Graphic file (type png)
  <use rnn.png>
-Package pdftex.def Info: rnn.png used on input line 2127.
+Package pdftex.def Info: rnn.png used on input line 2131.
 (pdftex.def)             Requested size: 344.005pt x 148.39159pt.
- [45 <./rnn-types.png> <./rnn.png>] <teacher-forcing.png, id=977, 356.33125pt x
- 361.35pt>
+ [48 <./rnn-types.png> <./rnn.png>] <teacher-forcing.png, id=1336, 356.33125pt 
+x 361.35pt>
 File: teacher-forcing.png Graphic file (type png)
 
 <use teacher-forcing.png>
-Package pdftex.def Info: teacher-forcing.png used on input line 2162.
+Package pdftex.def Info: teacher-forcing.png used on input line 2166.
 (pdftex.def)             Requested size: 212.017pt x 215.0023pt.
- [46 <./teacher-forcing.png>]
-<rnn-long-term.png, id=986, 513.92pt x 170.6375pt>
+ [49 <./teacher-forcing.png>]
+<rnn-long-term.png, id=1346, 513.92pt x 170.6375pt>
 File: rnn-long-term.png Graphic file (type png)
  <use rnn-long-term.png>
-Package pdftex.def Info: rnn-long-term.png used on input line 2208.
+Package pdftex.def Info: rnn-long-term.png used on input line 2212.
 (pdftex.def)             Requested size: 269.5611pt x 89.50113pt.
 
-[47 <./rnn-long-term.png>]
-<gradient-clip2.png, id=1000, 358.33875pt x 240.9pt>
+[50 <./rnn-long-term.png>]
+<gradient-clip2.png, id=1360, 358.33875pt x 240.9pt>
 File: gradient-clip2.png Graphic file (type png)
  <use gradient-clip2.png>
-Package pdftex.def Info: gradient-clip2.png used on input line 2271.
+Package pdftex.def Info: gradient-clip2.png used on input line 2275.
 (pdftex.def)             Requested size: 223.87915pt x 150.50424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2276--2278
+Underfull \hbox (badness 10000) in paragraph at lines 2280--2282
 
  []
 
-<relu.png, id=1002, 449.68pt x 259.97125pt>
+<relu.png, id=1362, 449.68pt x 259.97125pt>
 File: relu.png Graphic file (type png)
  <use relu.png>
-Package pdftex.def Info: relu.png used on input line 2291.
+Package pdftex.def Info: relu.png used on input line 2295.
 (pdftex.def)             Requested size: 223.13777pt x 129.00269pt.
- [48 <./gradient-clip2.png>] <lstm-cell.png, id=1016, 612.2875pt x 330.23375pt>
+ [51 <./gradient-clip2.png>] <lstm-cell.png, id=1376, 612.2875pt x 330.23375pt>
 File: lstm-cell.png Graphic file (type png)
  <use lstm-cell.png>
-Package pdftex.def Info: lstm-cell.png used on input line 2334.
+Package pdftex.def Info: lstm-cell.png used on input line 2338.
 (pdftex.def)             Requested size: 263.11032pt x 141.9023pt.
 
-[49 <./relu.png>] <gt1.png, id=1030, 943.525pt x 354.32375pt>
+[52 <./relu.png>] <gt1.png, id=1389, 943.525pt x 354.32375pt>
 File: gt1.png Graphic file (type png)
  <use gt1.png>
-Package pdftex.def Info: gt1.png used on input line 2397.
+Package pdftex.def Info: gt1.png used on input line 2401.
 (pdftex.def)             Requested size: 343.52713pt x 129.00269pt.
 
-<gt2.png, id=1031, 1025.8325pt x 375.4025pt>
+<gt2.png, id=1390, 1025.8325pt x 375.4025pt>
 File: gt2.png Graphic file (type png)
  <use gt2.png>
-Package pdftex.def Info: gt2.png used on input line 2399.
+Package pdftex.def Info: gt2.png used on input line 2403.
 (pdftex.def)             Requested size: 352.51949pt x 129.00269pt.
- [50 <./lstm-cell.png>] [51 <./gt1.png> <./gt2.png>]
-<encdec-smt1.png, id=1051, 300.12125pt x 207.77625pt>
+ [53 <./lstm-cell.png>] [54 <./gt1.png> <./gt2.png>]
+<encdec-smt1.png, id=1410, 300.12125pt x 207.77625pt>
 File: encdec-smt1.png Graphic file (type png)
  <use encdec-smt1.png>
-Package pdftex.def Info: encdec-smt1.png used on input line 2488.
+Package pdftex.def Info: encdec-smt1.png used on input line 2492.
 (pdftex.def)             Requested size: 186.34343pt x 129.00269pt.
 
-<encdec-smt2.png, id=1052, 395.4775pt x 282.05376pt>
+<encdec-smt2.png, id=1411, 395.4775pt x 282.05376pt>
 File: encdec-smt2.png Graphic file (type png)
  <use encdec-smt2.png>
-Package pdftex.def Info: encdec-smt2.png used on input line 2489.
+Package pdftex.def Info: encdec-smt2.png used on input line 2493.
 (pdftex.def)             Requested size: 180.87788pt x 129.00269pt.
 
-<sample-sents.png, id=1054, 1023.825pt x 364.36125pt>
+<sample-sents.png, id=1413, 1023.825pt x 364.36125pt>
 File: sample-sents.png Graphic file (type png)
  <use sample-sents.png>
-Package pdftex.def Info: sample-sents.png used on input line 2500.
+Package pdftex.def Info: sample-sents.png used on input line 2504.
 (pdftex.def)             Requested size: 422.89542pt x 150.50424pt.
 
-[52 <./encdec-smt1.png> <./encdec-smt2.png>]
-<attention.png, id=1067, 257.96375pt x 323.2075pt>
+[55 <./encdec-smt1.png> <./encdec-smt2.png>]
+<attention.png, id=1427, 257.96375pt x 323.2075pt>
 File: attention.png Graphic file (type png)
  <use attention.png>
-Package pdftex.def Info: attention.png used on input line 2539.
+Package pdftex.def Info: attention.png used on input line 2543.
 (pdftex.def)             Requested size: 120.12115pt x 150.50424pt.
- [53 <./sample-sents.png>] <attention-encdec.png, id=1078, 533.995pt x 302.1287
+ [56 <./sample-sents.png>] <attention-encdec.png, id=1438, 533.995pt x 302.1287
 5pt>
 File: attention-encdec.png Graphic file (type png)
 
 <use attention-encdec.png>
-Package pdftex.def Info: attention-encdec.png used on input line 2558.
+Package pdftex.def Info: attention-encdec.png used on input line 2562.
 (pdftex.def)             Requested size: 303.99734pt x 171.99922pt.
 
-<alignments.png, id=1080, 400.49625pt x 390.45876pt>
+<alignments.png, id=1440, 400.49625pt x 390.45876pt>
 File: alignments.png Graphic file (type png)
  <use alignments.png>
-Package pdftex.def Info: alignments.png used on input line 2571.
+Package pdftex.def Info: alignments.png used on input line 2575.
 (pdftex.def)             Requested size: 220.53027pt x 215.0023pt.
 
-[54 <./attention.png> <./attention-encdec.png>]
-<nmt-compare3.png, id=1093, 655.44875pt x 133.49875pt>
+[57 <./attention.png> <./attention-encdec.png>]
+<nmt-compare3.png, id=1453, 655.44875pt x 133.49875pt>
 File: nmt-compare3.png Graphic file (type png)
  <use nmt-compare3.png>
-Package pdftex.def Info: nmt-compare3.png used on input line 2598.
+Package pdftex.def Info: nmt-compare3.png used on input line 2602.
 (pdftex.def)             Requested size: 316.6821pt x 64.49806pt.
 
-<transformer2.png, id=1095, 476.78125pt x 669.50125pt>
+<transformer2.png, id=1455, 476.78125pt x 669.50125pt>
 File: transformer2.png Graphic file (type png)
  <use transformer2.png>
-Package pdftex.def Info: transformer2.png used on input line 2612.
+Package pdftex.def Info: transformer2.png used on input line 2616.
 (pdftex.def)             Requested size: 193.50076pt x 271.7186pt.
 
-[55 <./alignments.png> <./nmt-compare3.png>]
-<self-attention.png, id=1114, 411.5375pt x 389.455pt>
+[58 <./alignments.png> <./nmt-compare3.png>]
+<self-attention.png, id=1473, 411.5375pt x 389.455pt>
 File: self-attention.png Graphic file (type png)
  <use self-attention.png>
-Package pdftex.def Info: self-attention.png used on input line 2653.
+Package pdftex.def Info: self-attention.png used on input line 2657.
 (pdftex.def)             Requested size: 181.74896pt x 171.99922pt.
 
-<self-attention1.png, id=1116, 883.3pt x 538.01pt>
+<self-attention1.png, id=1475, 883.3pt x 538.01pt>
 File: self-attention1.png Graphic file (type png)
  <use self-attention1.png>
-Package pdftex.def Info: self-attention1.png used on input line 2666.
+Package pdftex.def Info: self-attention1.png used on input line 2670.
 (pdftex.def)             Requested size: 352.99026pt x 215.0023pt.
 
-<self-attention2.png, id=1118, 738.76pt x 754.82pt>
+<self-attention2.png, id=1477, 738.76pt x 754.82pt>
 File: self-attention2.png Graphic file (type png)
  <use self-attention2.png>
-Package pdftex.def Info: self-attention2.png used on input line 2679.
+Package pdftex.def Info: self-attention2.png used on input line 2683.
 (pdftex.def)             Requested size: 231.47064pt x 236.50385pt.
 
-[56 <./transformer2.png>] [57 <./self-attention.png> <./self-attention1.png>]
-<self-attention3.png, id=1144, 927.465pt x 504.88625pt>
+[59 <./transformer2.png>] [60 <./self-attention.png> <./self-attention1.png>]
+<self-attention3.png, id=1503, 927.465pt x 504.88625pt>
 File: self-attention3.png Graphic file (type png)
 
 <use self-attention3.png>
-Package pdftex.def Info: self-attention3.png used on input line 2692.
+Package pdftex.def Info: self-attention3.png used on input line 2696.
 (pdftex.def)             Requested size: 430.00462pt x 234.08401pt.
 
-<nmt-compare2.png, id=1146, 605.26125pt x 259.97125pt>
+<nmt-compare2.png, id=1505, 605.26125pt x 259.97125pt>
 File: nmt-compare2.png Graphic file (type png)
  <use nmt-compare2.png>
-Package pdftex.def Info: nmt-compare2.png used on input line 2703.
+Package pdftex.def Info: nmt-compare2.png used on input line 2707.
 (pdftex.def)             Requested size: 300.33946pt x 129.00269pt.
 
-[58 <./self-attention2.png>] [59 <./self-attention3.png> <./nmt-compare2.png>]
-Overfull \hbox (15.23949pt too wide) in paragraph at lines 2734--2738
-=======
-[38 <./lstm.png> <./attn.png>]
-<wavenet.jpg, id=900, 556.32843pt x 292.84406pt>
-File: wavenet.jpg Graphic file (type jpg)
- <use wavenet.jpg>
-Package pdftex.def Info: wavenet.jpg used on input line 1823.
-(pdftex.def)             Requested size: 445.06335pt x 234.27556pt.
-
-Overfull \hbox (15.05873pt too wide) in paragraph at lines 1823--1824
- [][] 
- []
-
-[39 <./Caption4.png>] <mlp.png, id=914, 294.09875pt x 246.9225pt>
-File: mlp.png Graphic file (type png)
-
-<use mlp.png>
-Package pdftex.def Info: mlp.png used on input line 1862.
-(pdftex.def)             Requested size: 171.99922pt x 144.4095pt.
- <rnn-types.png, id=916, 796.47563pt x 246.9225pt>
-File: rnn-types.png Graphic file (type png)
-
-<use rnn-types.png>
-Package pdftex.def Info: rnn-types.png used on input line 1883.
-(pdftex.def)             Requested size: 387.00153pt x 119.97578pt.
- <rnn.png, id=918, 489.83pt x 211.28937pt>
-File: rnn.png Graphic file (type png)
- <use rnn.png>
-Package pdftex.def Info: rnn.png used on input line 1902.
-(pdftex.def)             Requested size: 344.005pt x 148.39159pt.
-
-[40 <./wavenet.jpg>] [41 <./mlp.png> <./rnn-types.png>]
-<teacher-forcing.png, id=942, 356.33125pt x 361.35pt>
-File: teacher-forcing.png Graphic file (type png)
-
-<use teacher-forcing.png>
-Package pdftex.def Info: teacher-forcing.png used on input line 1937.
-(pdftex.def)             Requested size: 212.017pt x 215.0023pt.
- [42 <./rnn.png> <./teacher-forcing.png>]
-<rnn-long-term.png, id=952, 513.92pt x 170.6375pt>
-File: rnn-long-term.png Graphic file (type png)
- <use rnn-long-term.png>
-Package pdftex.def Info: rnn-long-term.png used on input line 1983.
-(pdftex.def)             Requested size: 269.5611pt x 89.50113pt.
-
-[43 <./rnn-long-term.png>] <gradient-clip2.png, id=967, 358.33875pt x 240.9pt>
-File: gradient-clip2.png Graphic file (type png)
-
-<use gradient-clip2.png>
-Package pdftex.def Info: gradient-clip2.png used on input line 2046.
-(pdftex.def)             Requested size: 223.87915pt x 150.50424pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2051--2053
-
- []
-
-<relu.png, id=969, 449.68pt x 259.97125pt>
-File: relu.png Graphic file (type png)
- <use relu.png>
-Package pdftex.def Info: relu.png used on input line 2066.
-(pdftex.def)             Requested size: 223.13777pt x 129.00269pt.
- [44] [45 <./gradient-clip2.png> <./relu.png>] <lstm-cell.png, id=992, 612.2875
-pt x 330.23375pt>
-File: lstm-cell.png Graphic file (type png)
-
-<use lstm-cell.png>
-Package pdftex.def Info: lstm-cell.png used on input line 2109.
-(pdftex.def)             Requested size: 263.11032pt x 141.9023pt.
- [46 <./lstm-cell.png>]
-<gt1.png, id=1003, 943.525pt x 354.32375pt>
-File: gt1.png Graphic file (type png)
- <use gt1.png>
-Package pdftex.def Info: gt1.png used on input line 2172.
-(pdftex.def)             Requested size: 343.52713pt x 129.00269pt.
-
-<gt2.png, id=1004, 1025.8325pt x 375.4025pt>
-File: gt2.png Graphic file (type png)
- <use gt2.png>
-Package pdftex.def Info: gt2.png used on input line 2174.
-(pdftex.def)             Requested size: 352.51949pt x 129.00269pt.
- [47 <./gt1.png> <./gt2.png>] <encdec-smt1.png, id=1016, 300.12125pt x 207.7762
-5pt>
-File: encdec-smt1.png Graphic file (type png)
-
-<use encdec-smt1.png>
-Package pdftex.def Info: encdec-smt1.png used on input line 2263.
-(pdftex.def)             Requested size: 186.34343pt x 129.00269pt.
- <encdec-smt2.png, id=1017, 395.4775pt x 282.05376pt>
-File: encdec-smt2.png Graphic file (type png)
-
-<use encdec-smt2.png>
-Package pdftex.def Info: encdec-smt2.png used on input line 2264.
-(pdftex.def)             Requested size: 180.87788pt x 129.00269pt.
- <sample-sents.png, id=1019, 1023.825pt x 364.36125pt>
-File: sample-sents.png Graphic file (type png)
-
-<use sample-sents.png>
-Package pdftex.def Info: sample-sents.png used on input line 2275.
-(pdftex.def)             Requested size: 422.89542pt x 150.50424pt.
- [48] [49 <./encdec-smt1.png> <./encdec-smt2.png> <./sample-sents.png>] <attent
-ion.png, id=1041, 257.96375pt x 323.2075pt>
-File: attention.png Graphic file (type png)
-
-<use attention.png>
-Package pdftex.def Info: attention.png used on input line 2314.
-(pdftex.def)             Requested size: 120.12115pt x 150.50424pt.
- <attention-encdec.png, id=1043, 533.995pt x 302.12875pt>
-File: attention-encdec.png Graphic file (type png)
-
-<use attention-encdec.png>
-Package pdftex.def Info: attention-encdec.png used on input line 2333.
-(pdftex.def)             Requested size: 303.99734pt x 171.99922pt.
-
-<alignments.png, id=1045, 400.49625pt x 390.45876pt>
-File: alignments.png Graphic file (type png)
- <use alignments.png>
-Package pdftex.def Info: alignments.png used on input line 2346.
-(pdftex.def)             Requested size: 220.53027pt x 215.0023pt.
-
-[50 <./attention.png>] [51 <./attention-encdec.png> <./alignments.png>]
-<nmt-compare3.png, id=1065, 655.44875pt x 133.49875pt>
-File: nmt-compare3.png Graphic file (type png)
- <use nmt-compare3.png>
-Package pdftex.def Info: nmt-compare3.png used on input line 2373.
-(pdftex.def)             Requested size: 316.6821pt x 64.49806pt.
-
-<transformer2.png, id=1067, 476.78125pt x 669.50125pt>
-File: transformer2.png Graphic file (type png)
- <use transformer2.png>
-Package pdftex.def Info: transformer2.png used on input line 2387.
-(pdftex.def)             Requested size: 193.50076pt x 271.7186pt.
-
-[52 <./nmt-compare3.png> <./transformer2.png>]
-<self-attention.png, id=1082, 411.5375pt x 389.455pt>
-File: self-attention.png Graphic file (type png)
- <use self-attention.png>
-Package pdftex.def Info: self-attention.png used on input line 2428.
-(pdftex.def)             Requested size: 181.74896pt x 171.99922pt.
-
-<self-attention1.png, id=1084, 883.3pt x 538.01pt>
-File: self-attention1.png Graphic file (type png)
- <use self-attention1.png>
-Package pdftex.def Info: self-attention1.png used on input line 2441.
-(pdftex.def)             Requested size: 352.99026pt x 215.0023pt.
-
-<self-attention2.png, id=1086, 738.76pt x 754.82pt>
-File: self-attention2.png Graphic file (type png)
- <use self-attention2.png>
-Package pdftex.def Info: self-attention2.png used on input line 2454.
-(pdftex.def)             Requested size: 231.47064pt x 236.50385pt.
-
-<self-attention3.png, id=1088, 927.465pt x 504.88625pt>
-File: self-attention3.png Graphic file (type png)
-
-<use self-attention3.png>
-Package pdftex.def Info: self-attention3.png used on input line 2467.
-(pdftex.def)             Requested size: 430.00462pt x 234.08401pt.
-
-<nmt-compare2.png, id=1090, 605.26125pt x 259.97125pt>
-File: nmt-compare2.png Graphic file (type png)
- <use nmt-compare2.png>
-Package pdftex.def Info: nmt-compare2.png used on input line 2478.
-(pdftex.def)             Requested size: 300.33946pt x 129.00269pt.
-
-[53 <./self-attention.png>] [54 <./self-attention1.png> <./self-attention2.png>
-] [55 <./self-attention3.png> <./nmt-compare2.png>]
-Overfull \hbox (15.23949pt too wide) in paragraph at lines 2509--2513
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[61 <./self-attention2.png>] [62 <./self-attention3.png> <./nmt-compare2.png>]
+Overfull \hbox (15.23949pt too wide) in paragraph at lines 2738--2742
 \OT1/cmr/m/n/9 ing RNN Encoder-Decoder for Sta-tis-ti-cal Ma-chine Trans-la-tio
 n \OT1/cmr/m/it/9 arXiv preprint \OT1/cmr/m/n/9 arXiv:1406.1078 
  []
 
-<<<<<<< HEAD
-<Caption.png, id=1169, 514.17094pt x 423.83344pt>
+<Caption.png, id=1529, 514.17094pt x 423.83344pt>
 File: Caption.png Graphic file (type png)
  <use Caption.png>
-Package pdftex.def Info: Caption.png used on input line 2769.
+Package pdftex.def Info: Caption.png used on input line 2773.
 (pdftex.def)             Requested size: 257.08484pt x 211.91618pt.
- [60 <./Caption.png>] <tcn.png, id=1182, 1216.545pt x 465.74pt>
+ [63 <./Caption.png>]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2819 \item B
+              ERT: idirectional Encoder Representations from Transformers
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2819 \item B
+              ERT: idirectional Encoder Representations from Transformers
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2819 \item B
+              ERT: idirectional Encoder Representations from Transformers
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2821 \item T
+              emporal Convolutional Networks (TCN). Figure \ref{TCN}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2821 \item T
+              emporal Convolutional Networks (TCN). Figure \ref{TCN}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2821 \item T
+              emporal Convolutional Networks (TCN). Figure \ref{TCN}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2823 \item T
+              emporal Convolutional Networks (TCN)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2823 \item T
+              emporal Convolutional Networks (TCN)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2823 \item T
+              emporal Convolutional Networks (TCN)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<tcn.png, id=1542, 1216.545pt x 465.74pt>
 File: tcn.png Graphic file (type png)
  <use tcn.png>
-Package pdftex.def Info: tcn.png used on input line 2821.
+Package pdftex.def Info: tcn.png used on input line 2830.
 (pdftex.def)             Requested size: 486.60938pt x 186.2927pt.
-
-Overfull \hbox (56.60475pt too wide) in paragraph at lines 2821--2822
- [][] 
- []
-
-[61 <./tcn.png (PNG copy)>] <wavenet.jpg, id=1199, 556.32843pt x 292.84406pt>
-File: wavenet.jpg Graphic file (type jpg)
-
-<use wavenet.jpg>
-Package pdftex.def Info: wavenet.jpg used on input line 2843.
-(pdftex.def)             Requested size: 445.06335pt x 234.27556pt.
-
-Overfull \hbox (15.05873pt too wide) in paragraph at lines 2843--2844
- [][] 
- []
-
-[62 <./wavenet.jpg>] [63] <ae0.png, id=1215, 269.50688pt x 162.6075pt>
-File: ae0.png Graphic file (type png)
-
-<use ae0.png>
-Package pdftex.def Info: ae0.png used on input line 2931.
-(pdftex.def)             Requested size: 134.7531pt x 81.30354pt.
- <vae.png, id=1217, 245.04047pt x 287.57437pt>
-File: vae.png Graphic file (type png)
- <use vae.png>
-Package pdftex.def Info: vae.png used on input line 2948.
-(pdftex.def)             Requested size: 147.0254pt x 172.54594pt.
-
-[64 <./ae0.png> <./vae.png>] <VAE_P1.png, id=1230, 638.385pt x 220.825pt>
-File: VAE_P1.png Graphic file (type png)
-
-<use VAE_P1.png>
-Package pdftex.def Info: VAE_P1.png used on input line 2985.
-(pdftex.def)             Requested size: 341.43306pt x 118.10481pt.
- [65 <./VAE_P1.png>]
-<Reparam.png, id=1241, 771.88374pt x 496.85625pt>
-File: Reparam.png Graphic file (type png)
- <use Reparam.png>
-Package pdftex.def Info: Reparam.png used on input line 3062.
-(pdftex.def)             Requested size: 284.52756pt x 183.14401pt.
- [66]
-<VAE_Process.png, id=1249, 731.73375pt x 358.33875pt>
-File: VAE_Process.png Graphic file (type png)
- <use VAE_Process.png>
-Package pdftex.def Info: VAE_Process.png used on input line 3071.
-=======
-<Caption.png, id=1130, 514.17094pt x 423.83344pt>
-File: Caption.png Graphic file (type png)
- <use Caption.png>
-Package pdftex.def Info: Caption.png used on input line 2544.
-(pdftex.def)             Requested size: 257.08484pt x 211.91618pt.
- [56]
-<tcn.png, id=1149, 1216.545pt x 465.74pt>
 File: tcn.png Graphic file (type png)
  <use tcn.png>
-Package pdftex.def Info: tcn.png used on input line 2594.
+Package pdftex.def Info: tcn.png used on input line 2832.
 (pdftex.def)             Requested size: 608.27101pt x 232.86943pt.
 
-Overfull \hbox (178.26639pt too wide) in paragraph at lines 2594--2595
+Overfull \hbox (56.60475pt too wide) in paragraph at lines 2829--2834
+ [] 
+ []
+
+
+Overfull \hbox (178.26639pt too wide) in paragraph at lines 2829--2834
+ [] 
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2841 \item O
+              rdered neurons: integrating tree structures into RNNs (ICLR 20...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2841 \item O
+              rdered neurons: integrating tree structures into RNNs (ICLR 20...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2841 \item O
+              rdered neurons: integrating tree structures into RNNs (ICLR 20...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2843 \item A
+              ntisymmetric RNNs: Dynamical system view on RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2843 \item A
+              ntisymmetric RNNs: Dynamical system view on RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2843 \item A
+              ntisymmetric RNNs: Dynamical system view on RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2845 \item P
+              aperRobot (Wang et al, ACL 2019) We present a PaperRobot who p...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2845 \item P
+              aperRobot (Wang et al, ACL 2019) We present a PaperRobot who p...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2845 \item P
+              aperRobot (Wang et al, ACL 2019) We present a PaperRobot who p...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2847 \item S
+              peech: An entire different area
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2847 \item S
+              peech: An entire different area
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2847 \item S
+              peech: An entire different area
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<wavenet.jpg, id=1544, 556.32843pt x 292.84406pt>
+File: wavenet.jpg Graphic file (type jpg)
+ <use wavenet.jpg>
+Package pdftex.def Info: wavenet.jpg used on input line 2856.
+(pdftex.def)             Requested size: 445.06335pt x 234.27556pt.
+
+Overfull \hbox (15.05873pt too wide) in paragraph at lines 2856--2857
  [][] 
  []
 
-[57 <./Caption.png>] [58 <./tcn.png (PNG copy)>]
-<ae0.png, id=1170, 269.50688pt x 162.6075pt>
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2865 \item O
+              rdered neurons: integrating tree structures into RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2865 \item O
+              rdered neurons: integrating tree structures into RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2865 \item O
+              rdered neurons: integrating tree structures into RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2867 \item A
+              ntisymmetric RNNs: Dynamical system view on RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2867 \item A
+              ntisymmetric RNNs: Dynamical system view on RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2867 \item A
+              ntisymmetric RNNs: Dynamical system view on RNNs
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2870 \eenum
+             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[64] [65 <./tcn.png (PNG copy)>] [66 <./wavenet.jpg>]
+<ae0.png, id=1577, 269.50688pt x 162.6075pt>
 File: ae0.png Graphic file (type png)
  <use ae0.png>
-Package pdftex.def Info: ae0.png used on input line 2685.
+Package pdftex.def Info: ae0.png used on input line 2950.
 (pdftex.def)             Requested size: 134.7531pt x 81.30354pt.
 
-<vae.png, id=1172, 245.04047pt x 287.57437pt>
+<vae.png, id=1579, 245.04047pt x 287.57437pt>
 File: vae.png Graphic file (type png)
  <use vae.png>
-Package pdftex.def Info: vae.png used on input line 2702.
+Package pdftex.def Info: vae.png used on input line 2967.
 (pdftex.def)             Requested size: 147.0254pt x 172.54594pt.
- [59]
-<VAE_P1.png, id=1182, 638.385pt x 220.825pt>
+ [67 <./ae0.png>]
+<VAE_P1.png, id=1589, 638.385pt x 220.825pt>
 File: VAE_P1.png Graphic file (type png)
  <use VAE_P1.png>
-Package pdftex.def Info: VAE_P1.png used on input line 2739.
+Package pdftex.def Info: VAE_P1.png used on input line 3004.
 (pdftex.def)             Requested size: 341.43306pt x 118.10481pt.
- [60 <./ae0.png> <./vae.png>] [61 <./VAE_P1.png>]
-<Reparam.png, id=1201, 771.88374pt x 496.85625pt>
+ [68 <./vae.png>]
+[69 <./VAE_P1.png>] <Reparam.png, id=1608, 771.88374pt x 496.85625pt>
 File: Reparam.png Graphic file (type png)
- <use Reparam.png>
-Package pdftex.def Info: Reparam.png used on input line 2816.
-(pdftex.def)             Requested size: 284.52756pt x 183.14401pt.
 
-<VAE_Process.png, id=1203, 731.73375pt x 358.33875pt>
+<use Reparam.png>
+Package pdftex.def Info: Reparam.png used on input line 3081.
+(pdftex.def)             Requested size: 284.52756pt x 183.14401pt.
+ <VAE_Process.png, id=1610, 731.73375pt x 358.33875pt>
 File: VAE_Process.png Graphic file (type png)
- <use VAE_Process.png>
-Package pdftex.def Info: VAE_Process.png used on input line 2825.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+
+<use VAE_Process.png>
+Package pdftex.def Info: VAE_Process.png used on input line 3090.
 (pdftex.def)             Requested size: 341.43306pt x 167.20538pt.
 Package epstopdf Info: Source file: <face2.eps>
-(epstopdf)                    date: 2018-05-21 02:29:36
-(epstopdf)                    size: 30721 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 31315 bytes
 (epstopdf)             Output file: <face2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:16
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 9693 bytes
 (epstopdf)             Command: <epstopdf --outfile=face2-eps-converted-to.pdf 
 face2.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3086.
+(epstopdf)             \includegraphics on input line 3105.
 Package epstopdf Info: Output file is already uptodate.
-
-<face2-eps-converted-to.pdf, id=1250, 48.18pt x 48.18pt>
+ <face2-eps-converted-to.pdf, id=1611, 48.18pt x 48.18pt>
 File: face2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face2-eps-converted-to.pdf>
-Package pdftex.def Info: face2-eps-converted-to.pdf used on input line 3086.
-=======
-(epstopdf)             \includegraphics on input line 2840.
-Package epstopdf Info: Output file is already uptodate.
-
-<face2-eps-converted-to.pdf, id=1204, 48.18pt x 48.18pt>
-File: face2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face2-eps-converted-to.pdf>
-Package pdftex.def Info: face2-eps-converted-to.pdf used on input line 2840.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face2-eps-converted-to.pdf used on input line 3105.
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 Package epstopdf Info: Source file: <face150.eps>
-(epstopdf)                    date: 2018-05-21 02:30:32
-(epstopdf)                    size: 30723 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 31317 bytes
 (epstopdf)             Output file: <face150-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:17
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 11414 bytes
 (epstopdf)             Command: <epstopdf --outfile=face150-eps-converted-to.pd
 f face150.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3087.
+(epstopdf)             \includegraphics on input line 3106.
 Package epstopdf Info: Output file is already uptodate.
 
-<face150-eps-converted-to.pdf, id=1251, 48.18pt x 48.18pt>
+<face150-eps-converted-to.pdf, id=1612, 48.18pt x 48.18pt>
 File: face150-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face150-eps-converted-to.pdf>
-Package pdftex.def Info: face150-eps-converted-to.pdf used on input line 3087.
-=======
-(epstopdf)             \includegraphics on input line 2841.
-Package epstopdf Info: Output file is already uptodate.
-
-<face150-eps-converted-to.pdf, id=1205, 48.18pt x 48.18pt>
-File: face150-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face150-eps-converted-to.pdf>
-Package pdftex.def Info: face150-eps-converted-to.pdf used on input line 2841.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face150-eps-converted-to.pdf used on input line 3106.
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 Package epstopdf Info: Source file: <face268.eps>
-(epstopdf)                    date: 2018-05-21 02:37:00
-(epstopdf)                    size: 30723 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 31317 bytes
 (epstopdf)             Output file: <face268-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:18
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 11671 bytes
 (epstopdf)             Command: <epstopdf --outfile=face268-eps-converted-to.pd
 f face268.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3088.
+(epstopdf)             \includegraphics on input line 3107.
 Package epstopdf Info: Output file is already uptodate.
 
-<face268-eps-converted-to.pdf, id=1252, 48.18pt x 48.18pt>
+<face268-eps-converted-to.pdf, id=1613, 48.18pt x 48.18pt>
 File: face268-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face268-eps-converted-to.pdf>
-Package pdftex.def Info: face268-eps-converted-to.pdf used on input line 3088.
-=======
-(epstopdf)             \includegraphics on input line 2842.
-Package epstopdf Info: Output file is already uptodate.
-
-<face268-eps-converted-to.pdf, id=1206, 48.18pt x 48.18pt>
-File: face268-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face268-eps-converted-to.pdf>
-Package pdftex.def Info: face268-eps-converted-to.pdf used on input line 2842.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face268-eps-converted-to.pdf used on input line 3107.
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 Package epstopdf Info: Source file: <face700.eps>
-(epstopdf)                    date: 2018-05-21 02:37:32
-(epstopdf)                    size: 30723 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 31317 bytes
 (epstopdf)             Output file: <face700-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:18
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 10111 bytes
 (epstopdf)             Command: <epstopdf --outfile=face700-eps-converted-to.pd
 f face700.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3089.
+(epstopdf)             \includegraphics on input line 3108.
 Package epstopdf Info: Output file is already uptodate.
 
-<face700-eps-converted-to.pdf, id=1253, 48.18pt x 48.18pt>
+<face700-eps-converted-to.pdf, id=1614, 48.18pt x 48.18pt>
 File: face700-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face700-eps-converted-to.pdf>
-Package pdftex.def Info: face700-eps-converted-to.pdf used on input line 3089.
-=======
-(epstopdf)             \includegraphics on input line 2843.
-Package epstopdf Info: Output file is already uptodate.
-
-<face700-eps-converted-to.pdf, id=1207, 48.18pt x 48.18pt>
-File: face700-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face700-eps-converted-to.pdf>
-Package pdftex.def Info: face700-eps-converted-to.pdf used on input line 2843.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face700-eps-converted-to.pdf used on input line 3108.
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 Package epstopdf Info: Source file: <face990.eps>
-(epstopdf)                    date: 2018-05-21 02:53:46
-(epstopdf)                    size: 30723 bytes
+(epstopdf)                    date: 2019-05-14 14:33:47
+(epstopdf)                    size: 31317 bytes
 (epstopdf)             Output file: <face990-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:19
+(epstopdf)                    date: 2019-05-14 14:33:47
 (epstopdf)                    size: 10476 bytes
 (epstopdf)             Command: <epstopdf --outfile=face990-eps-converted-to.pd
 f face990.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3090.
+(epstopdf)             \includegraphics on input line 3109.
 Package epstopdf Info: Output file is already uptodate.
 
-<face990-eps-converted-to.pdf, id=1254, 48.18pt x 48.18pt>
+<face990-eps-converted-to.pdf, id=1615, 48.18pt x 48.18pt>
 File: face990-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face990-eps-converted-to.pdf>
-Package pdftex.def Info: face990-eps-converted-to.pdf used on input line 3090.
-=======
-(epstopdf)             \includegraphics on input line 2844.
-Package epstopdf Info: Output file is already uptodate.
-
-<face990-eps-converted-to.pdf, id=1208, 48.18pt x 48.18pt>
-File: face990-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face990-eps-converted-to.pdf>
-Package pdftex.def Info: face990-eps-converted-to.pdf used on input line 2844.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face990-eps-converted-to.pdf used on input line 3109.
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 Package epstopdf Info: Source file: <face1004.eps>
-(epstopdf)                    date: 2018-05-21 02:54:16
-(epstopdf)                    size: 30724 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 31318 bytes
 (epstopdf)             Output file: <face1004-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:20
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 11139 bytes
 (epstopdf)             Command: <epstopdf --outfile=face1004-eps-converted-to.p
 df face1004.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3091.
+(epstopdf)             \includegraphics on input line 3110.
 Package epstopdf Info: Output file is already uptodate.
 
-<face1004-eps-converted-to.pdf, id=1255, 48.18pt x 48.18pt>
+<face1004-eps-converted-to.pdf, id=1616, 48.18pt x 48.18pt>
 File: face1004-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face1004-eps-converted-to.pdf>
-Package pdftex.def Info: face1004-eps-converted-to.pdf used on input line 3091.
-=======
-(epstopdf)             \includegraphics on input line 2845.
-Package epstopdf Info: Output file is already uptodate.
-
-<face1004-eps-converted-to.pdf, id=1209, 48.18pt x 48.18pt>
-File: face1004-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face1004-eps-converted-to.pdf>
-Package pdftex.def Info: face1004-eps-converted-to.pdf used on input line 2845.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face1004-eps-converted-to.pdf used on input line 3110.
 
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
 Package epstopdf Info: Source file: <face1354.eps>
-(epstopdf)                    date: 2018-05-21 02:55:02
-(epstopdf)                    size: 30724 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 31318 bytes
 (epstopdf)             Output file: <face1354-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:20
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 10654 bytes
 (epstopdf)             Command: <epstopdf --outfile=face1354-eps-converted-to.p
 df face1354.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3092.
+(epstopdf)             \includegraphics on input line 3111.
 Package epstopdf Info: Output file is already uptodate.
 
-<face1354-eps-converted-to.pdf, id=1256, 48.18pt x 48.18pt>
+<face1354-eps-converted-to.pdf, id=1617, 48.18pt x 48.18pt>
 File: face1354-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face1354-eps-converted-to.pdf>
-Package pdftex.def Info: face1354-eps-converted-to.pdf used on input line 3092.
-=======
-(epstopdf)             \includegraphics on input line 2846.
-Package epstopdf Info: Output file is already uptodate.
-
-<face1354-eps-converted-to.pdf, id=1210, 48.18pt x 48.18pt>
-File: face1354-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face1354-eps-converted-to.pdf>
-Package pdftex.def Info: face1354-eps-converted-to.pdf used on input line 2846.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: face1354-eps-converted-to.pdf used on input line 3111.
 
 (pdftex.def)             Requested size: 28.45274pt x 28.4524pt.
- [62 <./Reparam.png> <./VAE_Process.png>]
 Package epstopdf Info: Source file: <face56.eps>
-(epstopdf)                    date: 2018-05-21 02:22:08
-(epstopdf)                    size: 11747078 bytes
+(epstopdf)                    date: 2019-05-14 14:33:46
+(epstopdf)                    size: 11895980 bytes
 (epstopdf)             Output file: <face56-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-11 21:58:28
+(epstopdf)                    date: 2019-05-14 14:33:46
 (epstopdf)                    size: 169548 bytes
 (epstopdf)             Command: <epstopdf --outfile=face56-eps-converted-to.pdf
  face56.eps>
-<<<<<<< HEAD
-(epstopdf)             \includegraphics on input line 3097.
+(epstopdf)             \includegraphics on input line 3116.
 Package epstopdf Info: Output file is already uptodate.
 
-<face56-eps-converted-to.pdf, id=1257, 697.60625pt x 697.60625pt>
+<face56-eps-converted-to.pdf, id=1618, 697.60625pt x 697.60625pt>
 File: face56-eps-converted-to.pdf Graphic file (type pdf)
 
 <use face56-eps-converted-to.pdf>
-Package pdftex.def Info: face56-eps-converted-to.pdf used on input line 3097.
+Package pdftex.def Info: face56-eps-converted-to.pdf used on input line 3116.
 (pdftex.def)             Requested size: 170.71652pt x 170.7181pt.
- [67 <./Reparam.png> <./VAE_Process.png> <./face2-eps-converted-to.pdf> <./face
+ [70 <./Reparam.png> <./VAE_Process.png> <./face2-eps-converted-to.pdf> <./face
 150-eps-converted-to.pdf> <./face268-eps-converted-to.pdf> <./face700-eps-conve
 rted-to.pdf> <./face990-eps-converted-to.pdf> <./face1004-eps-converted-to.pdf>
  <./face1354-eps-converted-to.pdf>]
-<gan.png, id=1290, 640.3925pt x 480.79625pt>
+<gan.png, id=1652, 640.3925pt x 480.79625pt>
 File: gan.png Graphic file (type png)
  <use gan.png>
-Package pdftex.def Info: gan.png used on input line 3139.
+Package pdftex.def Info: gan.png used on input line 3163.
 (pdftex.def)             Requested size: 256.15245pt x 192.31508pt.
 
-<gan1.jpg, id=1293, 1906.12125pt x 860.21375pt>
+<gan1.jpg, id=1655, 1906.12125pt x 860.21375pt>
 File: gan1.jpg Graphic file (type jpg)
  <use gan1.jpg>
-Package pdftex.def Info: gan1.jpg used on input line 3149.
+Package pdftex.def Info: gan1.jpg used on input line 3173.
 (pdftex.def)             Requested size: 476.52914pt x 215.0529pt.
 
-Overfull \hbox (46.52452pt too wide) in paragraph at lines 3149--3150
+Overfull \hbox (46.52452pt too wide) in paragraph at lines 3173--3174
  [][] 
  []
 
-<gan2.jpg, id=1294, 1313.90875pt x 891.33pt>
+<gan2.jpg, id=1656, 1313.90875pt x 891.33pt>
 File: gan2.jpg Graphic file (type jpg)
  <use gan2.jpg>
-Package pdftex.def Info: gan2.jpg used on input line 3156.
+Package pdftex.def Info: gan2.jpg used on input line 3180.
 (pdftex.def)             Requested size: 394.17567pt x 267.40106pt.
- [68 <./face56-eps-converted-to.pdf>] [69 <./gan.png> <./gan1.jpg>] [70 <./gan2
-.jpg>] [71]
-<mc.png, id=1336, 1445.4pt x 763.85374pt>
+ [71 <./face56-eps-converted-to.pdf>] [72 <./gan.png> <./gan1.jpg>] [73 <./gan2
+.jpg>] [74]
+<mc.png, id=1700, 1445.4pt x 763.85374pt>
 File: mc.png Graphic file (type png)
  <use mc.png>
-Package pdftex.def Info: mc.png used on input line 3259.
+Package pdftex.def Info: mc.png used on input line 3283.
 (pdftex.def)             Requested size: 433.62335pt x 229.15788pt.
 
-Overfull \hbox (3.61873pt too wide) in paragraph at lines 3259--3260
+Overfull \hbox (3.61873pt too wide) in paragraph at lines 3283--3284
  [][] 
  []
 
-[72 <./mc.png (PNG copy)>] [73]
-Underfull \hbox (badness 10000) in paragraph at lines 3420--3424
+[75 <./mc.png (PNG copy)>] [76]
+Underfull \hbox (badness 10000) in paragraph at lines 3444--3448
 
  []
 
-<WGAN_algorithm.png, id=1368, 574.145pt x 341.275pt>
+<WGAN_algorithm.png, id=1731, 574.145pt x 341.275pt>
 File: WGAN_algorithm.png Graphic file (type png)
  <use WGAN_algorithm.png>
-Package pdftex.def Info: WGAN_algorithm.png used on input line 3432.
-=======
-(epstopdf)             \includegraphics on input line 2851.
-Package epstopdf Info: Output file is already uptodate.
-
-<face56-eps-converted-to.pdf, id=1220, 697.60625pt x 697.60625pt>
-File: face56-eps-converted-to.pdf Graphic file (type pdf)
-
-<use face56-eps-converted-to.pdf>
-Package pdftex.def Info: face56-eps-converted-to.pdf used on input line 2851.
-(pdftex.def)             Requested size: 170.71652pt x 170.7181pt.
- <gan.png, id=1222, 640.3925pt x 480.79625pt>
-File: gan.png Graphic file (type png)
-
-<use gan.png>
-Package pdftex.def Info: gan.png used on input line 2893.
-(pdftex.def)             Requested size: 256.15245pt x 192.31508pt.
- [63 <./face2-eps-converted-to.pdf> <./face150-eps-converted-to.pdf> <./face268
--eps-converted-to.pdf> <./face700-eps-converted-to.pdf> <./face990-eps-converte
-d-to.pdf> <./face1004-eps-converted-to.pdf> <./face1354-eps-converted-to.pdf> <
-./face56-eps-converted-to.pdf>]
-<gan1.jpg, id=1262, 1906.12125pt x 860.21375pt>
-File: gan1.jpg Graphic file (type jpg)
- <use gan1.jpg>
-Package pdftex.def Info: gan1.jpg used on input line 2903.
-(pdftex.def)             Requested size: 476.52914pt x 215.0529pt.
-
-Overfull \hbox (46.52452pt too wide) in paragraph at lines 2903--2904
- [][] 
- []
-
-<gan2.jpg, id=1263, 1313.90875pt x 891.33pt>
-File: gan2.jpg Graphic file (type jpg)
- <use gan2.jpg>
-Package pdftex.def Info: gan2.jpg used on input line 2910.
-(pdftex.def)             Requested size: 394.17567pt x 267.40106pt.
- [64 <./gan.png> <./gan1.jpg>] [65 <./gan2.jpg>] [66] <mc.png, id=1292, 1445.4p
-t x 763.85374pt>
-File: mc.png Graphic file (type png)
-
-<use mc.png>
-Package pdftex.def Info: mc.png used on input line 3013.
-(pdftex.def)             Requested size: 433.62335pt x 229.15788pt.
-
-Overfull \hbox (3.61873pt too wide) in paragraph at lines 3013--3014
- [][] 
- []
-
-[67 <./mc.png (PNG copy)>] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 3174--3178
-
- []
-
-<WGAN_algorithm.png, id=1323, 574.145pt x 341.275pt>
-File: WGAN_algorithm.png Graphic file (type png)
- <use WGAN_algorithm.png>
-Package pdftex.def Info: WGAN_algorithm.png used on input line 3186.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: WGAN_algorithm.png used on input line 3456.
 (pdftex.def)             Requested size: 344.005pt x 204.48016pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-<GAN_algorithm.png, id=1369, 1597.97pt x 1039.885pt>
+<GAN_algorithm.png, id=1732, 1597.97pt x 1039.885pt>
 File: GAN_algorithm.png Graphic file (type png)
  <use GAN_algorithm.png>
-Package pdftex.def Info: GAN_algorithm.png used on input line 3442.
-=======
-<GAN_algorithm.png, id=1324, 1597.97pt x 1039.885pt>
-File: GAN_algorithm.png Graphic file (type png)
- <use GAN_algorithm.png>
-Package pdftex.def Info: GAN_algorithm.png used on input line 3196.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: GAN_algorithm.png used on input line 3466.
 (pdftex.def)             Requested size: 344.005pt x 223.85652pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-<WassGAN_loss_function.jpg, id=1371, 452.4403pt x 301.125pt>
+<WassGAN_loss_function.jpg, id=1734, 452.4403pt x 301.125pt>
 File: WassGAN_loss_function.jpg Graphic file (type jpg)
 
 <use WassGAN_loss_function.jpg>
-Package pdftex.def Info: WassGAN_loss_function.jpg used on input line 3464.
-=======
-<WassGAN_loss_function.jpg, id=1326, 452.4403pt x 301.125pt>
-File: WassGAN_loss_function.jpg Graphic file (type jpg)
-
-<use WassGAN_loss_function.jpg>
-Package pdftex.def Info: WassGAN_loss_function.jpg used on input line 3218.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: WassGAN_loss_function.jpg used on input line 3488.
 (pdftex.def)             Requested size: 258.00539pt x 171.71654pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[74] [75 <./WGAN_algorithm.png> <./GAN_algorithm.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 3486--3489
+[77] [78 <./WGAN_algorithm.png> <./GAN_algorithm.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 3510--3513
 
  []
 
-<explode.png, id=1392, 1606.0pt x 892.33376pt>
+<explode.png, id=1754, 1606.0pt x 892.33376pt>
 File: explode.png Graphic file (type png)
  <use explode.png>
-Package pdftex.def Info: explode.png used on input line 3499.
+Package pdftex.def Info: explode.png used on input line 3523.
 (pdftex.def)             Requested size: 215.0023pt x 119.45229pt.
 
-<value.jpg, id=1394, 1204.5pt x 597.23125pt>
+<value.jpg, id=1756, 1204.5pt x 597.23125pt>
 File: value.jpg Graphic file (type jpg)
  <use value.jpg>
-Package pdftex.def Info: value.jpg used on input line 3510.
-=======
-[69] [70 <./WGAN_algorithm.png> <./GAN_algorithm.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 3240--3243
-
- []
-
-<explode.png, id=1347, 1606.0pt x 892.33376pt>
-File: explode.png Graphic file (type png)
- <use explode.png>
-Package pdftex.def Info: explode.png used on input line 3253.
-(pdftex.def)             Requested size: 215.0023pt x 119.45229pt.
-
-<value.jpg, id=1349, 1204.5pt x 597.23125pt>
-File: value.jpg Graphic file (type jpg)
- <use value.jpg>
-Package pdftex.def Info: value.jpg used on input line 3264.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: value.jpg used on input line 3534.
 (pdftex.def)             Requested size: 344.005pt x 170.56807pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[76 <./WassGAN_loss_function.jpg> <./explode.png (PNG copy)>]
-<WGAN_GP.png, id=1405, 797.98125pt x 421.575pt>
+[79 <./WassGAN_loss_function.jpg> <./explode.png (PNG copy)>]
+<WGAN_GP.png, id=1768, 797.98125pt x 421.575pt>
 File: WGAN_GP.png Graphic file (type png)
  <use WGAN_GP.png>
-Package pdftex.def Info: WGAN_GP.png used on input line 3552.
-=======
-[71 <./WassGAN_loss_function.jpg> <./explode.png (PNG copy)>]
-<WGAN_GP.png, id=1360, 797.98125pt x 421.575pt>
-File: WGAN_GP.png Graphic file (type png)
- <use WGAN_GP.png>
-Package pdftex.def Info: WGAN_GP.png used on input line 3306.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: WGAN_GP.png used on input line 3576.
 (pdftex.def)             Requested size: 365.50655pt x 193.09703pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[77 <./value.jpg>] <experiment.png, id=1418, 1606.0pt x 1225.57875pt>
+[80 <./value.jpg>] <experiment.png, id=1781, 1606.0pt x 1225.57875pt>
 File: experiment.png Graphic file (type png)
 
 <use experiment.png>
-Package pdftex.def Info: experiment.png used on input line 3576.
-=======
-[72 <./value.jpg>] <experiment.png, id=1373, 1606.0pt x 1225.57875pt>
-File: experiment.png Graphic file (type png)
-
-<use experiment.png>
-Package pdftex.def Info: experiment.png used on input line 3330.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: experiment.png used on input line 3600.
 (pdftex.def)             Requested size: 301.00192pt x 229.70195pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<<<<<<< HEAD
-Overfull \hbox (18.90324pt too wide) in paragraph at lines 3583--3586
-=======
-Overfull \hbox (18.90324pt too wide) in paragraph at lines 3337--3340
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (18.90324pt too wide) in paragraph at lines 3607--3610
 \OT1/cmr/m/n/9 2. M. Ar-jovsky, S. Chin-tala, and L. Bot-tou. Wasser-stein gan.
  arXiv preprint arXiv:1701.07875.
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.02881pt too wide) in paragraph at lines 3583--3586
-=======
-Overfull \hbox (4.02881pt too wide) in paragraph at lines 3337--3340
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (4.02881pt too wide) in paragraph at lines 3607--3610
 \OT1/cmr/m/n/9 3. Ishaan Gul-ra-jani, Faruk Ahmed, Mar-tin Ar-jovsky, Vin-cent 
 Du-moulin, Aaron Courville1,
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 3583--3586
+Underfull \hbox (badness 10000) in paragraph at lines 3607--3610
 
  []
 
-<cgan.png, id=1420, 447.38571pt x 189.70876pt>
+<cgan.png, id=1783, 447.38571pt x 189.70876pt>
 File: cgan.png Graphic file (type png)
  <use cgan.png>
-Package pdftex.def Info: cgan.png used on input line 3597.
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 3337--3340
-
- []
-
-<cgan.png, id=1375, 447.38571pt x 189.70876pt>
-File: cgan.png Graphic file (type png)
- <use cgan.png>
-Package pdftex.def Info: cgan.png used on input line 3351.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: cgan.png used on input line 3621.
 (pdftex.def)             Requested size: 258.00539pt x 109.40588pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[78 <./WGAN_GP.png (PNG copy)>] [79 <./experiment.png (PNG copy)> <./cgan.png>]
-[80] <bandits.png, id=1445, 785.0759pt x 526.96875pt>
+[81 <./WGAN_GP.png (PNG copy)>] [82 <./experiment.png (PNG copy)> <./cgan.png>]
+
+Overfull \hbox (8.36356pt too wide) in paragraph at lines 3685--3688
+[]\OT1/cmr/m/n/9 Local struc-ture is cru-cial. ======= >>>>>>> 36d1093ab5c3bf4e
+d4298c4a7e51ef121e1f9f5d 
+ []
+
+[83]
+
+! LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3759 \eenum
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.3759 \eenum
+             
+Things are pretty mixed up, but I think the worst is over.
+
+[84] <bandits.png, id=1817, 785.0759pt x 526.96875pt>
 File: bandits.png Graphic file (type png)
  <use bandits.png>
-Package pdftex.def Info: bandits.png used on input line 3729.
+Package pdftex.def Info: bandits.png used on input line 3843.
 (pdftex.def)             Requested size: 245.71425pt x 164.92659pt.
 
-<online_ad.png, id=1447, 839.2784pt x 450.39696pt>
-File: online_ad.png Graphic file (type png)
- <use online_ad.png>
-Package pdftex.def Info: online_ad.png used on input line 3740.
-=======
-[73 <./WGAN_GP.png (PNG copy)>] [74 <./experiment.png (PNG copy)> <./cgan.png>]
-[75] <bandits.png, id=1400, 785.0759pt x 526.96875pt>
-File: bandits.png Graphic file (type png)
- <use bandits.png>
-Package pdftex.def Info: bandits.png used on input line 3481.
-(pdftex.def)             Requested size: 245.71425pt x 164.92659pt.
 
-<online_ad.png, id=1402, 839.2784pt x 450.39696pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<online_ad.png, id=1819, 839.2784pt x 450.39696pt>
 File: online_ad.png Graphic file (type png)
  <use online_ad.png>
-Package pdftex.def Info: online_ad.png used on input line 3492.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: online_ad.png used on input line 3854.
 (pdftex.def)             Requested size: 307.14749pt x 164.82991pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-<ada.jpg, id=1449, 302.0886pt x 308.352pt>
+<ada.jpg, id=1821, 302.0886pt x 308.352pt>
 File: ada.jpg Graphic file (type jpg)
  <use ada.jpg>
-Package pdftex.def Info: ada.jpg used on input line 3751.
-=======
-<ada.jpg, id=1404, 302.0886pt x 308.352pt>
-File: ada.jpg Graphic file (type jpg)
- <use ada.jpg>
-Package pdftex.def Info: ada.jpg used on input line 3503.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: ada.jpg used on input line 3865.
 (pdftex.def)             Requested size: 307.14749pt x 313.54092pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-<robo.jpeg, id=1451, 1284.8pt x 1284.8pt>
+<robo.jpeg, id=1823, 1284.8pt x 1284.8pt>
 File: robo.jpeg Graphic file (type jpg)
  <use robo.jpeg>
-Package pdftex.def Info: robo.jpeg used on input line 3762.
-=======
-<robo.jpeg, id=1406, 1284.8pt x 1284.8pt>
-File: robo.jpeg Graphic file (type jpg)
- <use robo.jpeg>
-Package pdftex.def Info: robo.jpeg used on input line 3514.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: robo.jpeg used on input line 3876.
 (pdftex.def)             Requested size: 184.29036pt x 184.28177pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[81 <./bandits.png>] <den.png, id=1470, 551.91911pt x 287.78946pt>
+[85] [86 <./bandits.png> <./online_ad.png>]
+<den.png, id=1849, 551.91911pt x 287.78946pt>
 File: den.png Graphic file (type png)
-=======
-[76 <./bandits.png>] <den.png, id=1425, 551.91911pt x 287.78946pt>
-File: den.png Graphic file (type png)
-
-<use den.png>
-Package pdftex.def Info: den.png used on input line 3588.
+ <use den.png>
+Package pdftex.def Info: den.png used on input line 3950.
 (pdftex.def)             Requested size: 184.29036pt x 96.09499pt.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
-<use den.png>
-Package pdftex.def Info: den.png used on input line 3836.
-(pdftex.def)             Requested size: 184.29036pt x 96.09499pt.
- [82 <./online_ad.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
 
-Overfull \hbox (16.85757pt too wide) in paragraph at lines 3847--3848
-=======
-[77 <./online_ad.png>]
-Overfull \hbox (16.85757pt too wide) in paragraph at lines 3599--3600
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (23.15764pt too wide) in paragraph at lines 3961--3962
 []\OT1/cmr/m/n/9 Recall: we have avail-able the en-tire his-tory of pre-vi-ous 
 ac-tions and re-wards $\OML/cmm/m/it/9 A[]; R[]; A[]; R[];$
  []
 
-<<<<<<< HEAD
-[83 <./ada.jpg>] [84 <./robo.jpeg> <./den.png>]
-<opti.png, id=1493, 619.88731pt x 711.94554pt>
+[87 <./ada.jpg>] [88 <./robo.jpeg> <./den.png>] [89]
+<opti.png, id=1876, 619.88731pt x 711.94554pt>
 File: opti.png Graphic file (type png)
  <use opti.png>
-Package pdftex.def Info: opti.png used on input line 3949.
-=======
-[78 <./ada.jpg>] [79 <./robo.jpeg> <./den.png>]
-<opti.png, id=1449, 619.88731pt x 711.94554pt>
-File: opti.png Graphic file (type png)
- <use opti.png>
-Package pdftex.def Info: opti.png used on input line 3701.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: opti.png used on input line 4063.
 (pdftex.def)             Requested size: 153.57375pt x 176.37816pt.
+ [90 <./opti.png>] [91]
+Overfull \hbox (0.60355pt too wide) in paragraph at lines 4181--4182
+[]\OT1/cmr/m/n/9 Experimental eval-u-a-tion of sev-eral al-go-rithms per-formed
+ by Vel-morel, Mohri (2005);
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (0.97675pt too wide) in paragraph at lines 4185--4186
+[]\OT1/cmr/m/n/9 Distributions nor-mal $\OML/cmm/m/it/9 P[] \OMS/cmsy/m/n/9  N
+\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 []; []\OT1/cmr/m/n/9 )$; $\OML/cmm/m/it/9 []
+$ \OT1/cmr/m/n/9 sam-pled from $\OML/cmm/m/it/9 U\OT1/cmr/m/n/9 [0\OML/cmm/m/it
+/9 ; \OT1/cmr/m/n/9 1]$; $\OML/cmm/m/it/9 [] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9
+ :\OT1/cmr/m/n/9 01\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 0\OML/cmm/m/it/9 :\OT1/cmr/
+m/n/9 1\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 1$ 
+ []
 
-<<<<<<< HEAD
-[85] [86 <./opti.png>] <k=5.sigma=0.01.png, id=1522, 901.2241pt x 363.5009pt>
+<k=5.sigma=0.01.png, id=1905, 901.2241pt x 363.5009pt>
 File: k=5.sigma=0.01.png Graphic file (type png)
 
 <use k=5.sigma=0.01.png>
-Package pdftex.def Info: k=5.sigma=0.01.png used on input line 4093.
-=======
-[80] [81 <./opti.png>] <k=5.sigma=0.01.png, id=1479, 901.2241pt x 363.5009pt>
-File: k=5.sigma=0.01.png Graphic file (type png)
-
-<use k=5.sigma=0.01.png>
-Package pdftex.def Info: k=5.sigma=0.01.png used on input line 3845.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: k=5.sigma=0.01.png used on input line 4207.
 (pdftex.def)             Requested size: 430.00462pt x 173.43568pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<<<<<<< HEAD
-<k=5.png, id=1524, 808.30554pt x 634.5134pt>
+ <k=5.png, id=1907, 808.30554pt x 634.5134pt>
 File: k=5.png Graphic file (type png)
- <use k=5.png>
-Package pdftex.def Info: k=5.png used on input line 4104.
-=======
-<k=5.png, id=1481, 808.30554pt x 634.5134pt>
-File: k=5.png Graphic file (type png)
- <use k=5.png>
-Package pdftex.def Info: k=5.png used on input line 3856.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+
+<use k=5.png>
+Package pdftex.def Info: k=5.png used on input line 4218.
 (pdftex.def)             Requested size: 430.00462pt x 337.55882pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-<k=2.sigma=0.01.png, id=1526, 805.72446pt x 385.87018pt>
+<k=2.sigma=0.01.png, id=1909, 805.72446pt x 385.87018pt>
 File: k=2.sigma=0.01.png Graphic file (type png)
 
 <use k=2.sigma=0.01.png>
-Package pdftex.def Info: k=2.sigma=0.01.png used on input line 4115.
-=======
-<k=2.sigma=0.01.png, id=1483, 805.72446pt x 385.87018pt>
-File: k=2.sigma=0.01.png Graphic file (type png)
-
-<use k=2.sigma=0.01.png>
-Package pdftex.def Info: k=2.sigma=0.01.png used on input line 3867.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: k=2.sigma=0.01.png used on input line 4229.
 (pdftex.def)             Requested size: 430.00462pt x 205.92918pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[87] <th.png, id=1544, 866.80981pt x 684.41411pt>
+[92 <./k=5.sigma=0.01.png>] [93 <./k=5.png>]
+<th.png, id=1928, 866.80981pt x 684.41411pt>
 File: th.png Graphic file (type png)
  <use th.png>
-Package pdftex.def Info: th.png used on input line 4156.
+Package pdftex.def Info: th.png used on input line 4270.
 (pdftex.def)             Requested size: 337.86412pt x 266.77422pt.
- [88 <./k=5.sigma=0.01.png>] [89 <./k=5.png>] [90 <./k=2.sigma=0.01.png>]
-Overfull \hbox (4.5833pt too wide) in paragraph at lines 4258--4260
-=======
-[82] <th.png, id=1502, 866.80981pt x 684.41411pt>
-File: th.png Graphic file (type png)
- <use th.png>
-Package pdftex.def Info: th.png used on input line 3908.
-(pdftex.def)             Requested size: 337.86412pt x 266.77422pt.
- [83 <./k=5.sigma=0.01.png>] [84 <./k=5.png>] [85 <./k=2.sigma=0.01.png>]
-Overfull \hbox (4.5833pt too wide) in paragraph at lines 4010--4012
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [94 <./k=2.sigma=0.01.png>] [95 <./th.png>]
+Overfull \hbox (10.88336pt too wide) in paragraph at lines 4372--4374
 []\OT1/cmr/m/n/9 Loss-based importance-weighted es-ti-ma-tor: prefer-able be-ca
 use takes val-ues in $(\OMS/cmsy/m/n/9  1\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 1]$: 
 
  []
 
-<<<<<<< HEAD
-[91 <./th.png>] [92] [93] <Alg_1.PNG, id=1608, 705.38531pt x 493.0922pt>
+[96] [97] [98] <Alg_1.PNG, id=1987, 705.38531pt x 493.0922pt>
 File: Alg_1.PNG Graphic file (type png)
-
-<use Alg_1.PNG>
-Package pdftex.def Info: Alg_1.PNG used on input line 4438.
+ <use Alg_1.PNG>
+Package pdftex.def Info: Alg_1.PNG used on input line 4552.
 (pdftex.def)             Requested size: 317.42046pt x 221.88943pt.
- <Alg_2.PNG, id=1609, 697.10437pt x 319.94531pt>
+
+<Alg_2.PNG, id=1988, 697.10437pt x 319.94531pt>
 File: Alg_2.PNG Graphic file (type png)
-
-<use Alg_2.PNG>
-Package pdftex.def Info: Alg_2.PNG used on input line 4451.
+ <use Alg_2.PNG>
+Package pdftex.def Info: Alg_2.PNG used on input line 4565.
 (pdftex.def)             Requested size: 327.6391pt x 150.37431pt.
- <Alg_3.PNG, id=1610, 700.86844pt x 252.19218pt>
+ [99 <./Alg_1.PNG>] <Alg_3.PNG, id=2001, 700.86844pt x 252.19218pt>
 File: Alg_3.PNG Graphic file (type png)
-
-<use Alg_3.PNG>
-Package pdftex.def Info: Alg_3.PNG used on input line 4473.
+ <use Alg_3.PNG>
+Package pdftex.def Info: Alg_3.PNG used on input line 4587.
 (pdftex.def)             Requested size: 315.38788pt x 113.48543pt.
- <Alg_4.PNG, id=1611, 686.565pt x 238.64156pt>
+
+<Alg_4.PNG, id=2002, 686.565pt x 238.64156pt>
 File: Alg_4.PNG Graphic file (type png)
  <use Alg_4.PNG>
-Package pdftex.def Info: Alg_4.PNG used on input line 4490.
+Package pdftex.def Info: Alg_4.PNG used on input line 4604.
 (pdftex.def)             Requested size: 343.28166pt x 119.32048pt.
-
-[94] [95 <./Alg_1.PNG> <./Alg_2.PNG>] [96 <./Alg_3.PNG> <./Alg_4.PNG>] [97]
-<thumbnail.png, id=1673, 679.53876pt x 506.89375pt>
+ [100 <./Alg_2.PNG> <./Alg_3.PNG>] [101 <./Alg_4.PNG>]
+<thumbnail.png, id=2037, 679.53876pt x 506.89375pt>
 File: thumbnail.png Graphic file (type png)
  <use thumbnail.png>
-Package pdftex.def Info: thumbnail.png used on input line 4614.
+Package pdftex.def Info: thumbnail.png used on input line 4728.
 (pdftex.def)             Requested size: 258.00539pt x 192.45146pt.
 
-<RL.png, id=1675, 364.36125pt x 357.335pt>
+[102] <RL.png, id=2052, 364.36125pt x 357.335pt>
 File: RL.png Graphic file (type png)
  <use RL.png>
-Package pdftex.def Info: RL.png used on input line 4654.
+Package pdftex.def Info: RL.png used on input line 4768.
 (pdftex.def)             Requested size: 215.0023pt x 210.85307pt.
- [98 <./thumbnail.png>]
+ [103 <./thumbnail.png>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4701.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4815.
 
-
-[99 <./RL.png>] [100]
-Overfull \hbox (14.47661pt too wide) in paragraph at lines 4904--4906
-=======
-[86 <./th.png>] [87] [88] <Alg_1.PNG, id=1563, 705.38531pt x 493.0922pt>
-File: Alg_1.PNG Graphic file (type png)
-
-<use Alg_1.PNG>
-Package pdftex.def Info: Alg_1.PNG used on input line 4190.
-(pdftex.def)             Requested size: 317.42046pt x 221.88943pt.
- <Alg_2.PNG, id=1564, 697.10437pt x 319.94531pt>
-File: Alg_2.PNG Graphic file (type png)
-
-<use Alg_2.PNG>
-Package pdftex.def Info: Alg_2.PNG used on input line 4203.
-(pdftex.def)             Requested size: 327.6391pt x 150.37431pt.
- <Alg_3.PNG, id=1565, 700.86844pt x 252.19218pt>
-File: Alg_3.PNG Graphic file (type png)
-
-<use Alg_3.PNG>
-Package pdftex.def Info: Alg_3.PNG used on input line 4225.
-(pdftex.def)             Requested size: 315.38788pt x 113.48543pt.
- <Alg_4.PNG, id=1566, 686.565pt x 238.64156pt>
-File: Alg_4.PNG Graphic file (type png)
- <use Alg_4.PNG>
-Package pdftex.def Info: Alg_4.PNG used on input line 4242.
-(pdftex.def)             Requested size: 343.28166pt x 119.32048pt.
-
-[89] [90 <./Alg_1.PNG> <./Alg_2.PNG>] [91 <./Alg_3.PNG> <./Alg_4.PNG>] [92]
-<thumbnail.png, id=1628, 679.53876pt x 506.89375pt>
-File: thumbnail.png Graphic file (type png)
- <use thumbnail.png>
-Package pdftex.def Info: thumbnail.png used on input line 4366.
-(pdftex.def)             Requested size: 258.00539pt x 192.45146pt.
-
-<RL.png, id=1630, 364.36125pt x 357.335pt>
-File: RL.png Graphic file (type png)
- <use RL.png>
-Package pdftex.def Info: RL.png used on input line 4406.
-(pdftex.def)             Requested size: 215.0023pt x 210.85307pt.
- [93 <./thumbnail.png>]
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4453.
-
-
-[94 <./RL.png>] [95]
-Overfull \hbox (14.47661pt too wide) in paragraph at lines 4656--4658
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [104 <./RL.png>] [105] [106]
+Overfull \hbox (17.47664pt too wide) in paragraph at lines 5018--5020
 \OT1/cmr/m/n/9 Policy is now a vec-tor $\OML/cmm/m/it/9  \OT1/cmr/m/n/9 = (\OM
 L/cmm/m/it/9 []; [] ; []\OT1/cmr/m/n/9 )$ so that $\OML/cmm/m/it/9 A[] \OT1/c
 mr/m/n/9 = \OML/cmm/m/it/9 []\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 S[]\OT1/cmr/m/n/9
@@ -2211,98 +2220,50 @@ mr/m/n/9 = \OML/cmm/m/it/9 []\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 S[]\OT1/cmr/m/n/9
 ML/cmm/m/it/9 ; [] ; A[] \OT1/cmr/m/n/9 =
  []
 
-<<<<<<< HEAD
-[101] <compare.png, id=1720, 2356.805pt x 1274.7625pt>
+<compare.png, id=2098, 2356.805pt x 1274.7625pt>
 File: compare.png Graphic file (type png)
  <use compare.png>
-Package pdftex.def Info: compare.png used on input line 4921.
+Package pdftex.def Info: compare.png used on input line 5035.
 (pdftex.def)             Requested size: 344.005pt x 186.05153pt.
-
-[102 <./compare.png (PNG copy)>]
-Overfull \hbox (3.40147pt too wide) in paragraph at lines 5022--5023
-=======
-[96] <compare.png, id=1675, 2356.805pt x 1274.7625pt>
-File: compare.png Graphic file (type png)
- <use compare.png>
-Package pdftex.def Info: compare.png used on input line 4673.
-(pdftex.def)             Requested size: 344.005pt x 186.05153pt.
-
-[97 <./compare.png (PNG copy)>]
-Overfull \hbox (3.40147pt too wide) in paragraph at lines 4774--4775
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [107 <./compare.png (PNG copy)>]
+Overfull \hbox (6.4015pt too wide) in paragraph at lines 5136--5137
 \OT1/cmr/m/it/9 ward pro-cess with de-ci-sions (ac-tions). It is for-mally spec
 -i-fied by a 5-tuple $\OML/cmm/m/it/9 < \OMS/cmsy/m/n/9 S\OML/cmm/m/it/9 ; \OMS
 /cmsy/m/n/9 A\OML/cmm/m/it/9 ; \OMS/cmsy/m/n/9 P\OML/cmm/m/it/9 ; \OMS/cmsy/m/n
 /9 R\OML/cmm/m/it/9 ;  >$\OT1/cmr/m/it/9 . 
  []
 
-<<<<<<< HEAD
-[103] <maze.png, id=1743, 269.005pt x 226.8475pt>
+[108] <maze.png, id=2118, 269.005pt x 226.8475pt>
 File: maze.png Graphic file (type png)
  <use maze.png>
-Package pdftex.def Info: maze.png used on input line 5094.
+Package pdftex.def Info: maze.png used on input line 5208.
 (pdftex.def)             Requested size: 134.50217pt x 113.42346pt.
 
-<value.png, id=1744, 364.36125pt x 290.08376pt>
+<value.png, id=2119, 364.36125pt x 290.08376pt>
 File: value.png Graphic file (type png)
  <use value.png>
-Package pdftex.def Info: value.png used on input line 5098.
+Package pdftex.def Info: value.png used on input line 5212.
 (pdftex.def)             Requested size: 182.18018pt x 145.04152pt.
 
-<policy.png, id=1745, 378.41376pt x 298.11375pt>
+<policy.png, id=2120, 378.41376pt x 298.11375pt>
 File: policy.png Graphic file (type png)
  <use policy.png>
-Package pdftex.def Info: policy.png used on input line 5108.
+Package pdftex.def Info: policy.png used on input line 5222.
 (pdftex.def)             Requested size: 189.2064pt x 149.0565pt.
 
-<model.png, id=1746, 308.15125pt x 238.8925pt>
+<model.png, id=2121, 308.15125pt x 238.8925pt>
 File: model.png Graphic file (type png)
  <use model.png>
-Package pdftex.def Info: model.png used on input line 5112.
+Package pdftex.def Info: model.png used on input line 5226.
 (pdftex.def)             Requested size: 154.07524pt x 119.44595pt.
- [104 <./maze.png> <./value.png>] [105 <./policy.png> <./model.png>]
-<uni_rl.png, id=1766, 356.45673pt x 323.33296pt>
+ [109] [110 <./maze.png> <./value.png> <./policy.png> <./model.png>] [111]
+<uni_rl.png, id=2158, 356.45673pt x 323.33296pt>
 File: uni_rl.png Graphic file (type png)
  <use uni_rl.png>
-Package pdftex.def Info: uni_rl.png used on input line 5232.
+Package pdftex.def Info: uni_rl.png used on input line 5346.
 (pdftex.def)             Requested size: 301.00192pt x 273.0434pt.
- [106]
-[107 <./uni_rl.png>]
-Overfull \hbox (10.19527pt too wide) in paragraph at lines 5352--5353
-=======
-[98] <maze.png, id=1698, 269.005pt x 226.8475pt>
-File: maze.png Graphic file (type png)
- <use maze.png>
-Package pdftex.def Info: maze.png used on input line 4846.
-(pdftex.def)             Requested size: 134.50217pt x 113.42346pt.
-
-<value.png, id=1699, 364.36125pt x 290.08376pt>
-File: value.png Graphic file (type png)
- <use value.png>
-Package pdftex.def Info: value.png used on input line 4850.
-(pdftex.def)             Requested size: 182.18018pt x 145.04152pt.
-
-<policy.png, id=1700, 378.41376pt x 298.11375pt>
-File: policy.png Graphic file (type png)
- <use policy.png>
-Package pdftex.def Info: policy.png used on input line 4860.
-(pdftex.def)             Requested size: 189.2064pt x 149.0565pt.
-
-<model.png, id=1701, 308.15125pt x 238.8925pt>
-File: model.png Graphic file (type png)
- <use model.png>
-Package pdftex.def Info: model.png used on input line 4864.
-(pdftex.def)             Requested size: 154.07524pt x 119.44595pt.
- [99 <./maze.png> <./value.png>] [100 <./policy.png> <./model.png>]
-<uni_rl.png, id=1721, 356.45673pt x 323.33296pt>
-File: uni_rl.png Graphic file (type png)
- <use uni_rl.png>
-Package pdftex.def Info: uni_rl.png used on input line 4984.
-(pdftex.def)             Requested size: 301.00192pt x 273.0434pt.
- [101]
-[102 <./uni_rl.png>]
-Overfull \hbox (10.19527pt too wide) in paragraph at lines 5102--5103
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [112 <./uni_rl.png>]
+Overfull \hbox (13.1953pt too wide) in paragraph at lines 5466--5467
 []\OT1/cmr/m/n/9 Example: Fea-tures $\OML/cmm/m/it/9 x\OT1/cmr/m/n/9 (\OML/cmm/
 m/it/9 s\OT1/cmr/m/n/9 )$. Lin-ear ap-prox-i-ma-tion: $[](\OML/cmm/m/it/9 s; w\
 OT1/cmr/m/n/9 ) = \OML/cmm/m/it/9 x\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 s\OT1/cmr/m/
@@ -2310,11 +2271,7 @@ n/9 )[]\OML/cmm/m/it/9 w$\OT1/cmr/m/n/9 . In that case $\OMS/cmsy/m/n/9 r[][]\O
 T1/cmr/m/n/9 (\OML/cmm/m/it/9 s; w\OT1/cmr/m/n/9 ) =
  []
 
-<<<<<<< HEAD
-[108] [109] [110]
-=======
-[103] [104] [105]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[113] [114] [115]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
@@ -2384,27 +2341,16 @@ Missing character: There is no ¢ in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
-<<<<<<< HEAD
- <maze.PNG, id=1836, 269.005pt x 226.8475pt>
+ <maze.PNG, id=2213, 269.005pt x 226.8475pt>
 File: maze.PNG Graphic file (type png)
  <use maze.PNG>
-Package pdftex.def Info: maze.PNG used on input line 5637.
-=======
- <maze.PNG, id=1791, 269.005pt x 226.8475pt>
-File: maze.PNG Graphic file (type png)
- <use maze.PNG>
-Package pdftex.def Info: maze.PNG used on input line 5387.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: maze.PNG used on input line 5751.
 (pdftex.def)             Requested size: 94.15315pt x 79.39781pt.
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
 
-<<<<<<< HEAD
-[111]
-=======
-[106]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[116]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ò in font cmr9!
@@ -2432,11 +2378,7 @@ Missing character: There is no ì in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
-<<<<<<< HEAD
- [112 <./maze.PNG>]
-=======
- [107 <./maze.PNG>]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [117 <./maze.PNG>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
@@ -2461,6 +2403,7 @@ Missing character: There is no ù in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
+ [118]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
@@ -2473,11 +2416,7 @@ Missing character: There is no ú in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
-<<<<<<< HEAD
- [113] [114]
-=======
- [108] [109]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [119]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
@@ -2490,14 +2429,7 @@ Missing character: There is no ù in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-<<<<<<< HEAD
- [115]
-=======
- [110]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [120]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
@@ -2507,34 +2439,49 @@ Missing character: There is no ¢ in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
-<<<<<<< HEAD
- [116] [117]
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+ [121]
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+ [122] [123]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
 Missing character: There is no í in font cmr9!
 
-Overfull \hbox (19.92308pt too wide) in paragraph at lines 6206--6207
+Overfull \hbox (22.92311pt too wide) in paragraph at lines 6435--6436
 \OT1/cmr/m/n/9 Learn-ing (Sal-i-mans et al, Ope-nAI, 2017, [][]$\OT1/cmtt/m/n/9
  https : / / openai . com / blog / evolution-[]strategies/$[][]\OT1/cmr/m/n/9 )
  
  []
 
-[118] [119] [120] <natl_adv.PNG, id=1965, 901.65428pt x 312.30965pt>
-File: natl_adv.PNG Graphic file (type png)
+[124] [125]
+Overfull \hbox (0.60925pt too wide) in paragraph at lines 6545--6546
+[]\OT1/cmr/m/n/9 Most at-tacks are vari-ants of PGD for dif-fer-ent norm bounds
+. (1) Norm/perturbation
+ []
 
-<use natl_adv.PNG>
-Package pdftex.def Info: natl_adv.PNG used on input line 6415.
-=======
- [111] [112]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no í in font cmr9!
- [113] [114] [115]
-<natl_adv.PNG, id=1920, 901.65428pt x 312.30965pt>
+[126]
+Overfull \hbox (3.21794pt too wide) in paragraph at lines 6589--6590
+[]\OT1/cmr/m/n/9 Interval-based meth-ods. For-mu-late op-ti-miza-tion only con-
+sid-er-ing bound con-straints.
+ []
+
+[127] <natl_adv.PNG, id=2377, 901.65428pt x 312.30965pt>
 File: natl_adv.PNG Graphic file (type png)
  <use natl_adv.PNG>
-Package pdftex.def Info: natl_adv.PNG used on input line 6163.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: natl_adv.PNG used on input line 6646.
 (pdftex.def)             Requested size: 315.58372pt x 109.31001pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2560,285 +2507,189 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-<<<<<<< HEAD
- [121] [122 <./natl_adv.PNG>]
-<inv.png, id=1988, 1370.11874pt x 575.14874pt>
+
+[128 <./natl_adv.PNG>]
+Overfull \hbox (1.32208pt too wide) in paragraph at lines 6711--6713
+[]\OT1/cmr/m/n/9 EXCESSIVE IN-VARI-ANCE CAUSES AD-VER-SAR-IAL VUL-NER-A-BIL-ITY
+, ICLR 2019,
+ []
+
+<inv.png, id=2390, 1370.11874pt x 575.14874pt>
 File: inv.png Graphic file (type png)
  <use inv.png>
-Package pdftex.def Info: inv.png used on input line 6485.
+Package pdftex.def Info: inv.png used on input line 6716.
 (pdftex.def)             Requested size: 479.54875pt x 201.30507pt.
 
-Overfull \hbox (49.54413pt too wide) in paragraph at lines 6485--6486
+Overfull \hbox (49.54413pt too wide) in paragraph at lines 6716--6717
  [][] 
  []
 
-[123 <./inv.png>] [124] [125] [126] [127]
-<gradient_descent_2d2.png, id=2036, 406.51875pt x 418.56375pt>
+[129] [130 <./inv.png>] [131] [132] [133]
+<gradient_descent_2d2.png, id=2434, 406.51875pt x 418.56375pt>
 File: gradient_descent_2d2.png Graphic file (type png)
 
 <use gradient_descent_2d2.png>
-Package pdftex.def Info: gradient_descent_2d2.png used on input line 6772.
+Package pdftex.def Info: gradient_descent_2d2.png used on input line 7003.
 (pdftex.def)             Requested size: 213.39452pt x 163.60324pt.
- [128 <./gradient_descent_2d2.png>]
-<stochastic-vs-batch-gradient-descent.png, id=2050, 578.91281pt x 429.85594pt>
-=======
- [116]
-[117 <./natl_adv.PNG>] <inv.png, id=1942, 1370.11874pt x 575.14874pt>
-File: inv.png Graphic file (type png)
-
-<use inv.png>
-Package pdftex.def Info: inv.png used on input line 6233.
-(pdftex.def)             Requested size: 479.54875pt x 201.30507pt.
-
-Overfull \hbox (49.54413pt too wide) in paragraph at lines 6233--6234
- [][] 
- []
-
-[118 <./inv.png>] [119] [120] [121]
-<gradient_descent_2d2.png, id=1979, 406.51875pt x 418.56375pt>
-File: gradient_descent_2d2.png Graphic file (type png)
-
-<use gradient_descent_2d2.png>
-Package pdftex.def Info: gradient_descent_2d2.png used on input line 6520.
-(pdftex.def)             Requested size: 213.39452pt x 163.60324pt.
- [122]
-<stochastic-vs-batch-gradient-descent.png, id=1994, 578.91281pt x 429.85594pt>
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [134]
+<stochastic-vs-batch-gradient-descent.png, id=2448, 578.91281pt x 429.85594pt>
 File: stochastic-vs-batch-gradient-descent.png Graphic file (type png)
 
 <use stochastic-vs-batch-gradient-descent.png>
 Package pdftex.def Info: stochastic-vs-batch-gradient-descent.png used on input
-<<<<<<< HEAD
- line 6847.
+ line 7078.
 (pdftex.def)             Requested size: 256.07394pt x 199.17256pt.
-
-<comparison_table_sgd.png, id=2051, 905.3825pt x 472.76625pt>
-File: comparison_table_sgd.png Graphic file (type png)
-
-<use comparison_table_sgd.png>
-Package pdftex.def Info: comparison_table_sgd.png used on input line 6877.
-(pdftex.def)             Requested size: 312.97897pt x 142.2638pt.
-
-<ravine_wiki.jpg, id=2053, 250.9375pt x 377.41pt>
-File: ravine_wiki.jpg Graphic file (type jpg)
- <use ravine_wiki.jpg>
-Package pdftex.def Info: ravine_wiki.jpg used on input line 6934.
-(pdftex.def)             Requested size: 128.04152pt x 170.71402pt.
-
-<ravine_sgd.png, id=2054, 819.06pt x 569.12625pt>
-File: ravine_sgd.png Graphic file (type png)
- <use ravine_sgd.png>
-Package pdftex.def Info: ravine_sgd.png used on input line 6940.
-(pdftex.def)             Requested size: 156.48537pt x 147.95197pt.
- [129 <./stochastic-vs-batch-gradient-descent.png>]
-<without_momentum.png, id=2063, 411.5375pt x 174.6525pt>
-File: without_momentum.png Graphic file (type png)
-
-<use without_momentum.png>
-Package pdftex.def Info: without_momentum.png used on input line 6972.
-(pdftex.def)             Requested size: 215.0023pt x 91.24355pt.
-
-<with_momentum.png, id=2064, 411.5375pt x 174.6525pt>
-File: with_momentum.png Graphic file (type png)
- <use with_momentum.png>
-Package pdftex.def Info: with_momentum.png used on input line 6979.
-(pdftex.def)             Requested size: 215.0023pt x 91.24355pt.
-
-[130 <./comparison_table_sgd.png> <./ravine_wiki.jpg> <./ravine_sgd.png>]
-<momentum_webpage.png, id=2076, 990.70125pt x 305.14pt>
-File: momentum_webpage.png Graphic file (type png)
-
-<use momentum_webpage.png>
-Package pdftex.def Info: momentum_webpage.png used on input line 7006.
-(pdftex.def)             Requested size: 430.00462pt x 132.44148pt.
-
-<nesterov_update_vector.png, id=2080, 999.735pt x 288.07625pt>
-File: nesterov_update_vector.png Graphic file (type png)
-
-<use nesterov_update_vector.png>
-Package pdftex.def Info: nesterov_update_vector.png used on input line 7045.
-(pdftex.def)             Requested size: 301.00192pt x 86.73563pt.
- [131 <./without_momentum.png> <./with_momentum.png> <./momentum_webpage.png>] 
-[132 <./nesterov_update_vector.png>]
-<animations.png, id=2100, 945.5325pt x 421.575pt>
-File: animations.png Graphic file (type png)
- <use animations.png>
-Package pdftex.def Info: animations.png used on input line 7184.
-(pdftex.def)             Requested size: 408.50307pt x 182.1357pt.
- [133 <./animations.png>]
-<experiment_logistic_regression.png, id=2114, 923.45pt x 438.63875pt>
-=======
- line 6595.
-(pdftex.def)             Requested size: 256.07394pt x 199.17256pt.
- [123 <./gradient_descent_2d2.png>] <comparison_table_sgd.png, id=2004, 905.382
+ [135 <./gradient_descent_2d2.png>] <comparison_table_sgd.png, id=2458, 905.382
 5pt x 472.76625pt>
 File: comparison_table_sgd.png Graphic file (type png)
 
 <use comparison_table_sgd.png>
-Package pdftex.def Info: comparison_table_sgd.png used on input line 6625.
+Package pdftex.def Info: comparison_table_sgd.png used on input line 7108.
 (pdftex.def)             Requested size: 312.97897pt x 142.2638pt.
- [124 <./stochastic-vs-batch-gradient-descent.png> <./comparison_table_sgd.png>
-]
-<ravine_wiki.jpg, id=2013, 250.9375pt x 377.41pt>
+
+<ravine_wiki.jpg, id=2460, 250.9375pt x 377.41pt>
 File: ravine_wiki.jpg Graphic file (type jpg)
  <use ravine_wiki.jpg>
-Package pdftex.def Info: ravine_wiki.jpg used on input line 6682.
+Package pdftex.def Info: ravine_wiki.jpg used on input line 7165.
 (pdftex.def)             Requested size: 128.04152pt x 170.71402pt.
 
-<ravine_sgd.png, id=2014, 819.06pt x 569.12625pt>
+<ravine_sgd.png, id=2461, 819.06pt x 569.12625pt>
 File: ravine_sgd.png Graphic file (type png)
  <use ravine_sgd.png>
-Package pdftex.def Info: ravine_sgd.png used on input line 6688.
+Package pdftex.def Info: ravine_sgd.png used on input line 7171.
 (pdftex.def)             Requested size: 156.48537pt x 147.95197pt.
-
-<without_momentum.png, id=2016, 411.5375pt x 174.6525pt>
+ [136 <./stochastic-vs-batch-gradient-descent.png>]
+<without_momentum.png, id=2470, 411.5375pt x 174.6525pt>
 File: without_momentum.png Graphic file (type png)
 
 <use without_momentum.png>
-Package pdftex.def Info: without_momentum.png used on input line 6720.
+Package pdftex.def Info: without_momentum.png used on input line 7203.
 (pdftex.def)             Requested size: 215.0023pt x 91.24355pt.
 
-<with_momentum.png, id=2017, 411.5375pt x 174.6525pt>
+<with_momentum.png, id=2471, 411.5375pt x 174.6525pt>
 File: with_momentum.png Graphic file (type png)
  <use with_momentum.png>
-Package pdftex.def Info: with_momentum.png used on input line 6727.
+Package pdftex.def Info: with_momentum.png used on input line 7210.
 (pdftex.def)             Requested size: 215.0023pt x 91.24355pt.
 
-<momentum_webpage.png, id=2019, 990.70125pt x 305.14pt>
+[137 <./comparison_table_sgd.png> <./ravine_wiki.jpg> <./ravine_sgd.png>]
+<momentum_webpage.png, id=2485, 990.70125pt x 305.14pt>
 File: momentum_webpage.png Graphic file (type png)
 
 <use momentum_webpage.png>
-Package pdftex.def Info: momentum_webpage.png used on input line 6754.
+Package pdftex.def Info: momentum_webpage.png used on input line 7237.
 (pdftex.def)             Requested size: 430.00462pt x 132.44148pt.
- [125 <./ravine_wiki.jpg> <./ravine_sgd.png>]
-<nesterov_update_vector.png, id=2036, 999.735pt x 288.07625pt>
+
+<nesterov_update_vector.png, id=2489, 999.735pt x 288.07625pt>
 File: nesterov_update_vector.png Graphic file (type png)
 
 <use nesterov_update_vector.png>
-Package pdftex.def Info: nesterov_update_vector.png used on input line 6793.
+Package pdftex.def Info: nesterov_update_vector.png used on input line 7276.
 (pdftex.def)             Requested size: 301.00192pt x 86.73563pt.
- [126 <./without_momentum.png> <./with_momentum.png> <./momentum_webpage.png> <
-./nesterov_update_vector.png>] [127]
-<animations.png, id=2055, 945.5325pt x 421.575pt>
+ [138 <./without_momentum.png> <./with_momentum.png> <./momentum_webpage.png>] 
+[139 <./nesterov_update_vector.png>]
+<animations.png, id=2509, 945.5325pt x 421.575pt>
 File: animations.png Graphic file (type png)
  <use animations.png>
-Package pdftex.def Info: animations.png used on input line 6932.
+Package pdftex.def Info: animations.png used on input line 7415.
 (pdftex.def)             Requested size: 408.50307pt x 182.1357pt.
- [128 <./animations.png>]
-<experiment_logistic_regression.png, id=2067, 923.45pt x 438.63875pt>
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [140 <./animations.png>]
+<experiment_logistic_regression.png, id=2522, 923.45pt x 438.63875pt>
 File: experiment_logistic_regression.png Graphic file (type png)
 
 <use experiment_logistic_regression.png>
 Package pdftex.def Info: experiment_logistic_regression.png used on input line 
-<<<<<<< HEAD
-7308.
+7539.
 (pdftex.def)             Requested size: 408.50307pt x 194.03906pt.
 
-<experiment_cnn.png, id=2116, 819.06pt x 388.45125pt>
+<experiment_cnn.png, id=2524, 819.06pt x 388.45125pt>
 File: experiment_cnn.png Graphic file (type png)
  <use experiment_cnn.png>
-Package pdftex.def Info: experiment_cnn.png used on input line 7332.
+Package pdftex.def Info: experiment_cnn.png used on input line 7563.
 (pdftex.def)             Requested size: 408.50307pt x 193.7391pt.
 
-[134] [135 <./experiment_logistic_regression.png> <./experiment_cnn.png>]
-<NMT1.png, id=2138, 879.285pt x 576.1525pt>
+[141] [142 <./experiment_logistic_regression.png> <./experiment_cnn.png>]
+[143] <NMT1.png, id=2553, 879.285pt x 576.1525pt>
 File: NMT1.png Graphic file (type png)
  <use NMT1.png>
-Package pdftex.def Info: NMT1.png used on input line 7450.
+Package pdftex.def Info: NMT1.png used on input line 7681.
 (pdftex.def)             Requested size: 430.00462pt x 281.75453pt.
 
-<NMT2.png, id=2139, 760.8425pt x 510.90875pt>
+<NMT2.png, id=2554, 760.8425pt x 510.90875pt>
 File: NMT2.png Graphic file (type png)
  <use NMT2.png>
-Package pdftex.def Info: NMT2.png used on input line 7464.
+Package pdftex.def Info: NMT2.png used on input line 7695.
 (pdftex.def)             Requested size: 430.00462pt x 288.75752pt.
- [136] [137 <./NMT1.png>]
+ [144 <./NMT1.png>] [145 <./NMT2.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
- [138 <./NMT2.png>]
-Overfull \hbox (5.07486pt too wide) in paragraph at lines 7530--7531
+
+Overfull \hbox (8.07489pt too wide) in paragraph at lines 7761--7762
 []\OT1/cmr/m/n/9 List of ref-er-ences [][]$\OT1/cmtt/m/n/9 https : / / github .
  com / bharathgs / Awesome-[]Distributed-[]Deep-[]Learning$[][] 
  []
 
 
-Overfull \hbox (172.69405pt too wide) in paragraph at lines 7533--7534
+Overfull \hbox (175.69408pt too wide) in paragraph at lines 7764--7765
 []\OT1/cmr/m/n/9 Distributed deep learn-ing re-view [][]$\OT1/cmtt/m/n/9 https 
 : / / insidehpc . com / 2018 / 04 / video-[]demystifying-[]parallel-[]distribut
 ed-[]deep-[]learning/$[][] 
  []
 
-<mapred.png, id=2167, 1072.75781pt x 610.53094pt>
+[146] <mapred.png, id=2584, 1072.75781pt x 610.53094pt>
 File: mapred.png Graphic file (type png)
  <use mapred.png>
-Package pdftex.def Info: mapred.png used on input line 7588.
+Package pdftex.def Info: mapred.png used on input line 7819.
 (pdftex.def)             Requested size: 307.14749pt x 174.80429pt.
 
-<image5.png, id=2169, 882.29625pt x 447.81589pt>
+<image5.png, id=2586, 882.29625pt x 447.81589pt>
 File: image5.png Graphic file (type png)
  <use image5.png>
-Package pdftex.def Info: image5.png used on input line 7604.
+Package pdftex.def Info: image5.png used on input line 7835.
 (pdftex.def)             Requested size: 307.14749pt x 155.8906pt.
- [139]
-<fc.png, id=2185, 572.1375pt x 397.485pt>
+
+<fc.png, id=2588, 572.1375pt x 397.485pt>
 File: fc.png Graphic file (type png)
  <use fc.png>
-Package pdftex.def Info: fc.png used on input line 7619.
+Package pdftex.def Info: fc.png used on input line 7850.
 (pdftex.def)             Requested size: 245.71425pt x 170.709pt.
- [140 <./mapred.png> <./image5.png>]
-=======
-7056.
-(pdftex.def)             Requested size: 408.50307pt x 194.03906pt.
-
-<experiment_cnn.png, id=2069, 819.06pt x 388.45125pt>
-File: experiment_cnn.png Graphic file (type png)
- <use experiment_cnn.png>
-Package pdftex.def Info: experiment_cnn.png used on input line 7080.
-(pdftex.def)             Requested size: 408.50307pt x 193.7391pt.
-
-[129] [130 <./experiment_logistic_regression.png> <./experiment_cnn.png>]
-<NMT1.png, id=2091, 879.285pt x 576.1525pt>
-File: NMT1.png Graphic file (type png)
- <use NMT1.png>
-Package pdftex.def Info: NMT1.png used on input line 7198.
-(pdftex.def)             Requested size: 430.00462pt x 281.75453pt.
-
-<NMT2.png, id=2092, 760.8425pt x 510.90875pt>
-File: NMT2.png Graphic file (type png)
- <use NMT2.png>
-Package pdftex.def Info: NMT2.png used on input line 7212.
-(pdftex.def)             Requested size: 430.00462pt x 288.75752pt.
- [131]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
- [132 <./NMT1.png>] [133 <./NMT2.png>] <mapred.png, id=2119, 1072.75781pt x 610
-.53094pt>
-File: mapred.png Graphic file (type png)
-
-<use mapred.png>
-Package pdftex.def Info: mapred.png used on input line 7331.
-(pdftex.def)             Requested size: 307.14749pt x 174.80429pt.
- <image5.png, id=2121, 882.29625pt x 447.81589pt>
-File: image5.png Graphic file (type png)
-
-<use image5.png>
-Package pdftex.def Info: image5.png used on input line 7347.
-(pdftex.def)             Requested size: 307.14749pt x 155.8906pt.
- <fc.png, id=2123, 572.1375pt x 397.485pt>
-File: fc.png Graphic file (type png)
- <use fc.png>
-Package pdftex.def Info: fc.png used on input line 7362.
-(pdftex.def)             Requested size: 307.14749pt x 213.38928pt.
-
-[134] [135 <./mapred.png> <./image5.png>] [136 <./fc.png>]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [147 <./mapred.png>]
+[148 <./image5.png> <./fc.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
- [141 <./fc.png>]
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ¢ in font cmr9!
+ [149]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
@@ -2890,76 +2741,31 @@ Missing character: There is no ¢ in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
- [137]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
- [142]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ¢ in font cmr9!
+ [150]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ¢ in font cmr9!
 
-<<<<<<< HEAD
-<bsts.png, id=2232, 903.375pt x 526.96875pt>
+<bsts.png, id=2645, 903.375pt x 526.96875pt>
 File: bsts.png Graphic file (type png)
  <use bsts.png>
-Package pdftex.def Info: bsts.png used on input line 7863.
+Package pdftex.def Info: bsts.png used on input line 8095.
 (pdftex.def)             Requested size: 430.00462pt x 250.84344pt.
- [143]
-<nas.png, id=2247, 368.1253pt x 143.03438pt>
+ [151]
+<nas.png, id=2661, 368.1253pt x 143.03438pt>
 File: nas.png Graphic file (type png)
  <use nas.png>
-Package pdftex.def Info: nas.png used on input line 7909.
-=======
-<nas.png, id=2183, 368.1253pt x 143.03438pt>
-File: nas.png Graphic file (type png)
- <use nas.png>
-Package pdftex.def Info: nas.png used on input line 7625.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: nas.png used on input line 8146.
 (pdftex.def)             Requested size: 258.00539pt x 100.25432pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[144 <./bsts.png>] <nas2.png, id=2260, 877.2775pt x 625.33624pt>
+[152 <./bsts.png>] <nas2.png, id=2672, 877.2775pt x 625.33624pt>
 File: nas2.png Graphic file (type png)
 
 <use nas2.png>
-Package pdftex.def Info: nas2.png used on input line 7930.
-=======
-[138] <nas2.png, id=2198, 877.2775pt x 625.33624pt>
-File: nas2.png Graphic file (type png)
- <use nas2.png>
-Package pdftex.def Info: nas2.png used on input line 7646.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: nas2.png used on input line 8167.
 (pdftex.def)             Requested size: 258.00539pt x 183.90962pt.
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
@@ -2979,255 +2785,163 @@ Missing character: There is no ù in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
-<<<<<<< HEAD
- <nas3.png, id=2262, 879.285pt x 628.3475pt>
+ <nas3.png, id=2674, 879.285pt x 628.3475pt>
 File: nas3.png Graphic file (type png)
  <use nas3.png>
-Package pdftex.def Info: nas3.png used on input line 7949.
+Package pdftex.def Info: nas3.png used on input line 8186.
 (pdftex.def)             Requested size: 258.00539pt x 184.37335pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nas4.png, id=2264, 561.97453pt x 448.29985pt>
+<nas4.png, id=2676, 561.97453pt x 448.29985pt>
 File: nas4.png Graphic file (type png)
  <use nas4.png>
-Package pdftex.def Info: nas4.png used on input line 7961.
+Package pdftex.def Info: nas4.png used on input line 8198.
 (pdftex.def)             Requested size: 280.98657pt x 224.14937pt.
 
-Overfull \hbox (65.98427pt too wide) in paragraph at lines 7961--7962
+Overfull \hbox (65.98427pt too wide) in paragraph at lines 8198--8199
  [][] 
  []
 
-<nas5.png, id=2265, 161.85469pt x 160.34906pt>
+<nas5.png, id=2677, 161.85469pt x 160.34906pt>
 File: nas5.png Graphic file (type png)
  <use nas5.png>
-Package pdftex.def Info: nas5.png used on input line 7965.
+Package pdftex.def Info: nas5.png used on input line 8202.
 (pdftex.def)             Requested size: 97.11354pt x 96.21017pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[145 <./nas.png> <./nas2.png>] [146 <./nas3.png> <./nas4.png> <./nas5.png>]
-<nas6.png, id=2294, 897.3525pt x 615.29875pt>
+[153 <./nas.png> <./nas2.png>] [154 <./nas3.png> <./nas4.png> <./nas5.png>]
+<nas6.png, id=2705, 897.3525pt x 615.29875pt>
 File: nas6.png Graphic file (type png)
  <use nas6.png>
-Package pdftex.def Info: nas6.png used on input line 8002.
+Package pdftex.def Info: nas6.png used on input line 8239.
 (pdftex.def)             Requested size: 387.00153pt x 265.36195pt.
 
-<nas7.png, id=2295, 1135.24126pt x 433.62pt>
+<nas7.png, id=2706, 1135.24126pt x 433.62pt>
 File: nas7.png Graphic file (type png)
  <use nas7.png>
-Package pdftex.def Info: nas7.png used on input line 8010.
-(pdftex.def)             Requested size: 387.00153pt x 147.81921pt.
- [147 <./nas6.png> <./nas7.png>] <nas8.png, id=2309, 904.37875pt x 620.3175pt>
-File: nas8.png Graphic file (type png)
- <use nas8.png>
-Package pdftex.def Info: nas8.png used on input line 8033.
-(pdftex.def)             Requested size: 344.005pt x 235.95027pt.
-
-<nas9.png, id=2310, 892.33376pt x 618.31pt>
-File: nas9.png Graphic file (type png)
- <use nas9.png>
-Package pdftex.def Info: nas9.png used on input line 8041.
-=======
- [139 <./nas.png> <./nas2.png>] <nas3.png, id=2210, 879.285pt x 628.3475pt>
-File: nas3.png Graphic file (type png)
- <use nas3.png>
-Package pdftex.def Info: nas3.png used on input line 7665.
-(pdftex.def)             Requested size: 258.00539pt x 184.37335pt.
-
-<nas4.png, id=2212, 561.97453pt x 448.29985pt>
-File: nas4.png Graphic file (type png)
- <use nas4.png>
-Package pdftex.def Info: nas4.png used on input line 7677.
-(pdftex.def)             Requested size: 280.98657pt x 224.14937pt.
-
-Overfull \hbox (65.98427pt too wide) in paragraph at lines 7677--7678
- [][] 
- []
-
-<nas5.png, id=2213, 161.85469pt x 160.34906pt>
-File: nas5.png Graphic file (type png)
- <use nas5.png>
-Package pdftex.def Info: nas5.png used on input line 7681.
-(pdftex.def)             Requested size: 97.11354pt x 96.21017pt.
- [140 <./nas3.png> <./nas4.png> <./nas5.png>] <nas6.png, id=2228, 897.3525pt x 
-615.29875pt>
-File: nas6.png Graphic file (type png)
-
-<use nas6.png>
-Package pdftex.def Info: nas6.png used on input line 7718.
-(pdftex.def)             Requested size: 387.00153pt x 265.36195pt.
- <nas7.png, id=2229, 1135.24126pt x 433.62pt>
-File: nas7.png Graphic file (type png)
- <use nas7.png>
-Package pdftex.def Info: nas7.png used on input line 7726.
+Package pdftex.def Info: nas7.png used on input line 8247.
 (pdftex.def)             Requested size: 387.00153pt x 147.81921pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nas8.png, id=2232, 904.37875pt x 620.3175pt>
+<nas8.png, id=2709, 904.37875pt x 620.3175pt>
 File: nas8.png Graphic file (type png)
  <use nas8.png>
-Package pdftex.def Info: nas8.png used on input line 7749.
+Package pdftex.def Info: nas8.png used on input line 8270.
 (pdftex.def)             Requested size: 344.005pt x 235.95027pt.
- [141 <./nas6.png>] <nas9.png, id=2250, 892.33376pt x 618.31pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nas9.png, id=2710, 892.33376pt x 618.31pt>
 File: nas9.png Graphic file (type png)
  <use nas9.png>
-Package pdftex.def Info: nas9.png used on input line 7757.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: nas9.png used on input line 8278.
 (pdftex.def)             Requested size: 258.00539pt x 178.77696pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-<nas10.png, id=2312, 1372.12625pt x 352.31625pt>
+[155 <./nas6.png>] <nas10.png, id=2726, 1372.12625pt x 352.31625pt>
 File: nas10.png Graphic file (type png)
- <use nas10.png>
-Package pdftex.def Info: nas10.png used on input line 8059.
+
+<use nas10.png>
+Package pdftex.def Info: nas10.png used on input line 8296.
 (pdftex.def)             Requested size: 387.00153pt x 99.36824pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[148 <./nas8.png>] <DARTS.png, id=2329, 1005.7575pt x 538.01pt>
+[156 <./nas7.png> <./nas8.png>] <DARTS.png, id=2739, 1005.7575pt x 538.01pt>
 File: DARTS.png Graphic file (type png)
 
 <use DARTS.png>
-Package pdftex.def Info: DARTS.png used on input line 8098.
-=======
-[142 <./nas7.png> <./nas8.png>]
-<nas10.png, id=2262, 1372.12625pt x 352.31625pt>
-File: nas10.png Graphic file (type png)
- <use nas10.png>
-Package pdftex.def Info: nas10.png used on input line 7775.
-(pdftex.def)             Requested size: 387.00153pt x 99.36824pt.
-
-<DARTS.png, id=2264, 1005.7575pt x 538.01pt>
-File: DARTS.png Graphic file (type png)
- <use DARTS.png>
-Package pdftex.def Info: DARTS.png used on input line 7808.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: DARTS.png used on input line 8335.
 (pdftex.def)             Requested size: 387.00153pt x 207.01544pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[149 <./nas9.png> <./nas10.png>] [150 <./DARTS.png>] [151]
-<automl.png, id=2378, 626.34pt x 62.2325pt>
+[157 <./nas9.png> <./nas10.png>] [158 <./DARTS.png>] [159]
+<automl.png, id=2788, 626.34pt x 62.2325pt>
 File: automl.png Graphic file (type png)
  <use automl.png>
-Package pdftex.def Info: automl.png used on input line 8289.
+Package pdftex.def Info: automl.png used on input line 8527.
 (pdftex.def)             Requested size: 301.00192pt x 29.90828pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
- [152 <./automl.png>] <pennai.jpg, id=2394, 646.21425pt x 428.802pt>
+[160] <pennai.jpg, id=2802, 646.21425pt x 428.802pt>
 File: pennai.jpg Graphic file (type jpg)
  <use pennai.jpg>
-Package pdftex.def Info: pennai.jpg used on input line 8336.
+Package pdftex.def Info: pennai.jpg used on input line 8576.
 (pdftex.def)             Requested size: 301.00192pt x 199.73764pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[153]
-Overfull \hbox (133.16478pt too wide) in paragraph at lines 8380--8381
+[161 <./automl.png>]
+Overfull \hbox (136.16481pt too wide) in paragraph at lines 8621--8622
 [][][]$\OT1/cmtt/m/n/9 https : / / towardsdatascience . com / explaining-[]feat
 ure-[]importance-[]by-[]example-[]of-[]a-[]random-[]forest-[]d9166011959e$[][] 
 
  []
 
-[154 <./pennai.jpg>] <saliency.png, id=2422, 883.58679pt x 389.74179pt>
+[162 <./pennai.jpg>] <saliency.png, id=2834, 883.58679pt x 389.74179pt>
 File: saliency.png Graphic file (type png)
 
 <use saliency.png>
-Package pdftex.def Info: saliency.png used on input line 8410.
-=======
-[143 <./nas9.png> <./nas10.png>] [144 <./DARTS.png>] [145] [146]
-<pennai.jpg, id=2328, 646.21425pt x 428.802pt>
-File: pennai.jpg Graphic file (type jpg)
- <use pennai.jpg>
-Package pdftex.def Info: pennai.jpg used on input line 8034.
-(pdftex.def)             Requested size: 301.00192pt x 199.73764pt.
- [147 <./pennai.jpg>] <saliency.png, id=2342, 883.58679pt x 389.74179pt>
-File: saliency.png Graphic file (type png)
- <use saliency.png>
-Package pdftex.def Info: saliency.png used on input line 8093.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Package pdftex.def Info: saliency.png used on input line 8656.
 (pdftex.def)             Requested size: 430.00462pt x 189.67276pt.
- [155 <./saliency.png>] [156] [157]
+ [163 <./saliency.png>] [164] [165]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
 Missing character: There is no í in font cmr9!
 
-<<<<<<< HEAD
-<lot.png, id=2447, 1053.07715pt x 443.94429pt>
+<lot.png, id=2859, 1053.07715pt x 443.94429pt>
 File: lot.png Graphic file (type png)
  <use lot.png>
-Package pdftex.def Info: lot.png used on input line 8614.
+Package pdftex.def Info: lot.png used on input line 8863.
 (pdftex.def)             Requested size: 430.00462pt x 181.27318pt.
- [158 <./lot.png>]
-=======
-[148 <./saliency.png>] [149] [150]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no í in font cmr9!
-
-<lot.png, id=2368, 1053.07715pt x 443.94429pt>
-File: lot.png Graphic file (type png)
- <use lot.png>
-Package pdftex.def Info: lot.png used on input line 8294.
-(pdftex.def)             Requested size: 430.00462pt x 181.27318pt.
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [166]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no î in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no î in font cmr9!
-<<<<<<< HEAD
-
-[159] [160] <gcnn_mol.png, id=2483, 939.51pt x 419.4241pt>
+ [167 <./lot.png>] [168] <gcnn_mol.png, id=2891, 939.51pt x 419.4241pt>
 File: gcnn_mol.png Graphic file (type png)
  <use gcnn_mol.png>
-Package pdftex.def Info: gcnn_mol.png used on input line 8795.
+Package pdftex.def Info: gcnn_mol.png used on input line 9052.
 (pdftex.def)             Requested size: 430.00462pt x 191.96465pt.
 
-[161] [162 <./gcnn_mol.png>] <br.png, id=2499, 231.86626pt x 224.12303pt>
+[169] [170 <./gcnn_mol.png>] <br.png, id=2914, 231.86626pt x 224.12303pt>
 File: br.png Graphic file (type png)
 
 <use br.png>
-Package pdftex.def Info: br.png used on input line 8875.
+Package pdftex.def Info: br.png used on input line 9132.
 (pdftex.def)             Requested size: 171.99922pt x 166.2588pt.
- [163 <./br.png>]
+ [171]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
- [164] [165] [166] [167] [168]
-=======
- [151] [152 <./lot.png>] [153] <gcnn_mol.png, id=2403, 939.51pt x 419.4241pt>
-File: gcnn_mol.png Graphic file (type png)
- <use gcnn_mol.png>
-Package pdftex.def Info: gcnn_mol.png used on input line 8474.
-(pdftex.def)             Requested size: 430.00462pt x 191.96465pt.
+ [172 <./br.png>] [173] [174] [175] [176]
+Overfull \hbox (84.22609pt too wide) in paragraph at lines 9475--9477
+\OT1/cmr/m/n/9 min (Zhou et al, ICLR 2019. Some of it is em-pir-i-cal) >>>>>>> 
+36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d 
+ []
 
-[154] [155 <./gcnn_mol.png>] <br.png, id=2419, 231.86626pt x 224.12303pt>
-File: br.png Graphic file (type png)
-
-<use br.png>
-Package pdftex.def Info: br.png used on input line 8543.
-(pdftex.def)             Requested size: 171.99922pt x 166.2588pt.
- [156 <./br.png>]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
- [157] [158] [159] [160] [161]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[177]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
@@ -3237,43 +2951,22 @@ Missing character: There is no ù in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
-<<<<<<< HEAD
- [169]
-<s.png, id=2567, 1106.84946pt x 537.29303pt>
+ [178] <s.png, id=2986, 1106.84946pt x 537.29303pt>
 File: s.png Graphic file (type png)
  <use s.png>
-Package pdftex.def Info: s.png used on input line 9369.
+Package pdftex.def Info: s.png used on input line 9638.
 (pdftex.def)             Requested size: 387.00153pt x 187.85861pt.
 
-<rmm.png, id=2570, 246.06215pt x 183.68625pt>
+<rmm.png, id=2989, 246.06215pt x 183.68625pt>
 File: rmm.png Graphic file (type png)
  <use rmm.png>
-Package pdftex.def Info: rmm.png used on input line 9396.
+Package pdftex.def Info: rmm.png used on input line 9665.
 (pdftex.def)             Requested size: 107.50114pt x 80.25041pt.
- [170]
+ [179]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
- [171 <./s.png> <./rmm.png>]
-=======
- [162]
-<s.png, id=2485, 1106.84946pt x 537.29303pt>
-File: s.png Graphic file (type png)
- <use s.png>
-Package pdftex.def Info: s.png used on input line 9030.
-(pdftex.def)             Requested size: 387.00153pt x 187.85861pt.
-
-<rmm.png, id=2488, 246.06215pt x 183.68625pt>
-File: rmm.png Graphic file (type png)
- <use rmm.png>
-Package pdftex.def Info: rmm.png used on input line 9057.
-(pdftex.def)             Requested size: 107.50114pt x 80.25041pt.
- [163]
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
- [164 <./s.png> <./rmm.png>]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ [180 <./s.png> <./rmm.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
@@ -3281,11 +2974,7 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
 
-<<<<<<< HEAD
-Overfull \hbox (14.04214pt too wide) in paragraph at lines 9493--9495
-=======
-Overfull \hbox (14.04214pt too wide) in paragraph at lines 9154--9156
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+Overfull \hbox (17.04218pt too wide) in paragraph at lines 9762--9764
 []$\OML/cmm/m/it/9 E[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 t\OT1/cmr/m/n/9 ) = \OML/
 cmm/m/it/9 n[] [][] \U/msb/m/n/9 E\OT1/cmr/m/n/9 ([] \OMS/cmsy/m/n/9   \OML/cmm
 /m/it/9 z[]\OT1/cmr/m/n/9 )[] + \OML/cmm/m/it/9 [] \OT1/cmr/m/n/9 = \OML/cmm/m
@@ -3296,11 +2985,7 @@ it/9 []\OT1/cmr/m/n/9 ) [](\OMS/cmsy/m/n/9  \OT1/cmr/m/n/9 2\OML/cmm/m/it/9 [
 ] +
  []
 
-<<<<<<< HEAD
-[172]
-=======
-[165]
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+[181]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
@@ -3313,46 +2998,37 @@ Missing character: There is no ú in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
-<<<<<<< HEAD
- [173] [174]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9911.
- [175]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 9911.
+ [182] [183] [184]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 10180.
+ [185]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 10180.
  (stat_991.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 9911.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9911.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 10180.
 
-Package rerunfilecheck Info: File `stat_991.out' has not changed.
-(rerunfilecheck)             Checksum: BD57141D59D04BE014665CE4572E34F0;6952.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9911.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 10180
+.
+
+
+Package rerunfilecheck Warning: File `stat_991.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `stat_991.out':
+(rerunfilecheck)             Before: DBF1FB262CE97C61CDDB884D4173F781;13282
+(rerunfilecheck)             After:  435ACBECA6010A46DA45EE9520BAA58A;7043.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 10180.
  ) 
 Here is how much of TeX's memory you used:
- 11664 strings out of 493323
- 164275 string characters out of 3139067
- 256698 words of memory out of 3000000
+ 11709 strings out of 493323
+ 164740 string characters out of 3139058
+ 257025 words of memory out of 3000000
  13796 multiletter control sequences out of 15000+200000
-=======
- [166] [167]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9560.
- [168]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 9560.
- (stat_991.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 9560.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9560.
-
-Package rerunfilecheck Info: File `stat_991.out' has not changed.
-(rerunfilecheck)             Checksum: 256CE0E1D62F96005C637ED266780EC7;6803.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9560.
- ) 
-Here is how much of TeX's memory you used:
- 11617 strings out of 493323
- 163743 string characters out of 3139067
- 256484 words of memory out of 3000000
- 13779 multiletter control sequences out of 15000+200000
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
  20785 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,18n,41p,758b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,18n,41p,758b,668s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
@@ -3379,17 +3055,9 @@ blic/amsfonts/cm/cmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
 ols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
 /msbm7.pfb>
-<<<<<<< HEAD
-Output written on stat_991.pdf (175 pages, 32882532 bytes).
+Output written on stat_991.pdf (185 pages, 32946035 bytes).
 PDF statistics:
- 2976 PDF objects out of 2984 (max. 8388607)
- 1251 named destinations out of 1440 (max. 500000)
- 1469 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Output written on stat_991.pdf (168 pages, 32484818 bytes).
-PDF statistics:
- 2886 PDF objects out of 2984 (max. 8388607)
- 1221 named destinations out of 1440 (max. 500000)
- 1438 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+ 3408 PDF objects out of 3580 (max. 8388607)
+ 1296 named destinations out of 1440 (max. 500000)
+ 2157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
