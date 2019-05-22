@@ -781,7 +781,11 @@ Watch this space. Much more to come.
 \end{figure}
 
 %\item Naming: ...Net, Deep...
+<<<<<<< HEAD
 \item Critical perspectives. There are a lot of questions. (Donoho speaking at the NAS Science of Deep learning colloquium, \url{https://www.youtube.com/watch?v=DTW8e_hQZqo})
+=======
+\item Critical perspectives. There are a lot of questions. (Donoho, \url{https://www.youtube.com/watch?v=DTW8e_hQZqo})
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 DL Research is expensive. Cost is not possible for academics. Huge scale data. Can't be reproduced. Benefits ought to be shared more widely. 
 
@@ -2811,20 +2815,29 @@ Feed to RNN as a state variable. Output: Caption.
 
 \benum
 
+<<<<<<< HEAD
 \item BERT: idirectional Encoder Representations from Transformers
 
 \item Temporal Convolutional Networks (TCN). Figure \ref{TCN}
+=======
+\item Temporal Convolutional Networks (TCN)
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 
 \begin{figure}
   \centering
+<<<<<<< HEAD
   \includegraphics[scale=0.4]{tcn.png}
+=======
+  \includegraphics[scale=0.5]{tcn.png}
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
     \caption{TCN}
     \label{TCN}
 \end{figure}
 
 
 
+<<<<<<< HEAD
 \item Ordered neurons: integrating tree structures into RNNs (ICLR 2019 best paper)
 
 \item Antisymmetric RNNs: Dynamical system view on RNNs
@@ -2848,6 +2861,12 @@ WaveNet by Google for sound synthesis uses an "atrous convolution", which is a h
 Translatotron: An End-to-End Speech-to-Speech Translation Model
 
 
+=======
+\item Ordered neurons: integrating tree structures into RNNs 
+
+\item Antisymmetric RNNs: Dynamical system view on RNNs
+
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 \eenum 
 
 \section{Unsupervised learning}
@@ -3122,8 +3141,13 @@ produces crisp samples and stable FID scores that are actually competitive with 
 of GAN models, all while retaining desirable attributes of the original VAE architecture"
 
 \item One can control the distribution of the latent space, by adding an extra penatly. "Sliced Wasserstein AE" (ICLR 2019)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 
+\item Understanding latent space
 
 \item Understanding latent space
 
@@ -3613,7 +3637,99 @@ into the both the discriminator and generator as additional input layer."
 
 "In the generator the prior input noise $p_z(z)$, and $y$ are combined in joint hidden representation, and the adversarial training framework allows for considerable flexibility in how this hidden representation is composed.
 In the discriminator $x$ and $y$ are presented as inputs and to a discriminative function."
+<<<<<<< HEAD
 
+
+cGAN objective: 
+
+$$\min_G\max_D V(D,G) 
+= \E_{x\sim P_n(x)}\log D(x|y) + 
+\E_{z\sim p(z)} \log[1-D(G(z|y))] $$
+
+
+\item 
+
+Harmonizing with MLE: Address the problem of mode collapse in cGAN. 
+
+Loss forces the moments of the generated distribution to be equal to the empirical moments. 
+
+Add a loss of the form $L_{MR} = \E_{z,x|y}(\E(G(z)) - \E x)^2$,
+
+\item 
+
+CycleGAN: unsupervised image-to-image translation
+
+GauGAN
+
+BigGAN
+ 
+Bayesian GAN, ProbGAN
+
+\eenum 
+
+\subsection{Other questions in unsupervised learning}
+
+\benum 
+\item Deep Infomax (Hjelm et al, 2019): 
+
+Learning unsupervised representations: not enough labels. Labels do not tell whole story. Sparse rewards in RL. Want to learn structure not related to annotations (discovery)
+
+"There are many popular methods for learning representations. Classic methods, such as independent
+component analysis (ICA, Bell \& Sejnowski, 1995) and self-organizing maps (Kohonen, 1998),
+generally lack the representational capacity of deep neural networks."
+
+
+
+Maximize mutual information between an input and the output of a deep neural network encoder. (A type of self-supervision)
+
+Local structure is crucial. 
+=======
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
+
+To estimate MI, use MINE (Belghazi et al, 2018)
+
+Pipeline: Input image $\to$ Local feature vectors (patches) $\to$ Global rep
+
+$$(\hat \omega,\hat \psi)_G 
+= \arg\max_{\omega,\psi}
+\hat I_{\omega}(X;E_\psi(X)),$$ 
+
+where $E$ is the encoder NN, and the information estimator (MINE) depends on a discriminator $T_\omega$ which attempts to maximize the Donsker-Varadhan representation (where $J$ is the joint distribution of $X,Y$ and $M$ is the product of marginals)
+
+$$I(X;Y) := D_{KL}(J|M) \ge \hat I_\omega(X;Y) 
+:= \E_J[T_\omega (x,y)] - \log \E_M [\exp(T_\omega(x,y)],$$ 
+
+4.1 HOW DO WE EVALUATE THE QUALITY OF A REPRESENTATION?
+
+Evaluation of representations is case-driven and relies on various proxies. Linear separability is
+commonly used as a proxy for disentanglement and mutual information (MI) between representations
+and class labels.  This will not show whether the representation has high MI with
+the class labels when the representation is not disentangled.
+
+
+1. Estimate MI of input/output. 
+
+2. Next, we can directly measure the independence of the representation using a discriminator. Given a
+batch of representations, we generate a factor-wise independent distribution with the same per-factor
+marginals by randomly shuffling each factor along the batch dimension. A similar trick has been used
+for learning maximally independent representations for sequential data (Brakel \& Bengio, 2017). We
+can train a discriminator to estimate the KL-divergence between the original and shuffled representations.
+
+
+[If you learn the right features, supervised learning becomes easy. You can learn the right features in an unsupervised manner my maximizing information-theoretic quantities and information extraction.]
+
+\item Spectral Inference Networks
+
+One can also measure the compositionality of representations (see e.g., J Andreas, ICLR 2019).
+
+\item Semi-supervised learning: can learn a dimension reduction method to capture the structure of the output of a supervised method. (Teacher-student network. see Law et al, 2019 ICLR)
+
+\item Discriminative models are susceptible to overconfidence on out-of-distribution (OOD) inputs. Generative models are believed to be more robust. However, some deep gen models can assign higher density estimates to OOD dataset than the training data.
+
+\item Glow (Kingma, Dharival, 2018)
+
+Disentanglement
+\eenum
 
 cGAN objective: 
 
@@ -3700,8 +3816,6 @@ One can also measure the compositionality of representations (see e.g., J Andrea
 \item Discriminative models are susceptible to overconfidence on out-of-distribution (OOD) inputs. Generative models are believed to be more robust. However, some deep gen models can assign higher density estimates to OOD dataset than the training data.
 
 \item Glow (Kingma, Dharival, 2018)
-
-Disentanglement
 \eenum
 
 
@@ -6020,6 +6134,11 @@ between choice states
 - Reward of 0 for timesteps where M does not change
 \end{enumerate}
 
+<<<<<<< HEAD
+=======
+\item  Conclusion: Add temporally-extended activities without
+precluding fine-grained control
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 "A HAMQ-learning agent keeps track of the following quantities:  the current environment
 state; the current machine state; $s_t$ and $m_t$, the environment state and machine state at
@@ -6043,6 +6162,115 @@ state transition functions for each machine
 solutions are well known, but whose relationships are not
 \end{enumerate}
 
+\item Hierarchies of Abstract Machines (HAMs)
+
+\benum
+\item 
+
+"A HAM is a program which, when executed by an agent in an environment, constrains the
+actions that the agent can take in each state."
+
+
+Apply temporal abstraction to
+SIMPLIFY rather than augment
+
+Well-known set of optimal (or
+good enough) policies for long-
+time horizon actions, e.g., Robot navigation
+
+\item Formalization: 
+
+"Machines for HAMs are defined by a set of states, a transition function, and a
+start function that determines the initial state of the machine."
+
+\benum 
+
+\item
+Collection $H$ of finite state machines $H_i$. States $m_t$, state set $S$
+\item
+Core environment MDP $M$ (i.e., a model). States $s_t$, state set $S_M$
+\item
+Machine state initialization function $I_i: S_M\to S$ [In my environment state, I decided to call machine $i$, and I should start in a specific machine state]
+\item
+Stochastic state transition function: $\delta_i: S\to S$ (withing machines)
+\item
+
+"The state space of the problem is $S \times S_M$, where $S$ is the machine state and $S_M$ is the state of the underlying MDP. The actions are executed as usual, adhering to a policy defined on the states."
+\eenum 
+
+
+State set $S$ within machines:
+
+\begin{enumerate}
+\item Action: Executes action of $M$, depending on machine state $m_t$, and environment state $s_t$: $a = \pi(m_t, s_t)$. 
+
+\item Call: Suspends execution
+of current machine,
+calls another
+machine $H_j$, function
+of machine state $m_t$.
+Machine state initialization function applied to the environment $I_j(s_t)$ sets initial
+state
+
+\item Choice: Non-
+deterministically
+chooses next
+state of $H_i$
+
+\item Stop: Suspends execution
+of current machine.
+Resumes execution
+of calling machine
+
+
+\end{enumerate}
+
+\item HAMs: SMDP view. Equivalent to SMPD : $H \odot M$. 
+
+\begin{enumerate}
+\item 
+• State : $S \times S_M$, "cross-product of the states of HAM with the states of MDP."
+
+\item  Actions: Choice points of $H$. "For each state where the machine component is a choice state,
+actions that change only the machine component of the state are introduced."
+
+- Runs autonomously via action states until next choice point reached
+
+- Do not learn within machine policies - program these
+
+\item  Reward: Discounted awards accumulated during timesteps
+between choice states
+
+- Reward of 0 for timesteps where M does not change
+\end{enumerate}
+
+
+"A HAMQ-learning agent keeps track of the following quantities:  the current environment
+state; the current machine state; $s_t$ and $m_t$, the environment state and machine state at
+the previous choice point; $a$, the choice made at the previous choice point; and the total accumulated reward and discount since the previous choice point. It also maintains
+an extended Q-table, indexed by an environment-state/machine-state
+pair and by an action taken at a choice point."
+
+\item 
+HAMs - Conclusions
+
+
+\begin{enumerate}
+\item 
+• Success depends on quality of programmed policies and
+state transition functions for each machine
+
+\item • Not used a great deal in large-scale applications
+
+
+\item  • Allows integration of multiple controls problems, whose
+solutions are well known, but whose relationships are not
+\end{enumerate}
+
+
+\eenum
+
+\item Goal conditioned Hier RL
 
 \eenum
 
@@ -6203,8 +6431,11 @@ trained on."
 
 [This seems pretty puzzling to me.]
 
+<<<<<<< HEAD
 \item Evolutionary algorithms: Evolution Strategies as a Scalable Alternative to Reinforcement Learning (Salimans et al, OpenAI, 2017, \url{https://openai.com/blog/evolution-strategies/})
 
+=======
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \eenum 
 
@@ -7846,6 +8077,7 @@ PCA: Good approximation by low-rank model
 
 \item Local SGD: Only synchronize models every $H$ rounds. ICLR 2019 paper shows it can be as good as mini-batch global SGD.
 
+<<<<<<< HEAD
 \item Measuring the Limits of Data Parallel Training for Neural Networks (Shallue, Lee et al, Google, 2018)
 
 "For the most common neural network training algorithms (synchronous stochastic gradient descent and its variants), the scale of data parallelism corresponds to the batch size.
@@ -7870,6 +8102,8 @@ cost." [It is interesting that a problem about distributed learning is reduced t
 larger batch sizes than plain SGD
 
 
+=======
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 \item Federated learning
 
 
@@ -7887,9 +8121,12 @@ larger batch sizes than plain SGD
 \item Reference: \url{http://www.automl.org/book/}
 
 Meta-data sharing: \url{OpenML.org}
+<<<<<<< HEAD
 
 NeurIPS 2018 tutorial, Frank Hutter and Joaquin Vanschoren: \url{https://www.youtube.com/watch?v=0eBR8a4MQ30}
 
+=======
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \item What is AutoML?
 
@@ -8281,6 +8518,7 @@ Transferring Knowledge across learning processes (ICLR 2019)
 
 DELTA: Deep learning transfer using feature map with attenction for CNN (ICLR 2019)
 
+<<<<<<< HEAD
 \item Google's AutoML system, as of 2019, has competitive performance to the best Kaggle competitors in Hackathon style events. See Figure \ref{automl} for a plot of the pipeline. (\url{http://ai.googleblog.com/2019/05/an-end-to-end-automl-solution-for.html})
 
 
@@ -8293,6 +8531,8 @@ DELTA: Deep learning transfer using feature map with attenction for CNN (ICLR 20
 
 \item AutoRL (Learning Navigation Behaviors End-to-End With AutoRL, Chiang et al, 2019)
 "is an evolutionary automation layer around deep RL that searches for a reward and neural network architecture using large-scale hyperparameter optimization. It works in two phases, reward search and neural network architecture search. During the reward search, AutoRL trains a population of DDPG agents concurrently over several generations, each with a slightly different reward function optimizing for the local planner’s true objective: reaching the destination. At the end of the reward search phase, we select the reward that leads the agents to its destination most often. In the neural network architecture search phase, we repeat the process, this time using the selected reward and tuning the network layers.
+=======
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \eenum 
 
@@ -8375,6 +8615,7 @@ Concern: how to make the market as large as possible.
 
 locally linear, Shapley value
 
+<<<<<<< HEAD
 - Classical ways to interpret models: 
 
 \url{https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e}
@@ -8392,6 +8633,11 @@ locally linear, Shapley value
 - Saliency map is very local, and specific to input. How about more global? Recursive definition, starting from last layer? Prune/assign weights, repeat?
 
 - Can we define interpretability via "class-specific features"? For cat, it's ears and eyes, and nose. For truck, it's wheels, windows, etc. They are different for different classes. E.g., can we use the class-average of the saliency maps to select important features at all layers? [Automatically detect which features are important]
+=======
+
+\item Reference \url{https://distill.pub/2018/building-blocks/}
+
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \item Class model visualization ("Deep inside convolutional networks: Visualising image classification models and saliency maps", Simonyan, Vedaldi, Zisserman, 2013)
 
@@ -8436,7 +8682,10 @@ thresholding might not be able to highlight the whole object"
 
 \item Can also use generative models. Ask "what part of the image when changed would have altered the classification?" by generative models. Find the image part $x_r$ by variational dropout. (Explaining image classifiers by counterfactual generation, ICLR 2019) 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 \item Hierarchical interpretations for NN predictions (ICLR 2019)
 
 \item L-Shapley and C-Shapley: efficient model interpretation for structured data (Chen, Song, Wainwright, Jordan)
@@ -8657,11 +8906,19 @@ weights based on their initial magnitudes instead, large-init and small-init , v
 for both, large-init-large-final and small-init-small-final , two mask criteria that evaluate how far
 weights moved, magnitude-increase and movement , and a control, random , that chooses masks
 randomly."
+<<<<<<< HEAD
 
 "As can be seen, the
 magnitude-increase criterion turns out to work just as well as the large-final criterion, and in some
 cases significantly better."
 
+=======
+
+"As can be seen, the
+magnitude-increase criterion turns out to work just as well as the large-final criterion, and in some
+cases significantly better."
+
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 2. Treatment of kept weights during retraining (mask-1 action): "As long as you keep the sign, reinitialization is not a deal breaker"
 
 3. Treatment of pruned weights during
@@ -9189,6 +9446,7 @@ Big topics:
 \item 
 Optimization landscape
 
+<<<<<<< HEAD
 - Deep linear networks have no bad local minima (Kawaguchi et al)
 
 - Montanari
@@ -9205,6 +9463,17 @@ It is sometimes possible to design architectures that have good optimization lan
 - GD only converges to minimizers (Jason Lee et al)
 
 - Star-convexity holds with over-parametrization, allows SGD to converge to global min (Zhou et al, ICLR 2019. Some of it is empirical) 
+=======
+Deep linear networks have no bad local minima (Kawaguchi et al)
+
+Montanari
+
+\item Convergence of optimization algorithms
+
+GD only converges to minimizers (Jason Lee et al)
+
+Star-convexity holds with over-parametrization, allows SGD to converge to global min (Zhou et al, ICLR 2019. Some of it is empirical) 
+>>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 
 \item Connections Opt+Gen: Implicit bias, Implicit regularization, algorithmic regularization 
