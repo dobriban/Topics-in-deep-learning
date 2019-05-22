@@ -22,21 +22,12 @@
 % Todos:
 % \begin{compactenum}
 
-%\item Big topics to add.
-
-%Interpretability
-
-%VAE+GAN. 
-
-%AutoML.   
-
-
 
 %QA+VQA.
 
 %\item Smaller topics
 
-%Interesting: DL for NP hard problems.
+%Idea: DeepShrink
 
 %Showing that NNs capture knowledge
 
@@ -113,13 +104,13 @@ This can depend on $i$ and then it is denoted as $\sigma^{[i]}$.
 
 $$\hat y = a^{[L]}.$$
 
-For binary classification, the final layer is like a logistic regression. 
-
-\eenum 
+For binary classification, the final layer is like a logistic regression. Specifically, the last layer's nonlinearity is chosen as a softmax for classification: $a^{[L]}_j = \exp(z^{[L]}_j)/[\sum_k\exp(z^{[L]}_k)]$.
 
 
 \eenum 
-%The last layer's nonlinearity is chosen as a softmax for classification: $a^{[L]}_j = \exp(z^{[L]}_j)/[\sum_k\exp(z^{[L]}_k)]$.
+
+
+\eenum 
 
 
 \begin{figure}
@@ -131,10 +122,10 @@ For binary classification, the final layer is like a logistic regression.
 
 \item Here are a few examples of deep learning visualizations to form intuition: 
 
-Andrej Karpathy's tools for "Deep Learning in your browser
+- Andrej Karpathy's tools for "Deep Learning in your browser
 " \url{https://cs.stanford.edu/people/karpathy/convnetjs/}
 
-Google's Neural Network Playground: \url{http://playground.tensorflow.org}
+- Google's Neural Network Playground: \url{http://playground.tensorflow.org}
 
 
 \item 
@@ -304,6 +295,8 @@ $$J(W,b) + \frac{\lambda}{2} \sum_{i=1}^L \|W^{[i]} \|_F^2$$
 Also known as \emph{weight decay}, because the implementation reduces to 
 $$W^{[i]}: = (1-\alpha/\lambda) W^{[i]} - \alpha\, dW^{[i]}$$
 
+Note: Weight decay and $L_2$ regularization are not identical in general (e.g., for momentum). They are only identical for gradient descent (see Loschilov, Hutter: "Fixing weight decay regularization in Adam"). 
+
 \item 
 \emph{Dropout}: Randomly zero out units, to mitigate weight \emph{co-adaptation} (Srivastava et al 2014). 
 
@@ -393,6 +386,7 @@ The input-output $x,y$ can be anything. This "\emph{black-box}" thinking gives a
  Examples:
 
 \benum
+
 \item
 $y = x$. Known as an \emph{autoencoder} (Figure \ref{ae}). This is an example of \emph{unsupervised learning}. Denoises and compresses the input $x$ if we constrain the intermediate layers. 
 
@@ -745,6 +739,7 @@ Dexterity and manipulation
 
 They are not intelligent!
 
+\item Different way of thinking than classical signal processing, EE, statistics. Most of what we have done in those fields is to show that you always get the same result, things are well behaved. In deep learning, get a different model every time (every initialization).
 
 \item Thought leaders in the tech world all bet on AI: 
 
@@ -762,26 +757,22 @@ Jeff Bezos:
 \begin{quote}
 Embrace External Trends
 
-The outside world can push you into Day 2 if you won’t or can’t embrace powerful trends quickly. If you fight them, you’re probably fighting the future.
+The outside world can push you into Day 2 if you won't or can't embrace powerful trends quickly. If you fight them, you're probably fighting the future.
 Embrace them and you have a tailwind.
-These big trends are not that hard to spot (they get talked and written about a lot), but they can be strangely hard for large organizations to embrace. We’re in
+These big trends are not that hard to spot (they get talked and written about a lot), but they can be strangely hard for large organizations to embrace. We're in
 the middle of an obvious one right now: machine learning and artificial intelligence.
 Over the past decades computers have broadly automated tasks that programmers could describe with clear rules and algorithms. Modern machine learning
 techniques now allow us to do the same for tasks where describing the precise rules is much harder.
 
 
-Inside AWS, we’re excited to lower the costs and barriers to machine learning and AI so organizations of all sizes can take advantage of these advanced techniques.
+Inside AWS, we're excited to lower the costs and barriers to machine learning and AI so organizations of all sizes can take advantage of these advanced techniques.
 
 Watch this space. Much more to come.
 \end{quote}
 
-
-
-\item Intrepretability: excellent reference \url{https://distill.pub/2018/building-blocks/}
-
 \item Creative architecture design, Figure \ref{arch}
 
-
+ 
 \begin{figure}
   \centering
   \includegraphics[scale=0.35]{Chart.png}
@@ -790,7 +781,28 @@ Watch this space. Much more to come.
 \end{figure}
 
 %\item Naming: ...Net, Deep...
+\item Critical perspectives. There are a lot of questions. (Donoho speaking at the NAS Science of Deep learning colloquium, \url{https://www.youtube.com/watch?v=DTW8e_hQZqo})
 
+DL Research is expensive. Cost is not possible for academics. Huge scale data. Can't be reproduced. Benefits ought to be shared more widely. 
+
+Younger generation: doesn't have access to the computing budget. Only their minds. To inspire them, we need to model to them the ability to use more traditional tools of reasoning and lightweight computing.
+
+
+\eenum
+
+\subsection{Ideas}
+\benum
+\item
+
+- Structure of ReLU network for interpretability
+
+- Ultra robust NN
+
+- Deep shrink 
+
+- Generative models for density estimation. Rate? 
+
+- Can we measure the intelligence of DNNS? 
 \eenum
 
 
@@ -812,7 +824,10 @@ Image dimensions are very large, so fully connected networks have too many param
 
 \item \emph{Image} $X$: $n\times n$. e.g., an image of a road scene with cars.
 
-\item \emph{Convolutional Layer:} The structure of a convolutional layer is as follows
+\item \emph{Convolutional Layer:} 
+
+
+The structure of a convolutional layer is as follows
 
 \benum 
 \item 
@@ -850,6 +865,19 @@ Number of parameters is much smaller than for fully connected networks. ``Parame
 
 Why convolutions? Vaguely related to local translation invariant structure of images, and \emph{symmetry}. %See papers by Mallat, Bolcskei etc.  
 More precisely?
+
+"Convolutional weight sharing is effective because there is a translation symmetry in most perception tasks: the label function and data distribution are both approximately
+invariant to shifts.  By using the same weights to analyze
+or model each part of the image, a convolution layer uses
+far fewer parameters than a fully connected one, while preserving the capacity to learn many useful transformations."
+
+"Convolution layers can be used effectively in a deep network because all the layers in such a network are translation equivariant: shifting the image and then feeding
+it through a number of layers is the same as feeding the
+original image through the same layers and then shifting
+the resulting feature maps (at least up to edge-effects). In
+other words, the symmetry (translation) is preserved by
+each layer, which makes it possible to exploit it not just
+in the first, but also in higher layers of the network." (Cohen \& Welling)
 
 
 \item Then, add bias and apply ReLU. 
@@ -899,6 +927,10 @@ Simple example: ``\emph{LeNet}'' type networks, starting from 1980s (Figure \ref
 
 More recent examples: AlexNet (Figure \ref{AlexNet}). VGG (Figure \ref{VGG}). 
 
+\eenum
+\subsubsection{Visualization}
+\benum
+
 \item Visualize NNs, by finding images that maximize activation: hallucinogenic images (Figure \ref{vis}).
 
 \begin{figure}
@@ -910,19 +942,44 @@ More recent examples: AlexNet (Figure \ref{AlexNet}). VGG (Figure \ref{VGG}).
 
 \item Excellent reference on feature visualization: \url{https://distill.pub/2017/feature-visualization/}
 
-Live demo of digit visualization: \url{http://scs.ryerson.ca/~aharley/vis/conv/}
+- Visualizing activations: 
+
+\url{https://fleuret.org/ee559/ee559-slides-8-2-looking-at-activations.pdf}
+
+
+- Live demo of digit visualization: 
+
+\url{http://scs.ryerson.ca/~aharley/vis/conv/}
 
 
 \item See also \url{http://colah.github.io/posts/2014-07-Conv-Nets-Modular/}, 
 
 \url{http://colah.github.io/posts/2014-07-Understanding-Convolutions/}
 
-Yosinski's Deepvis toolbox: \url{http://yosinski.com/deepvis}
+Yosinski's Deepvis toolbox: \url{http://yosinski.com/deepvis}. developed analysis tools to visit a network and look at the
+internal activations for a given input signal Find units with a clear semantic. Figure \ref{Deepvis}.
+
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.7]{deepvis.png}
+    \caption{Deepvis.}
+    \label{Deepvis}
+\end{figure}
+\item 
+Activation Atlas: \url{https://distill.pub/2019/activation-atlas/}
+
+- "Roughly speaking, we can think of feature visualization as creating an idealized image of what the network thinks would produce a particular activation vector." - maximally activating image
+
+- repeat over patches
+
+- multiple images: take random patch per image. compute feature vis. do dimension reduction/manifold learning.
+
 \eenum
 
 
 
-\subsection{Other aspects}
+\subsection{Other methodology}
 \benum
 \item R-CNN: Regions with CNN features (Girshick et al, 2013, Rich feature hierarchies for accurate object detection and semantic segmentation). Figure \ref{rcnn}.
 
@@ -1154,7 +1211,7 @@ The $j$-th output feature map  the sample $s$ is given by
 $$y_j = \sum_{i=1}^{F_{in}} g_{\theta_{ij}}(L) x_{si} $$
 
 
-where the $x_{si}$ are the input feature maps and the $F_{in} \times F_{out}$ vectors of Chebyshev coefficients $\theta_{ij} \in \R^K$ are the layer’s trainable parameters. When training multiple convolutional layers with the backpropagation algorithm, one needs the two gradients
+where the $x_{si}$ are the input feature maps and the $F_{in} \times F_{out}$ vectors of Chebyshev coefficients $\theta_{ij} \in \R^K$ are the layer's trainable parameters. When training multiple convolutional layers with the backpropagation algorithm, one needs the two gradients
 
 $$
 \partial E/\partial{\theta_{ij}}
@@ -1300,8 +1357,94 @@ This is still true if different parts of the graph look
 similar without necessarily being identical. This stability is present in GNNs but it is not present in graph
 filters. 
 
+\item LanczosNet: Multiscale Deep Graph CNN (Liao et al, ICLR 2019)
+
+"Use the Lanczos algorithm to construct low rank approximations of the graph Laplacian for graph convolution. Rely on tridiagonal decomposition of the Lanczos algorithm to efficiently exploit multi-scale information via fast approximate computation of matrix power" 
+
+\item CNNs on Non-uniform geometric signals using Euclidean spectral transform (Jiang et al, ICLR 2019)
+
+"It has been challenging to analyze signals with
+mixed topologies (for example, point cloud with surface mesh). To this end, we
+develop mathematical formulations for Non-Uniform Fourier Transforms (NUFT)
+to directly, and optimally, sample nonuniform data signals of different topologies
+defined on a simplex mesh into the spectral domain with no spatial sampling
+error"
+
+"Almost all discrete geometric signals can be abstracted into weighted simplicial complexes. A
+simplicial complex is a set composed of points, line segments, triangles, and their $d$-dimensional
+counterparts. We call a simplicial complex consisting solely of $j$-simplices as a homogeneous
+simplicial j -complex, or a $j$-simplex mesh. Most popular geometric representations that the research
+community is familiar with are simplex meshes. For example, the point cloud is a 0-simplex mesh, the
+triangular mesh is a 2-simplex mesh, and the tetrahedral mesh is a 3-simplex mesh. A $j$-simplex mesh
+consists of a set of individual elements, each being a $j$-simplex. If signal is non-uniformly distributed
+over the simplex, we can define a piecewise constant $j$-simplex function over the $j$-simplex mesh.
+We call this a weighted simplex mesh. Each element has a distinct signal density."
+
+"For the n-th $j$-simplex with domain $\Omega_j^n$, we define a density function $f
+^j_n(x)$. Equal to $\rho_n$ on $\Omega_j^n$ and zero else. The piecewise-constant $j$-simplex function consisting of $N$ simplices is therefore defined as the superposition of the element-wise simplex function."
+
+$$f^j(x) =
+\sum^N_{n=1}f^j_n(x)
+$$
+
+"Using the linearity of the integral in the Fourier
+transform, we can decompose the Fourier transform of the density function on the $j$-simplex mesh to be a weighted sum of the Fourier transform on individual j-simplices."
+
+$$F^j(k) =
+\int\ldots\int f^j(x)e^{-ik\cdot x}dx =
+\sum^N_{n=1}\rho_n
+\int\ldots\int_{\Omega_j^n}e^{-ik\cdot x}dx
+:=
+\sum^N_{n=1}\rho_n F^j_n(k)
+$$
+
+We present a general formula for performing the Fourier transform of signal over a single $j$-simplex.
+
+$$F^j_n(k) =
+i^j \gamma^j_n
+\sum^{j+1}_{t=1}
+\frac{e^{-i\sigma_t}}
+{\pi^{j+1}_{l=1,l\neq t} (\sigma_t - \sigma_l)}
+$$
+
+
+Here:  $\sigma_t = k\cdot x_t$, and $x_t$ - spatial vertex coordinate
+
+$k$ - wavenumber
+
+$\rho_n$ - signal density
+
+$\gamma_n$ - content distortion factor -  "the ratio of content between the simplex over the domain $\Omega^j_n$ and the unit orthogonal $j$-simplex. Content is the $j$-dimensional analogy of the
+3-dimensional volume. The unit orthogonal j-simplex is defined as a $j$-simplex with one vertex at the
+Cartesian origin and all edges adjacent to the origin vertex to be pairwise orthogonal and to have unit
+length.
+
+
+"The spectral signal at wavenumber $k$ for a $j$-simplex mesh can be computed as the linear sum of the fourier transform of individual simplices, which can be computed using signal density $\rho_n$, content distortion factor 
+$\gamma_n$, and spatial vertex coordinate $x_t$
+
+$$F^j(k) =
+\sum^N_n
+\rho_n i^j \gamma^j_n
+\sum^{j+1}_{t=1}
+\frac{e^{-i\sigma_t}}
+{\pi^{j+1}_{l=1,l\neq t} (\sigma_t - \sigma_l)}
+$$
+
+
 
 \eitem 
+
+
+
+\subsection{Other aspects}
+\benum
+\item Can sometimes view deep CNNs as Gaussian processes (add references)
+
+\item Can compute and approximate operator norm of convolutional layers, which can then be used as a regularizer (works by LeCun, Long, add references) 
+
+\eenum
+
 
 
 \subsection{Shapes beyond images, invariance}
@@ -1309,13 +1452,17 @@ filters.
 \bitem
 \item Classical CNNs are designed for images. However, in computer vision we often have other types of shapes. For instance, we may have to deal with 3D shapes (when interacting with an environment), or we may have spherical data (e.g., a self-driving car takes pictures on a sphere)
 
-\item To design NN architectures for such shapes, we need to replace convolutions with the appropriate generalization
+\item To design NN architectures for such shapes, we need to replace convolutions with the appropriate generalization. One of the first modern works: 
+
+
+Cohen, T.S., Welling, M.: Group equivariant convolutional networks. arXiv
+preprint arXiv:1602.07576 (2016)
 
 \item We can rely on groups. We are thinking of objects $x$ that are acted upon by members $g$ of a group $G$. For instance, images are acted upon by 2D translations. We want to extract filters (features) $f(x)$ from the group that are equivariant to the action of the group. Specifically, we want to ensure that there is a group $G'$ such that for every $g$, there is a $g'\in G'$ for which
 
 $$f(gx) = g'f(x)$$
 
-\item One approach to construct this is group convolutions. There we define
+\item One approach to construct this is group convolutions. There we start with a filter $h(x)$, and  define the convolution of $f$ with $h$ as
 
 $$(f *_G h)(x) = \int_{g\in G} f(ge)h(g^{-1}x)dg$$
 
@@ -1327,11 +1474,179 @@ $$(f *_G h)(x) = \int_{g\in \R^2} f(g)h(x-g)dg$$
 
 One can check that this leads to equivariant maps.
 
-\item The next step is to design architectures that implement group convolutions for various specific groups. 
+\item 
+A slightly different approach is "G-equivariant correlation", by Cohen and Welling . Suppose all signals are defined on $Z^2$. "The correlation is computed by shifting a filter and then computing a dot product with the feature maps. By
+replacing the shift by a more general transformation from
+some group G, we get the G-correlation used in the first
+layer of a G-CNN: 
 
+$$(f \star h)(g) = \sum_{y\in Z^2} f(y)h(g^{-1}y)$$
+
+[Could also work with convolution. Actually sum over multiple input channels, and multiple filters]
+
+$$(f \star h)(g) = \sum_k\sum_{y\in Z^2} f_k(y)h_k(g^{-1}y)$$
+
+"Notice that both the input image $f$ and the filter $h$ are functions of the plane $Z^2$, but the featuremap $f \star h$ is a function
+on the discrete group $G$ (which may contain translations as
+a subgroup). Hence, for all layers after the first, the filters
+must also be functions on $G$, and the correlation operation
+becomes
+
+$$(f \star h)(g) = \sum_{j\in G} f(j)h(g^{-1}j)$$
+
+"One limitation of the method as presented here is that
+it only works for discrete groups."
+
+Check: Let $L_uf(x) = f(u^{-1}x)$
+
+$$
+(L_u f \star h)(g) 
+= \sum_{j\in G} f(u^{-1}j)h(g^{-1}j)
+= \sum_{j'\in G} f(j')h(g^{-1}uj')
+= (f \star h)(u^{-1}g) 
+= L_u (f \star h)(g) 
+$$
+
+"It is customary to add a bias term to each feature map
+in a convolution layer. This can be done for G-conv
+layers as well, as long as there is only one bias per G-
+feature map (instead of one bias per spatial feature plane
+within a G-feature map). Similarly, batch normalization
+(Ioffe \& Szegedy, 2015) should be implemented with a single scale and bias parameter per G-feature map in order
+to preserve equivariance."
+
+6.2. Pointwise nonlinearities [OK]
+
+6.3. Subgroup pooling and coset pooling
+
+U-Pooling 
+
+$$Pf(g) = \max_{k\in gU} f(k)$$
+
+Subsampling, or pooling with a stride. Restrict to subgroup $H \subset G$, get $H$ equivariance (but not $G$). 
+
+
+"We can obtain full G-equivariance by choosing our pooling
+region $U$ to be a subgroup $H \subset G$. The pooling domains
+$gH$ that result are called cosets in group theory."
+
+
+\item 
+Once we have convolution and pointwise operations, we can define deep architectures as the layer-wise composition of conv+nonlinearities. This is so in principle, because in practice we also want the architectures to be efficient.
+
+The next step is to design efficient architectures that implement group convolutions for various specific groups. 
+
+
+\item Cohen and Welling: work on $Z^2$
+
+\benum 
+\item
+translations $Z^2$
+\item
+
+p4: generated by translations and rotations by 90 degrees about any center of rotation in a square grid. 
+
+"A conventient parametrization of this group in terms of three integers $(r,u,v)$, acting on $p=(x,y)$ represented as $(x,y,1)$, is"
+
+$$
+g(r,u,v)
+= \begin{bmatrix} 
+cos(r\pi/2) &-sin(r\pi/2) & u \\ 
+sin(r\pi/2) & cos(r\pi/2)& v \\ 
+0 &0 &1 
+\end{bmatrix}
+$$
+\item p4m: also add mirror reflections. 
+
+\eenum 
+
+\item 7. Efficient Implementation
+
+"A plane symmetry group is called split if any transformation can be decomposed into a translation $t \in Z^2$ and a transformation $s$ in the stabilizer of the origin (i.e. $s$ leaves the origin invariant). For the group p4, we can write $g = ts$ for $t$ a translation and $s$ a rotation about the origin. Sinc $L_g L_h = L_{gh}$, we can rewrite the G-correlation 
+
+$$(f \star h)(ts) = \sum_{j\in G} f(j)L_t [L_sh(j)]$$
+
+"To compute the p4  correlation we can
+first compute $L_s h$ ("filter transformation") for all four rotations and then call a fast planar correlation routine on $f$ and the augmented filter bank.
+
+\item Datasets: Rotated MNIST (Larochelle et al., 2007), CIFAR
+
+"We performed model selection using the validation set,
+yielding a CNN architecture (Z2CNN) with 7 layers of
+3 x 3 convolutions (4 x 4 in the final layer), 20 chan-
+nels in each layer, relu activation functions, batch normalization, dropout, and max-pooling after layer 2.
+
+\item Argue that their ideas are compatible with prior architectures, such as ResNet. 
+
+
+- In their experiments, for fair comparison fix the number of parameters across architectures. 
+
+- Good architecture helps. But experimentally, data augmentation helps even beyond that.
+
+
+\item Thoughts on Cohen and Welling: 
+
+- Comparing equivariance and invariance: Premature invariance loses information. 
+
+- Can we understand the effect of depth?
+
+Future work: "Continuous. Full enumeration of
+transformations in a group may not be feasible if the group
+is large"
+
+\item 
+
+Other examples of invariance. E.g.,:
+
+
+Translation and rotation: Worrall, D.E., Garbin, S.J., Turmukhambetov, D., Brostow, G.J.: Harmonic networks: Deep translation and rotation equivariance. CVPR 2017
+
+Full 2D rotations: Steerable CNN, Cohen and Welling, 2017
+
+\item Harmonic networks (Worrall et al CVPR 2017)
+
+360 degree invariance. Widely used practice: data augmentation. Drawbacks: not exact, fails to capture
+local equivariances, and does not ensure equivariance at every
+layer within a network, redundancy (and lack of interpretability) [e.g., Zeiler and Fergus].
+
+They restrict the filters to be circular harmonics
+
+$$W_m(r,\phi;R,\beta)=R(r)\exp[i(m\phi+\beta)].$$
+
+Given a feature map $F(r,\phi)$, we map it to the correlation 
+
+$$(W \star F)(r',\phi') = \int W(r-r',\phi-\phi') F(r,\phi) drd\phi$$ 
+
+(could also do convolution)
+
+Check equivariance to rotation. Let $F_\theta :=F(r,\phi-\theta)$.
+
+$$W_m \star F_\theta = \exp(im\theta) W_m \star F_0$$ 
+
+- Chained crosscorrelation of rotation orders a and b lead to a new response
+with rotation order $a + b$. 
+
+- Point-wise nonlinearities acting on the magnitudes maintain rotational
+equivariance
+
+- The summation of two responses of the same order remains of the same order. Separate filter responses into
+streams of equal rotation order.
+
+4.1. Harmonic Networks
+
+- "Create separate streams of constant rotation order responses running through the network. These streams contain multiple layers of feature maps, separated
+by rotation order zero cross-correlations and nonlinearities.
+
+- "Discretization: anti-alias the input to each discretized layer with a simple Gaussian blur. The order of bandlimited sampling and cross-correlation is interchangeable. $W(x) = \sum g(x,r) W(r)$, $g(x,r)\sim \exp(-|x-r|^2/[2\sigma^2])$ ($x$ is a pixel, $r$ is a polar pixel).
+
+\item 
 An important example is the group 3D rotations, $SO(3)$, acting on the sphere. See work by Cohen and Welling (ICLR 2018), and Esteves, Allen-Blanchette, Makadia, Daniilidis [EAMD] (ECCV 2018)
 
 A key point is that discretization is hard, because a sampling of the sphere with well distributed and compact cells with transitivity does not exist. 
+
+" 3D rotations have been a challenging nuisance in 3D classification tasks requiring higher capacity and extended
+data augmentation in order to tackle it."
+
 
 \item Instead, EAMD work with spherical signals using the spherical harmonics (Fourier transform on the sphere). Then convolution is evaluated in the spectral domain, by multiplication. 
 
@@ -1355,7 +1670,7 @@ of the underlying Lie group action.
 
 Below: [Nordberg, Granlun, 1996]
 
-A generator $L$ for a Lie group is a linear transform such that the action of the group on a vector $v$ can be written as $\exp(xL)v$, where $\exp(M) = \sum_{k=0}^\infty L^k/k!$ is the operator exponential. 
+A generator $L$ for a Lie group is a linear transform such that the action of the group on a vector $v$ can be written as $\exp(xL)v$, where $\exp(L) = \sum_{k=0}^\infty L^k/k!$ is the operator exponential. 
 
 This is just for one-parameter groups, but for multiparameter groups we can have similarly $\exp(x_1L_1+\ldots+x_k L_k)v$.
 
@@ -1420,6 +1735,9 @@ So we can compute convolutions with rotated filters easily.
 [Only works for constructed, not learned filters.]
 
 \item To read: proposal, polar transformer networks
+
+\item Extension of spherical CNNs to Unstructured Grids (Jiang et al, ICLR 2019)
+
 \eitem 
 
 \subsection{Spatial Transformer Networks}
@@ -1434,7 +1752,7 @@ Correct for pose normalization (scenarios where the object is tilted or scaled) 
 
 \begin{figure}
   \centering
-  \includegraphics[scale=0.6]{SpatialTransformer}
+  \includegraphics[scale=0.4]{SpatialTransformer}
   \caption{Spatial Transformer Networks.}
   \label{STN}
 \end{figure}
@@ -1449,6 +1767,93 @@ A sampler whose purpose is to perform a warping of the input feature map.
 
 See description at \url{adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html}
 \eenum 
+
+
+\subsection{Image denoising/compression}
+\benum
+\item One of the most striking applications of CNNs is image denoising and compression. 
+
+Many different methods:
+
+blind spot networks
+
+\item Unsupervised Adversarial Image Reconstruction (Pajot et al, ICLR 2019)
+
+"Signal $X \sim p_X$ we wish to acquire, but we only have access to lossy measurements $Y \sim p_Y$. Modeled through a
+stochastic operator $F$ mapping signals $X$ to their associated observations $Y$, parameterized by a random variable
+$\Theta \sim p_\Theta$ following an underlying distribution $p_\Theta$ we can sample from, which represents the factors
+of corruption. Thus, given a specific signal $x$, we can simulate its measurement by first sampling
+$\Theta$ from $p_\Theta$, and then computing $F(x;\Theta)$. Additional sources of uncertainty, e.g. due to unknown
+factors, can be modeled using additive i.i.d. Gaussian noise $\ep \sim \N(0,\sigma^2I)$, so that the
+observation model is"
+
+$$Y = F(X;\Theta) + \ep$$ 
+
+$F$ diff in $x$
+
+MAP: 
+
+$$\arg\max_x \log p_{X|Y}(x|y)$$
+
+Train a NN $G$ to predict MAP estimate. Note $p(x|y) = p(x,y)/p(y) = p(y|x)p(x)/p(y)$. Replace $x$ with $G(y)$, and note that the marginal, $p(y)$ does not depend on $G$. So we only need to maximize:
+
+$$\arg\max_G \E_{p_Y}\log p_{Y|X}(y|G(y))+\log_{p_X}(G(y))$$
+
+Problem: No analytical form of likelihood $p_{Y|X}$, no samples from prior $p_X$
+
+Likelihood: 
+
+$$\E_{p_\Theta,P_X,P_{Y|X,\Theta}}\|Y-F(X;\Theta)\|^2$$
+
+Estimate via: Sample $\Theta$, sample $X$ [Don't know prior], sample $y$ given $X,\Theta$, compute loss. 
+
+How to estimate prior? Similar to AmbientGAN (Bora et al, ICLR 2018), use an adversarial loss:
+
+$$L_{prior} = \max_D 
+\E_{P_{Y}}\log D(y)
+- 
+\E_{P_{\hat Y}}\log D(\hat  y)$$
+
+Here $\hat y$ is generated from $y$. First, generate $\hat x = G(y)$ with current $G$, then generate $\hat y$ sampling given $\hat x,\Theta$. Figure \ref{UAIR}.
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{UAIR}
+  \caption{Unsupervised Adversarial Image Reconstruction.}
+  \label{UAIR} 
+\end{figure}
+
+Results: Figure \ref{UAIRr}.
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{UAIR_results}
+  \caption{Unsupervised Adversarial Image Reconstruction results example.}
+  \label{UAIRr}
+\end{figure}
+
+\item Deep decoder: concise image representations from untrained networks (Heckel, Hand, ICLR 2019) Figure \ref{DD}.
+
+$X$ - high-dimensional image. $C$-low dimensional code. Deep decoder: 
+
+$$X = DD(C)$$
+
+Best representation of an image: 
+
+$$\hat C = \arg\min_C\|X-DD(C)\|_2$$
+
+More concise that wavelet thresholding at high compression factors. 
+
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.6]{DD}
+  \caption{Deep decoder.}
+  \label{DD}
+\end{figure}
+
+\eenum 
+
 %\benum
 % \subsection{Problems}
 % \benum
@@ -1644,15 +2049,6 @@ Communication, which followed a ceremony and set inspired prison, training.
 \item Interestingly, some sequence problems can be addressed well with convolutional networks. e.g., 
 
 Yoon Kim - Convolutional Neural Networks for Sentence Classification - EMNLP - 2014
-
-WaveNet by Google for sound synthesis uses an "atrous convolution", which is a hierarchical structure. (Fig. \ref{wavenet})
-
-\begin{figure}
-  \centering
-  \includegraphics[scale=0.8]{wavenet.jpg}
-    \caption{Wavenet.}
-    \label{wavenet}
-\end{figure}
 
 
 
@@ -1905,6 +2301,11 @@ Can lead to ``dead neurons'' during training. Is this a problem?
 Empirically, ReLU has been shown to be very effective.
 
 %(as long as some of the hidden units in each layer remain alive).
+
+\item There is more work on the stability of RNNs. For instance, for an RNN $h_t = \phi_w(h_{t-1},x_t)$, Miller and Hardt (ICLR 2019) define stability as $\|\phi_w(h,x)-\phi_w(h',x)\|\le \lambda \|h-h'\|$, for $\lambda<1$, i.e., Lipshitzness in $h$. 
+
+They show that stable RNNs can be approximated at traning/inference time by finite RNNs.
+
  \eenum
 
 \subsubsection{LSTM and GRU}
@@ -2047,6 +2448,14 @@ Has revolutionized natural language processing (NLP) tasks since 2010.
 \item Popular word embeddings: word2vec, GloVe, ELMo
 \end{itemize}
  
+Sometimes we construct box embeddings, where words are represented as hyperrectangles/words. Motivation: "learning hierarchies, partial orders, and lattice structures, with natural applications to transitive relational data such as entailment graphs." 
+
+Sentence embeddings are also of interest. How to construct a baseline? Random sentence encondings such as $h=f_{pool}(We_i)$, where $e_i$ are word embeddings, can provide good baseline (Wieting, Kiela, ICLR 2019)
+
+
+Some word embeddings can be understood in terms of latent variable models, e.g., the Rand-walk model: $P(w_t=w|c_t)\sim \exp(v_w^\top c_t)$ (Arora et al, 2015). Provides explanation for linear structure in semantic relationships. 
+
+
 
 \item 
  {Encoder-Decoder Model}
@@ -2297,6 +2706,13 @@ Step 3 is combining the results using another learned matrix $W^O$.
 \end{figure}
  
 
+\item There are several architectures for sequence modeling (RNNs, CNNs, Self-Attention). They have advantages and drawbacks in terms of expressivity/context/dynamics/speed.
+
+Improvement: Transformer + DynamicConv (Vaswani et al, 2017) Replace self-attention wit dynamic convolution. Dyna Conv uses a learned linear transform at each time step. (one transform per word) Also, lightweight convolution, uses fixed time-independent convolution.
+
+Universal Transformer: combine the parallelizability and global receptive field of feed-forward sequence models like the Transformer with the recurrent inductive bias of RNNs. In contrast to the standard Transformer, under certain assumptions, UTs can be shown to be Turing-complete. (ICLR 2019)
+
+
 \item 
  {Future Directions for NMT}
 
@@ -2327,6 +2743,13 @@ Bahdanau, Cho, Bengio (2015)
  Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin (2017)
  {Attention Is All You Need}
  {\emph{arXiv preprint} arXiv:1706.03762}
+
+
+\item Broader field of NLP: 
+
+Conversational agents
+
+Machine reading comprehension
 
 \eenum
 
@@ -2380,6 +2803,51 @@ Feed to RNN as a state variable. Output: Caption.
 \eenum 
 
  
+\eenum 
+
+
+\subsection{Others}
+
+
+\benum
+
+\item BERT: idirectional Encoder Representations from Transformers
+
+\item Temporal Convolutional Networks (TCN). Figure \ref{TCN}
+
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.4]{tcn.png}
+    \caption{TCN}
+    \label{TCN}
+\end{figure}
+
+
+
+\item Ordered neurons: integrating tree structures into RNNs (ICLR 2019 best paper)
+
+\item Antisymmetric RNNs: Dynamical system view on RNNs
+
+\item PaperRobot (Wang et al, ACL 2019) We present a PaperRobot who performs as an automatic research assistant by (1) conducting deep understanding of a large collection of human-written papers in a target domain and constructing comprehensive background knowledge graphs (KGs); (2) creating new ideas by predicting links from the background KGs, by combining graph attention and contextual text attention; (3) incrementally writing some key elements of a new paper based on memory-attention networks: from the input title along with predicted related entities to generate a paper abstract, from the abstract to generate conclusion and future work, and finally from future work to generate a title for a follow-on paper. 
+
+\item Speech: An entire different area
+
+Problems: recognition, generation, translation
+
+
+WaveNet by Google for sound synthesis uses an "atrous convolution", which is a hierarchical structure. (Fig. \ref{wavenet})
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.8]{wavenet.jpg}
+    \caption{Wavenet.}
+    \label{wavenet}
+\end{figure}
+
+Translatotron: An End-to-End Speech-to-Speech Translation Model
+
+
 \eenum 
 
 \section{Unsupervised learning}
@@ -2638,8 +3106,26 @@ Application on Faces:
 
 \url{https://distill.pub/2017/aia/}
 
+\item Application from Zhang lab: Separate sources of external variability. Have a source of external variability $B$ for dataset $X$. Train an AE to predict $X_B$, and subtract $X^\perp = X-X_B-X_{interaction}$. The interaction term arises due to the nonlinearity,  
+
+\item Posterior Collapse problem: generator ignores latent code when decoder is powerful. Can check: If we can have $p_\theta(x|z) = p_\theta(x)$ and $q_\phi(z|x)=p_\theta(z|x)=p_\theta(x)$, then KL objective is maximized. 
+
+There are approaches for preventing this. 
+
+\item Diagnosing and Enhancing VAE Models, Dai-Wipf, ICLR 2019
+
+"It is commonly believed that Gaussian encoder/decoder assumptions reduce the
+effectiveness of VAEs in generating realistic samples. In this regard, we rigorously analyze
+the VAE objective, differentiating situations where this belief is and is not actually true.
+We then leverage the corresponding insights to develop a simple VAE enhancement. This proposal
+produces crisp samples and stable FID scores that are actually competitive with a variety
+of GAN models, all while retaining desirable attributes of the original VAE architecture"
+
+\item One can control the distribution of the latent space, by adding an extra penatly. "Sliced Wasserstein AE" (ICLR 2019)
 
 
+
+\item Understanding latent space
 
 \eenum 
 
@@ -2775,7 +3261,13 @@ Hacks: \url{https://github.com/soumith/ganhacks}
     \label{mc}
 \end{figure}
 
-\item GauGAN
+
+\item An interesting+important topic is to understand/exploit the latent space.
+
+Can interpolate to generate new samples. e.g., linearly. However linear interpolation induces a bias. Can reduce this via optimal transpor (see Agustsson et al, ICLR 2019)
+
+
+
 \eenum
 
 \subsection{Wasserstein GAN}
@@ -3042,7 +3534,7 @@ $f^*$ has gradient norm 1 almost everywhere under $P_r$ and $P_g$.
 
 
 \item {\emph{WGAN-GP}}.
- A differentiable function is 1-Lipschtiz if and only if it has gradients with norm at most 1 everywhere, so we consider directly constraining the gradient norm of the critic’s output with respect to its input. To circumvent tractability issues, we enforce a soft version of the constraint with a penalty on the gradient norm for random samples $\hat{x}\sim P_{\hat{x}}$.
+ A differentiable function is 1-Lipschtiz if and only if it has gradients with norm at most 1 everywhere, so we consider directly constraining the gradient norm of the critic's output with respect to its input. To circumvent tractability issues, we enforce a soft version of the constraint with a penalty on the gradient norm for random samples $\hat{x}\sim P_{\hat{x}}$.
 
 
 
@@ -3070,7 +3562,7 @@ $$L=E_{\Tilde{x}\sim P_g}[D(\Tilde{x})]-\E_{x\sim P_r}[D(x)]+\lambda E_{\hat{x}\
 pairs of points sampled from the data distribution $P_r$ and the generator distribution $P_g$. Given that enforcing the unit gradient norm constraint everywhere is intractable, enforcing it only along these straight lines seems sufficient and experimentally results in good performance.
 
 2. Penalty coefficient: All experiments in the paper use $\lambda=10$, which we found to work well across a variety of architectures and datasets ranging from toy tasks to large ImageNet CNNs.\\
-3. No critic batch normalization. Because we penalize the norm of the critic’s gradient with respect to each input independently, and not the entire batch. 
+3. No critic batch normalization. Because we penalize the norm of the critic's gradient with respect to each input independently, and not the entire batch. 
 
 
 
@@ -3095,7 +3587,122 @@ WGAN-GP enhances training stability. As shown below, when the model design is le
 \eenum
 
 
+\subsection{Other GANs}
 
+\benum 
+\item Conditional GAN (cGAN): generate from class-conditional distribution (Mirza \& Osindero, 2014). Figure \ref{cGAN}. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.6\textwidth]{cgan.png}
+    \caption{cGAN}
+  \label{cGAN}
+ \end{figure}
+
+
+\item 
+The original GAN objective: 
+
+$$\min_G\max_D V(D,G) 
+= \E_{x\sim P_n(x)}\log D(x) + 
+\E_{z\sim p(z)} \log[1-D(G(z))] $$
+
+"Generative adversarial nets can be extended to a conditional model if both the generator and discriminator are conditioned on some extra information $y$. $y$ could be any kind of auxiliary information,
+such as class labels or data from other modalities. We can perform the conditioning by feeding $y$
+into the both the discriminator and generator as additional input layer."
+
+"In the generator the prior input noise $p_z(z)$, and $y$ are combined in joint hidden representation, and the adversarial training framework allows for considerable flexibility in how this hidden representation is composed.
+In the discriminator $x$ and $y$ are presented as inputs and to a discriminative function."
+
+
+cGAN objective: 
+
+$$\min_G\max_D V(D,G) 
+= \E_{x\sim P_n(x)}\log D(x|y) + 
+\E_{z\sim p(z)} \log[1-D(G(z|y))] $$
+
+
+\item 
+
+Harmonizing with MLE: Address the problem of mode collapse in cGAN. 
+
+Loss forces the moments of the generated distribution to be equal to the empirical moments. 
+
+Add a loss of the form $L_{MR} = \E_{z,x|y}(\E(G(z)) - \E x)^2$,
+
+\item 
+
+CycleGAN: unsupervised image-to-image translation
+
+GauGAN
+
+BigGAN
+ 
+Bayesian GAN, ProbGAN
+
+\eenum 
+
+\subsection{Other questions in unsupervised learning}
+
+\benum 
+\item Deep Infomax (Hjelm et al, 2019): 
+
+Learning unsupervised representations: not enough labels. Labels do not tell whole story. Sparse rewards in RL. Want to learn structure not related to annotations (discovery)
+
+"There are many popular methods for learning representations. Classic methods, such as independent
+component analysis (ICA, Bell \& Sejnowski, 1995) and self-organizing maps (Kohonen, 1998),
+generally lack the representational capacity of deep neural networks."
+
+
+
+Maximize mutual information between an input and the output of a deep neural network encoder. (A type of self-supervision)
+
+Local structure is crucial. 
+
+To estimate MI, use MINE (Belghazi et al, 2018)
+
+Pipeline: Input image $\to$ Local feature vectors (patches) $\to$ Global rep
+
+$$(\hat \omega,\hat \psi)_G 
+= \arg\max_{\omega,\psi}
+\hat I_{\omega}(X;E_\psi(X)),$$ 
+
+where $E$ is the encoder NN, and the information estimator (MINE) depends on a discriminator $T_\omega$ which attempts to maximize the Donsker-Varadhan representation (where $J$ is the joint distribution of $X,Y$ and $M$ is the product of marginals)
+
+$$I(X;Y) := D_{KL}(J|M) \ge \hat I_\omega(X;Y) 
+:= \E_J[T_\omega (x,y)] - \log \E_M [\exp(T_\omega(x,y)],$$ 
+
+4.1 HOW DO WE EVALUATE THE QUALITY OF A REPRESENTATION?
+
+Evaluation of representations is case-driven and relies on various proxies. Linear separability is
+commonly used as a proxy for disentanglement and mutual information (MI) between representations
+and class labels.  This will not show whether the representation has high MI with
+the class labels when the representation is not disentangled.
+
+
+1. Estimate MI of input/output. 
+
+2. Next, we can directly measure the independence of the representation using a discriminator. Given a
+batch of representations, we generate a factor-wise independent distribution with the same per-factor
+marginals by randomly shuffling each factor along the batch dimension. A similar trick has been used
+for learning maximally independent representations for sequential data (Brakel \& Bengio, 2017). We
+can train a discriminator to estimate the KL-divergence between the original and shuffled representations.
+
+
+[If you learn the right features, supervised learning becomes easy. You can learn the right features in an unsupervised manner my maximizing information-theoretic quantities and information extraction.]
+
+\item Spectral Inference Networks
+
+One can also measure the compositionality of representations (see e.g., J Andreas, ICLR 2019).
+
+\item Semi-supervised learning: can learn a dimension reduction method to capture the structure of the output of a supervised method. (Teacher-student network. see Law et al, 2019 ICLR)
+
+\item Discriminative models are susceptible to overconfidence on out-of-distribution (OOD) inputs. Generative models are believed to be more robust. However, some deep gen models can assign higher density estimates to OOD dataset than the training data.
+
+\item Glow (Kingma, Dharival, 2018)
+
+Disentanglement
+\eenum
 
 
 
@@ -3956,7 +4563,7 @@ When $x_t = x$, this reduces to the multi-armed bandit problem with K arms and E
 \subsection{Reinforcement learning}
 \subsubsection{Setup}
 \benum
-\item One of the best introductions: 
+\item A simple introduction: 
 \url{http://karpathy.github.io/2016/05/31/rl/}
 \item Algorithm of choice: Policy gradient
 
@@ -3986,7 +4593,7 @@ learning paradigms?
     \item There is no supervisor, only a \textit{reward} signal
     \item Feedback is delayed, not instantaneous
     \item Time really matters (sequential, non i.i.d data)
-    \item Agent’s actions affect the subsequent data it receives
+    \item Agent's actions affect the subsequent data it receives
 \end{itemize}
 
 
@@ -4476,7 +5083,7 @@ $$v_\pi(s)
 \begin{itemize}
     \item Rewards: -1 per time-step
     \item Actions: N, E, S, W
-    \item States: Agent’s location
+    \item States: Agent's location
 \end{itemize}
 
 
@@ -4639,6 +5246,8 @@ Construct $\lambda$ return (Forward view)
 
 $$G_t^\lambda = (1-\lambda) \sum_{n=1}^\infty \lambda^{n-1} G_t^n
 $$
+
+[Thought: can we find optimal/better weights. I think it becomes a mean-variance problem. $\min Var[\sum_i w_i X_i)$, st $\sum_i w_i=1$.]
 
 Backward view gives an efficient implenentation in terms of eligibility traces
 
@@ -5013,7 +5622,7 @@ Information hiding:
 
 • Information hidden
 downwards – submanagers do
-not know their manager’s task
+not know their manager's task
 
 • Information hidden upwards –
 managers do not know how
@@ -5044,7 +5653,7 @@ contiguous areas at lower levels, then the system would not perform very well.
 
 
 This shows how the maze is divided up at
-different levels in the hierarchy. The ‘U’ shape is the barrier, and the shaded square
+different levels in the hierarchy. The ‘U' shape is the barrier, and the shaded square
 is the goal. Each high level state is divided into four low level ones at every step
 
 At all times, the agent is effectively performing an action at every level. There are five actions, NSEW and *, available to the managers at all levels other than the
@@ -5077,13 +5686,13 @@ at finer grain
 – Location of agent on the board in the
 granularity below
 
-Tabular Q-values updated at
+"Tabular Q-values updated at
 all levels where a transition
 occurred, if the transition
 was ordered at all lower
 levels
 
-Each manager maintains Q values (Watkins, 1989; Barto, Bradtke \& Singh, 1992)
+"Each manager maintains Q values (Watkins, 1989; Barto, Bradtke \& Singh, 1992)
 over the actions it instructs its sub-managers to perform, based on the location of
 the agent at the subordinate level of detail and the command it has received from
 above. So, for instance, if the agent currently occupies 3-(6,6), and the instruction
@@ -5093,7 +5702,7 @@ either 2-(3,2) or 2-(4,2). The action the 1-(2,2) manager chooses is communicate
 one level down the hierarchy and becomes part of the state determining the level 2
 Q values.
 
-When the agent starts, actions at successively lower levels are selected using the
+"When the agent starts, actions at successively lower levels are selected using the
 standard Q -learning softmax method and the agent moves according to the finest
 grain action (at level 3 here). The Q values at every level at which this causes
 a state transition are updated according to the length of path at that level, if the
@@ -5311,7 +5920,7 @@ Optimality equations: Similar to Bellman.
 \item Intra-option learning methods
 - Learn online while option executes
 
-\item  Add temporally-extended activities without
+\item  Conclusion: Add temporally-extended activities without
 precluding fine-grained control
 
 • Exclude some primitives
@@ -5329,6 +5938,115 @@ option policy
 
 \end{enumerate}
 
+\item Hierarchies of Abstract Machines (HAMs)
+
+\benum
+\item 
+
+"A HAM is a program which, when executed by an agent in an environment, constrains the
+actions that the agent can take in each state."
+
+
+Apply temporal abstraction to
+SIMPLIFY rather than augment
+
+Well-known set of optimal (or
+good enough) policies for long-
+time horizon actions, e.g., Robot navigation
+
+\item Formalization: 
+
+"Machines for HAMs are defined by a set of states, a transition function, and a
+start function that determines the initial state of the machine."
+
+\benum 
+
+\item
+Collection $H$ of finite state machines $H_i$. States $m_t$, state set $S$
+\item
+Core environment MDP $M$ (i.e., a model). States $s_t$, state set $S_M$
+\item
+Machine state initialization function $I_i: S_M\to S$ [In my environment state, I decided to call machine $i$, and I should start in a specific machine state]
+\item
+Stochastic state transition function: $\delta_i: S\to S$ (withing machines)
+\item
+
+"The state space of the problem is $S \times S_M$, where $S$ is the machine state and $S_M$ is the state of the underlying MDP. The actions are executed as usual, adhering to a policy defined on the states."
+\eenum 
+
+
+State set $S$ within machines:
+
+\begin{enumerate}
+\item Action: Executes action of $M$, depending on machine state $m_t$, and environment state $s_t$: $a = \pi(m_t, s_t)$. 
+
+\item Call: Suspends execution
+of current machine,
+calls another
+machine $H_j$, function
+of machine state $m_t$.
+Machine state initialization function applied to the environment $I_j(s_t)$ sets initial
+state
+
+\item Choice: Non-
+deterministically
+chooses next
+state of $H_i$
+
+\item Stop: Suspends execution
+of current machine.
+Resumes execution
+of calling machine
+
+
+\end{enumerate}
+
+\item HAMs: SMDP view. Equivalent to SMPD : $H \odot M$. 
+
+\begin{enumerate}
+\item 
+• State : $S \times S_M$, "cross-product of the states of HAM with the states of MDP."
+
+\item  Actions: Choice points of $H$. "For each state where the machine component is a choice state,
+actions that change only the machine component of the state are introduced."
+
+- Runs autonomously via action states until next choice point reached
+
+- Do not learn within machine policies - program these
+
+\item  Reward: Discounted awards accumulated during timesteps
+between choice states
+
+- Reward of 0 for timesteps where M does not change
+\end{enumerate}
+
+
+"A HAMQ-learning agent keeps track of the following quantities:  the current environment
+state; the current machine state; $s_t$ and $m_t$, the environment state and machine state at
+the previous choice point; $a$, the choice made at the previous choice point; and the total accumulated reward and discount since the previous choice point. It also maintains
+an extended Q-table, indexed by an environment-state/machine-state
+pair and by an action taken at a choice point."
+
+\item 
+HAMs - Conclusions
+
+
+\begin{enumerate}
+\item 
+• Success depends on quality of programmed policies and
+state transition functions for each machine
+
+\item • Not used a great deal in large-scale applications
+
+
+\item  • Allows integration of multiple controls problems, whose
+solutions are well known, but whose relationships are not
+\end{enumerate}
+
+
+\eenum
+
+\item Goal conditioned Hier RL
 
 \eenum 
 
@@ -5356,9 +6074,13 @@ Learning by playing: SAC-X (Riedmiller et al 2018)
 
 Given: external task rewards and internal reward predicates (IRP)
 Principles:
+
 - store transitions
+
 - off-line off-policy 
+
 - distillation
+
 - meta- learn
 
 IRP: principle: change distributions of sensor values
@@ -5448,7 +6170,42 @@ Priors: physics, language
 \item  Inverse rl
 \item Instruction conditional rl
 \item  Imitation learning
+\item Visceral Machines: physiological rewards. Blood volume pulse (ICLR 2019)
 \item Curiosity and intrinsic motivation
+
+Motivation: interestingness is proportional to empirical learning progress (Oudeyer)
+
+Construct features: mean speed of objects, counts of events, learned RNN embedding
+
+Allow the policy to depend on the features. (see Oudeyer, Kaplan - What is intrinsic motivation?  - 2007)
+
+\item Exploration policies: beyond exp3
+
+Entropy bonus
+
+Prediction-based: use the error of a prediction problem as reward for the agent. Common choice: next state (dynamics) prediction, where the task is to predict features $f_{i+1}$ of the next state $s_{i+1}$ given the current state $s_i$ and the action $a_i$ taken in the transition. 
+
+Here define $r_{i+1} = |f_{i+1}-\hat f_{i+1}|^2$, where $\hat f_{i+1} = F(s_{i},a_i)$. Literally, try to predict some aspect of the future. Want unpredictability.
+
+
+"Random Network Distillation" (ICLR 2019): predict the output of a fixed randomly initialized NN applied to the current state $f_{i+1} = G(s_{i+1})$ given the current state $s_{i+1}$. Let $r_{i+1} = |f_{i+1}-\hat f_{i+1}|^2$. Key difference from above is that you predict the deterministic features of the state using a network. 
+
+"This involves two neural networks: a fixed and randomly initialized target network which sets the
+prediction problem, and a predictor network trained on data collected by the agent. The target network
+takes an observation to an embedding $f : O \to R^k$ and the predictor neural network $\hat f : O \to R^k$
+is trained by gradient descent to minimize the expected MSE $\|\hat f(x;W) − f(x)\|^2$ with respect to its
+parameters W. This process distills a randomly initialized neural network into a trained one. The
+prediction error is expected to be higher for novel states dissimilar to the ones the predictor has been
+trained on."
+
+"Because of neural networks' limited ability to generalize outside the distribution they are trained on, the exploration bonus is expected to be high in states dissimilar to those the agent has seen before. "
+
+
+[This seems pretty puzzling to me.]
+
+\item Evolutionary algorithms: Evolution Strategies as a Scalable Alternative to Reinforcement Learning (Salimans et al, OpenAI, 2017, \url{https://openai.com/blog/evolution-strategies/})
+
+
 \eenum 
 
 \section{Special topics}
@@ -5483,6 +6240,8 @@ Website: \url{robust-ml.org/}.
 using projected gradient descent (PGD).
 
 \item Sometimes, even a much smaller class of perturbations is enough. E.g., rotating and translating an image can lead to adversarial examples. Data augmentations helps a bit, but does not fully solve it. (Fawzi Frossard 2015, Engstrom Tran Tsipras Schmidt Madry 2018) 
+
+See also "Beyond pixel norm-balls: parametric adversaries using an analytically differentiable renderer", ICLR 2019. "Compute adversarial examples by perturbing physical parameters instead of pixel colors. Present (1) adversarial geometry by 3D shape perturbations, and (2) adversarial lighting by scene lighting perturbations."
 
 \item Many defenses have been devised to protect from this attack. Several of them rely on "perturbing" the training example that the adversary hands to them, so that the adversary cannot be "too specific" in devising its attack. 
 
@@ -6736,6 +7495,8 @@ makes networks more robust to poor initialization and helps training particularl
 
 \item GAN - alternating gradient updates (with expectation estimated by MC)
 
+\item VAE - reparametrization trick
+
 \item Reinforcement learning: 
 
 \bitem 
@@ -6745,7 +7506,7 @@ Value function approximation - Approximate GD -> SGD -> replace value function b
 Policy gradient - score function + MC
 \eitem 
 
-\item Adversarial examples - obfuscated gradients
+\item Adversarial examples - obfuscated gradients, and minimax theorem
 
 
 \item Structured attention and predicion - regularization
@@ -6766,6 +7527,11 @@ In this paper, the authors observe that existing probabilistic methods can be re
 
 
 \benum 
+\item List of references \url{https://github.com/bharathgs/Awesome-Distributed-Deep-Learning}
+
+
+Distributed deep learning review \url{https://insidehpc.com/2018/04/video-demystifying-parallel-distributed-deep-learning/}
+
 
 \item Massive data creates new problems: how to process, analyze, learn from...
 \item Example: 
@@ -6850,7 +7616,7 @@ In this paper, the authors observe that existing probabilistic methods can be re
 \eitem
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\paperwidth]{fc}
+\includegraphics[width=0.4\paperwidth]{fc}
 \end{center}
 \caption{FireCaffe: near-linear acceleration of deep neural network training
 on compute clusters, Iandola et al 2016}
@@ -7056,7 +7822,7 @@ downloading tons of MP3s, or doing anything else un-
 usual on the network.
 
 Jet Engine Failure Detection
-You can’t destroy jet engines just to see how they fail.
+You can't destroy jet engines just to see how they fail.
 
 Database Cleaning
 We want to find out whether someone stored bogus in-
@@ -7077,7 +7843,36 @@ Structured Estimation (preview)
 
 PCA: Good approximation by low-rank model
 
+
+\item Local SGD: Only synchronize models every $H$ rounds. ICLR 2019 paper shows it can be as good as mini-batch global SGD.
+
+\item Measuring the Limits of Data Parallel Training for Neural Networks (Shallue, Lee et al, Google, 2018)
+
+"For the most common neural network training algorithms (synchronous stochastic gradient descent and its variants), the scale of data parallelism corresponds to the batch size.
+
+"in an idealized data-parallel system, the time cost depends
+only on the number of training steps and is independent of the number of examples pro-
+cessed. On realistic data-parallel hardware (TPU pods),
+a neural network that trains in fewer steps with a larger batch size can incur a lower time
+cost." [It is interesting that a problem about distributed learning is reduced to a pure optimization problem, where only the batch size matters. May be tractable?]
+
+"We investigate the relationship between batch size and training time by running experiments on six different types of neural networks across seven different datasets using three different optimization algorithms ("optimizers"). In total, we trained over 100K individual models across 450 workloads, and observed a seemingly universal relationship between batch size and training time across all workloads we tested. We found extremely large variation between workloads. Figure \ref{Bsts}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\paperwidth]{bsts}
+    \caption{Universal relationship between batch size and training speed}
+    \label{Bsts}
+\end{center}
+\end{figure}
+
+"SGD with momentum (as well as Nesterov momentum) can make use of much
+larger batch sizes than plain SGD
+
+
 \item Federated learning
+
+
 
 \eenum 
 
@@ -7091,7 +7886,10 @@ PCA: Good approximation by low-rank model
 
 \item Reference: \url{http://www.automl.org/book/}
 
-Meta-data sharing: OpenML.org
+Meta-data sharing: \url{OpenML.org}
+
+NeurIPS 2018 tutorial, Frank Hutter and Joaquin Vanschoren: \url{https://www.youtube.com/watch?v=0eBR8a4MQ30}
+
 
 \item What is AutoML?
 
@@ -7275,7 +8073,7 @@ Controller network is an LSTM with 100 hidden units. The LSTM samples decisions 
 Training algorithm: 
 \benum 
 \item 
-Fix the controller’s policy and perform stochastic gradient descent  to minimize the expected loss function.
+Fix the controller's policy and perform stochastic gradient descent  to minimize the expected loss function.
  \item
 Fix  and update the policy parameters, aiming to maximize the expected reward.
 \eenum 
@@ -7283,6 +8081,12 @@ Fix  and update the policy parameters, aiming to maximize the expected reward.
 
 
 \eenum 
+
+\item Neural Architecture Optimization (Luo et al, NeurIPS, 2018) (1) An encoder embeds
+neural network architectures into a continuous space. (2) A predictor takes the
+continuous representation of a network as input and predicts its accuracy. (3) A
+decoder maps a continuous representation of a network back to its architecture.
+
 
 
 \item DARTS. (DARTS: DIFFERENTIABLE ARCHITECTURE SEARCH, Liu et al, 2019)
@@ -7438,6 +8242,58 @@ Model-agnostic meta-learning
 Meta-RL: state-action-reward: abstract state-choose policy-performance
 
 \eenum 
+
+\item Model agnostic meta learning (MAML. Chelsea Finn, Pieter Abbeel, Sergey Levine, ICML 2017)
+
+Optimize for a representation $\theta$ that can
+quickly adapt to new tasks.
+
+"we consider a model represented by a parametrized function $f_\theta$ with parameters $\theta$. When adapting to a new task $T_i$, the model's parameters become $\theta_i$. In our method, the updated parameter is computed using one or more gradient descent updates on task $T_i$. For
+example, when using one gradient update"
+
+$$\theta_i = \theta_i - \alpha \nabla_\theta L_i(f_\theta)$$
+
+"The model parameters are trained by optimizing for the performance of $f_{\theta_i}$  with respect to $\theta$ across tasks sampled from $p(T)$. More concretely, the meta-objective is as follows:
+
+$$\min_\theta 
+\sum_{T_i \sim p(T)} L_i(f_{\theta_i}) 
+= 
+\sum_{T_i \sim p(T)} L_i(\theta_i - \alpha \nabla_\theta L_i(f_\theta)) 
+$$
+
+
+Note that the meta-optimization is performed over the
+model parameters $\theta$, whereas the objective is computed using the updated model parameters $\theta_i$. In effect, our proposed method aims to optimize the model parameters such
+that one or a small number of gradient steps on a new task
+will produce maximally effective behavior on that task.
+The meta-optimization across tasks is performed via
+stochastic gradient descent (SGD), such that the model parameters $\theta$ are updated as follows:
+
+$$\theta  \gets 
+\theta - \beta \nabla_\theta \sum_{T_i \sim p(T)} L_i(f_{\theta_i})
+$$
+
+\item Routing models: apply a different model for different examples. This is in contrast to popular fixed architecture models. Can be viewed as a form of per-example one-shot architecture search. Need to decide how to route: train a small NN that learn to select components. 
+
+\item Meta-learning update rules for unsupervised RL (ICLR 2019)
+
+Transferring Knowledge across learning processes (ICLR 2019)
+
+DELTA: Deep learning transfer using feature map with attenction for CNN (ICLR 2019)
+
+\item Google's AutoML system, as of 2019, has competitive performance to the best Kaggle competitors in Hackathon style events. See Figure \ref{automl} for a plot of the pipeline. (\url{http://ai.googleblog.com/2019/05/an-end-to-end-automl-solution-for.html})
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7\textwidth]{automl}
+  \caption{Google's AutoML system pipeline}
+  \label{automl}
+\end{figure}
+
+\item AutoRL (Learning Navigation Behaviors End-to-End With AutoRL, Chiang et al, 2019)
+"is an evolutionary automation layer around deep RL that searches for a reward and neural network architecture using large-scale hyperparameter optimization. It works in two phases, reward search and neural network architecture search. During the reward search, AutoRL trains a population of DDPG agents concurrently over several generations, each with a slightly different reward function optimizing for the local planner’s true objective: reaching the destination. At the end of the reward search phase, we select the reward that leads the agents to its destination most often. In the neural network architecture search phase, we repeat the process, this time using the selected reward and tuning the network layers.
+
 \eenum 
 
 
@@ -7464,10 +8320,12 @@ $$W_{ij}[t+1]=W_{ij}[t]+\eta a_i[t]a_j[t]$$
 
 \item Recent work from Uber integrating NNs and Hebbian learning at ICLR 2019. 
 
+Poggio's group: "Biologically plausible learning algorithms can scale to large datasets", ICLR 2019
+
 \eenum 
 
 
-\subsection{Accessibility}
+\subsection{Accessibility + Human-centric AI}
 
 
 \benum 
@@ -7505,6 +8363,7 @@ Different from other platforms: Kaggle, StackOverflow, CRAN, papers (don't have 
 
 Concern: how to make the market as large as possible.  
 
+\item Google: \url{https://ai.google/research/teams/brain/pair}
 \eenum 
 
 
@@ -7516,7 +8375,23 @@ Concern: how to make the market as large as possible.
 
 locally linear, Shapley value
 
-    locally linear one of the most interesting papers from ICLR 2019
+- Classical ways to interpret models: 
+
+\url{https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e}
+
+- Workshop at NIPS 2017
+
+- Reference: \url{https://distill.pub/2018/building-blocks/}
+
+\item Thoughts: 
+
+- definition?
+
+- Feature importance score not good at first layer. Maybe good at higher layers? Maybe we can use this as a way to detect meaningful features?
+
+- Saliency map is very local, and specific to input. How about more global? Recursive definition, starting from last layer? Prune/assign weights, repeat?
+
+- Can we define interpretability via "class-specific features"? For cat, it's ears and eyes, and nose. For truck, it's wheels, windows, etc. They are different for different classes. E.g., can we use the class-average of the saliency maps to select important features at all layers? [Automatically detect which features are important]
 
 \item Class model visualization ("Deep inside convolutional networks: Visualising image classification models and saliency maps", Simonyan, Vedaldi, Zisserman, 2013)
 
@@ -7559,10 +8434,69 @@ using the GraphCut colour segmentation. The use of the colour segmentation is mo
 fact that the saliency map might capture only the most discriminative part of an object, so saliency
 thresholding might not be able to highlight the whole object"
 
+\item Can also use generative models. Ask "what part of the image when changed would have altered the classification?" by generative models. Find the image part $x_r$ by variational dropout. (Explaining image classifiers by counterfactual generation, ICLR 2019) 
+
+
+\item Hierarchical interpretations for NN predictions (ICLR 2019)
+
+\item L-Shapley and C-Shapley: efficient model interpretation for structured data (Chen, Song, Wainwright, Jordan)
+
+LS-Tree
 
 
 \item  Insight into the training: Visualizing the loss surface
 
+\item Interpretation as max-affine splines (Balestriero, Baraniuk, ICLR 2019). Can be viewed as Local matched filter/affine mapping $z(x) = A_{NN}(x)+b_{NN}(x)$
+
+Can define partition-based signal distance
+
+\item Towards robust, locally linear deep networks (ICLR 2019)
+
+Robust gradients wrt inputs lead to stable explanations. Identify and efficiently expand stable gradient regions for ReLU networks. 
+
+Fully connected ReLU network $a^0=x$, $z^i = W^i a^{i-1}+b^i$, $a^i = ReLU(z^i)$.
+
+For each activation pattern, get a feasible set of inputs, a convex polyhedron. 
+
+Activation pattern: The constraint for a constant activation $z^i_j \ge 0$ if $o^i_j=1$, and reverse. 
+
+Feasible set wrt an activation pattern: 
+
+$S^i_j(x) = \{ \bar x: o^i_j 
+[\nabla_x (z^i_j)^\top \bar x  
++ (z^i_j - \nabla_x (z^i_j)^\top)^\top x] \ge 0\}$
+
+Feasible set wrt the set of activation patterns: Intersection 
+
+Goal of inference:
+
+$$\hat \ep := \max_{Ball_{\ep,p}\subset S(x)}\ep$$
+
+$\ell_2$ ball certificate: since a polyhedron is an intersection of half-spaces: 
+
+$$R = \min_{ij} |z^i_j|/\|\nabla_x z^i_j\|_2$$
+
+Expanding the $\ell_2$ margin. First try regularization by $-R$ (rigid, nonsmooth). Upper bounds + Lagrangian relaxation (ROLL). (akin to transductive SVM)
+
+$-\min{a_i/b_i} \to \max b_i^2 + c\max(0,1-a_i)$
+
+How? 
+
+$-\min 1/b_i$ st $\min a_i\ge 1$
+
+$\max - 1/b_i$ st $\min a_i\ge 1$
+
+$\max b_i^2$ st $\min  a_i\ge 1$ (change objective, keep mon)
+
+$\max b_i$ st $\max 1-a_i \le 0$ 
+
+$\max b_i + c(1-a_i)$ (change constraint into penalty)
+
+
+Tricks to compute. 
+
+"Qualitatively, the ROLL loss yields stable shapes
+and intensities of gradients, while the vanilla loss does not."
 
 
 \item A Microscope into Neural Network
@@ -7643,9 +8577,35 @@ This shows that the IOL is a sort of "angle" between the stochastic and real gra
 
 \item Sparsification - intuitive, but not always practical, because want to implement it fast in hardware 
 
+MorphNet (Gordon et al, CVPR 2018). "optimizes a neural network through a cycle of shrinking and expanding phases. In the shrinking phase, MorphNet identifies inefficient neurons and prunes them from the network by applying a sparsifying regularizer such that the total loss function of the network includes a cost for each neuron. Calculates a neuron cost with respect to the targeted resource. In the expanding phase, we use a width multiplier to uniformly expand all layer sizes. 
+
 \item Structured convolutions: tensor factorizations, eg PCA. Important problem, how to choose the rank
 
 \item Quantization:
+
+Weight quantization: small storage, fast inference. Training can be time-consuming. 
+
+"In BinaryConnect (Courbariaux et al., 2015), each weight is binarized using the sign function either
+deterministically or stochastically. In ternary-connect (Lin et al., 2016), each weight is stochastically
+quantized to \{−1, 0, 1\}. Stochastic weight quantization often suffers severe accuracy degradation,
+while deterministic weight quantization (as in the binary-weight-network (BWN) (Rastegari et al.,
+2016) and ternary weight network (TWN) (Li \& Liu, 2016)) achieves much better performance."
+
+
+Loss-aware weight quantization: (Hou \& Kwok, 2018)
+
+Iterative optimization over the weights $w_t$
+
+First, preconditioned gradient step: Suppose $\hat v_t$ is the diagonal approximation of the Hessian coming from the optimization method (eg Adam).
+
+$$w_{t+1} = w_t - \eta_t \diag(\sqrt{\hat v_t})^{-1}\hat g_t$$
+
+Second, quantize via: 
+
+$$\min_{\hw}\| w_{t+1} - \hw \|^2_{\diag{\sqrt{v_t}}}$$ subject to $\hw = ab$, $a>0$, $b\in S_w^d$. Here $S_w$ is the set of allowable weights, e.g., $\pm 1$, or m-bit.
+
+
+Can speed up training via quantized gradients in distributed environment (Hou, Zhang, Kwok, 2019)
 
 \item Lottery ticket hypothesis. FINDING SPARSE, TRAINABLE NEURAL NETWORKS, Frankle, Carbin, 2019
 
@@ -7688,7 +8648,29 @@ Algorithm:
 "we extend our hypothesis
 into an untested conjecture that SGD seeks out and trains a subset of well-initialized weights"
 
+\item Later work (Deconstructing Lottery Tickets, Zhou et al 2019) showed that each step of the algorithm may be varied significantly without impacting the overall results.
 
+2. Mask criteria
+
+"In addition to large-final , we also experimented with the inverse, small-final , versions that evaluate
+weights based on their initial magnitudes instead, large-init and small-init , versions that select
+for both, large-init-large-final and small-init-small-final , two mask criteria that evaluate how far
+weights moved, magnitude-increase and movement , and a control, random , that chooses masks
+randomly."
+
+"As can be seen, the
+magnitude-increase criterion turns out to work just as well as the large-final criterion, and in some
+cases significantly better."
+
+2. Treatment of kept weights during retraining (mask-1 action): "As long as you keep the sign, reinitialization is not a deal breaker"
+
+3. Treatment of pruned weights during
+retraining (mask-0 action): Masking is training: "for any weight to be frozen, we freeze it to zero if it moved
+toward zero over the course of training, and we freeze it at its random initial value if it moved away from zero" - better performance
+
+Supermasks: Multiply initial weights with large-final masks, nontrivial accuracy. 
+
+\item Other pruning approaches: channel pruning
 
 \eenum
 
@@ -7709,6 +8691,11 @@ Uncertainty quantification
 A simple Bayesian baseline for deep learning
 
 Osband bootstrap nn
+
+Deterministic VI for Robust Bayesian NNs, ICLR 2019
+
+Variance networks: model only variance. Can store all info. Less flexible posterior approximations result in better ELBO. ICLR 2019
+
 \item Learning from limited data
 
  Semi-supervised learning: using unlabeled data, clustering assumption (Bengio, Ermon)
@@ -7727,10 +8714,28 @@ Intelligence is the biggest problem. Not just engineering, also science.
 
 Poggio hmax. A classic deep architecture/model for human vision.
 
+\item DL applied to "classical" problems
+
+DL for compressed sensing (Donoho, Baraniuk). e.g., Mousavi et al, ICLR 2019 (Data-driven distributed approach to sparse signal representation and recovery - find optimal measurement/sensing matrix $\Phi$ that is a near-isometry for current dataset)
+
+DL for algorithms (Madry). e.g., AdWords, Knapsack, Sectrary, Linear programming (Balaji Prabhkar)
+
+DL for PDE solver. (Ermon). Improve a Jacobi-type iteration by learning an improved iteration. $u\gets  F(u):=Tu+b$. Iterate $u\gets  F(u) + H(u-F(u))$, learn $H$.
+
+NeuroSAT. (Percy Liang, others)
+
+\item Memory and general computation
+
+Neural Turing Machines
+
+Improvements: Learning to remember more with less memorization (ICLR 2019), optimize memory access.
+
+
 \item Research frontiers: 
 
 How to integrate human knowledge. Eg syntactic trees in linguistics. Can predict better than humans, but can't explain why. 
 
+\item Learning in markets
 \eenum 
 
 
@@ -7743,6 +8748,15 @@ How to integrate human knowledge. Eg syntactic trees in linguistics. Can predict
 \item "No Peek: A Survey of private distributed deep
 learning"
 
+\item Local privacy: data is processed locally on phones
+
+Not interactive:  parallelizable. But data inefficient.
+
+Sequentially interactive: Duchi, Jordan, Wainwright (2013). Ask queries from users in a sequence. More data efficient.
+
+Fully interactve: Can ask as many questions as possible. [What if phone dies]
+
+Recent work: k-compositional fully interactive protocols can be reduced to a k-blowup sequential protocol
 
 
 \eenum
@@ -7761,6 +8775,34 @@ learning"
 \item In academia, we can leverage domain experts. For instance: science (physics, chemistry, neuroscience). 
 
 Industry is less interested in these, because they do not bring immediate value to the customers. Also, they may have difficulty getting some experiments done (such as monkeys in their labs). Their shareholders may be unhappy.
+
+\item Chemistry. Based partly on talk by Regina Barzilay at the Science of Deep Learning Colloquium, NAS, 2019
+
+Opportunities to change chemistry with deep learning. Big collaboration: MIT ML for Pharma discover and synthesis consortium.
+
+Developing drugs is slow and expensive, avg cost of dev a drug is ca 2.6 billion usd. Today: a lot of high-throughput screening. Can we use ML for prediction?
+
+Prediction tasks in chemistry: Property prediction (biactivity, soluble, toxic). Reaction prediction. Jointly modeling chemical and biological properties. Lead optimization for drug discovery - "art of chemistry".
+
+Human vs machine:  predicting chemical reactions. collect 80 reactions. beat humans (postdocs)
+
+Research question: when moving to a new area, how to design new models? first option: use known model. second: design new one
+
+Property prediction: training set: molecule, property (toxicity). Traditionally: extract "fingerprint" (features). Pharma companies have their own secret ones. Can you learn it? Use Graph Convolutional Classifier. (Coley et al, 2017, Jin et al, 2017). Each atom starts with feature vector (atom type, degree, in ring, aromatic), and then all the atoms exchange messages with neighbors. Get vector representation, can plot. Figure \ref{gcnn_mol}. "we did great"  
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{gcnn_mol.png}
+  \caption{Model architecture using a graph-based convolutional neural network for molecular embedding.}
+  \label{gcnn_mol}
+\end{figure}
+
+Open Modeling Questions: Molecular Representation beyond Graphs (3D). Modeling Underlying Physics.
+
+Mokecular Optimization: Take a molecule, generate a molecule with better properties. E.g., find a molecule with right bioactivity, modify it to make it non-toxic or soluble. Idea: use string translation. How to transform molecule to string? SMILES (Simplified Molecular Input Line Entry System), linearize. Works poorly. Instead, generate junction gree by decomposing molecule into function groups.  Map this+the molecular graph into a continuous feature space. Optimize+reconstruct. (Jin et al, 2018)
+
+Graph-to-graph translation. Learn an encoder-decoder architecture. Learn latent code $z\sim p(z)$ that indicates the intended mode of modification.
+
 
 \eenum
 
@@ -7804,6 +8846,17 @@ Industry is less interested in these, because they do not bring immediate value 
 \item At a fundamental level, people ask themselves: Will current math be enough to understand them?
 
 High dimensional places are the new frontier
+
+\item Courses
+
+- \url{https://stats385.github.io/}
+
+- \url{http://mitliagkas.github.io/ift6085-dl-theory-class/}
+
+- \url{https://deeplearning-math.github.io/}
+
+
+
 \eitem
 
 
@@ -8021,7 +9074,9 @@ After $n$ layers, we get error $c^{\log n } \ep_0 <\ep$
 
 But $\ep_0 = d^{-r/2}$, finishing the proof [??]
 
+\item In the presence of sparse latent structure, ReLU networks can be more expressive than polynomial. Model $(X,Y)$ as $X=AZ+\ep$, where $Z$ is sparse, and $Y = w^\top Z$. (Koehler, Risteski, ICLR 2019)
 
+\item Deep skinny nets are not universal (due to topological properties). Suppose the activation function is a limit of one-to-one functions. Thenm if the input space has dimension $N$ and every hidden layer has dimension at most $N$, no decision boundary can have a compact component. (Johnson, ICLR 2019)
 
 \eenum
 
@@ -8038,7 +9093,7 @@ Simplest method (SGD) basically ``works''. How? Why is it so easy to optimize? C
 
 \item "SGD should converge most of the time to global minima"
 
-He: semi-formal
+He: semi-formal, others "takes 100 pages of math, and gets to the same conclusion"
 
 \item Approximate ReLU with high degree poly. Has same behavior
 
@@ -8111,6 +9166,50 @@ function and its gradient converge.
 
 
 \eenum
+
+\item SGD ends in flat minima. Some work alo investigates the sharpness along the dyamics: first sharp, then flat (Jastrzebski et al ICLR 2019)
+
+\item The Langevin diffusion can be analyzed directly and yields insight.
+
+e.g., Chen et al (ICLR 2019) "Accelerating Nonconvex Learning via Replica Exchange Langevin Dynamics":
+
+1. Local exploitation: Concentration of limiting distribution $\lim_{T\to0}\pi_r(\cdot)\to\delta_{x^*}(\cdot)$, where $x^*$ is any global optimizer of $f$. Lower temperature better.
+
+2. Global exploration: Escaping local minimum: $k_0$ denotes the time to escape from local minimum $x_0$: $\E k_0 = O(\exp(1/T))$. Higher temperature better
+
+How to balance tradeoff?
+
+Replica exchange: run two Langevins, with different temperatures. Replica exchange: at time $t$ and position $x_1,x_2$, swap with probability $a\cdot \min [1, \pi(x_2,x_1)/\pi(x_1,x_2)]$, where $\pi$ is the joint limiting distribution. Can figure out infinitesimal generator. Can study acceleration effect in $\chi^2$ divergence.
+
+\item A lot is known about the behavior of SGD/GD in various cases. See work by Jason Lee, Tengyu Ma, Moritz Hardt, Sanjeev Arora, Tengyuan Liang, Sasha Rakhlin, Babak Hassibi, Weijie Su, and many many others
+
+Big topics: 
+
+\benum 
+\item 
+Optimization landscape
+
+- Deep linear networks have no bad local minima (Kawaguchi et al)
+
+- Montanari
+
+\item Landscape design
+
+It is sometimes possible to design architectures that have good optimization lanscape, i.e., they have no bad local minima
+
+- On the loss landscape of a class of deep neural networks with no bad local valleys (Nguyen et al, ICLR 2019)
+
+
+\item Convergence of optimization algorithms
+
+- GD only converges to minimizers (Jason Lee et al)
+
+- Star-convexity holds with over-parametrization, allows SGD to converge to global min (Zhou et al, ICLR 2019. Some of it is empirical) 
+
+
+\item Connections Opt+Gen: Implicit bias, Implicit regularization, algorithmic regularization 
+
+\eenum 
 
 \eenum
 
@@ -8242,10 +9341,24 @@ GD or SGD with weight or batch normalization implement generalization bounds For
 
 \eenum
 
+\item See: "The role of over-parametrization in generalization of NNs". Neyshabur,..., LeCun et al, ICLR 2019
+
+"Non-vacouous generalization bounds at the ImageNet scale: a PAC-Bayesian compression approach", Zhou,..., Adams, Orbanz, ICLR 2019
 \eenum
 
 
 
+\subsection{Nonparametric function estimation}
+
+
+\benum
+\item Some results show that deep networks can have good statistical propertie, such as achieving good rates of convergence for nonparametric function estimation
+
+See e.g., Suzuki: "Adaptivity of deep ReLU network for learning in Besov and mixed smooth Besov spaces: optimal rate and curse of dimensionality" (ICLR 2019)
+
+Similar to Donoho \& Johnstone, but for a wider range of parameters. Also for affinely transformed Besov spaces.
+
+\eenum 
 
 \subsection{Harmonic analysis}
 
@@ -8303,14 +9416,14 @@ Inference in DRMM: CNN.
 
 
 \benum
-\item An extensive analysis of the Riemannian geometry of random neural networks  geometry, performed by Poole et al. (2016), revealed the existence of two phases in deep networks: a chaotic (ordered) phase
+\item "An extensive analysis of the Riemannian geometry of random neural networks  geometry, performed by Poole et al. (2016), revealed the existence of two phases in deep networks: a chaotic (ordered) phase
 when the random weights have high (low) variance. In the
 chaotic (ordered) phase the network locally expands (con
 tracts) input space everywhere. In contrast, trained net
 works flexibly deploy both ordered and chaotic phases dif
 ferentially across input space; they contract space at the
 center of decision volumes and expand space in the vicin
-ity of decision boundaries. 
+ity of decision boundaries." 
 
 Ref: Poole, B., Lahiri, S., Raghu, M., Sohl-Dickstein, J., and
 Ganguli, S. Exponential expressivity in deep neural net
@@ -8471,7 +9584,7 @@ Empirically ok with simulated data, but not yet with real data
 %To learn about thousands of objects from millions of images, we need a model with a large learning
 %capacity. However, the immense complexity of the object recognition task means that this problem
 %cannot be specified even by a dataset as large as ImageNet, so our model should also have lots
-%of prior knowledge to compensate for all the data we don’t have.
+%of prior knowledge to compensate for all the data we don't have.
 %
 %Convolutional neural networks
 %(CNNs) constitute one such class of models
@@ -8483,7 +9596,7 @@ Empirically ok with simulated data, but not yet with real data
 %current GPUs, paired with a highly-optimized implementation of 2D convolution, are powerful
 %enough to facilitate the training of interestingly-large CNNs
 %
-%In the end, the network’s size is limited mainly by the amount of memory available on current GPUs
+%In the end, the network's size is limited mainly by the amount of memory available on current GPUs
 %and by the amount of training time that we are willing to tolerate.
 %%
 %\item 3 The Architecture
@@ -8729,8 +9842,11 @@ Matrix multiplication
 
 H. A polynomial no-flattening theorem
 
-
+ 
 \eenum 
+
+\item Deep learning generalizes because the parameter-function map is biased toward simple functions (ICLR 2019)
+
 
 \eenum 
 
@@ -8777,6 +9893,18 @@ Use co-area formula from geometric measure theory.
 
 \url{https://lilianweng.github.io/lil-log/}
 
+
+\item Resources for teaching: 
+
+- Nvidia Deep Learning Institute Teaching Kit
+
+\url{https://bitbucket.org/junbo_jake_zhao/deeplearningkit/src/master/}
+
+\item How to keep up with developments?
+
+- Conferences: NeurIPS, ICML, ICLR
+
+- Company blogs: \url{https://ai.googleblog.com/}
 
 \eitem
 
