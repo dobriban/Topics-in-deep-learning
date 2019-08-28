@@ -4,6 +4,8 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 # Fall 2019
 
+* [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2019-syllabus.pdf). 
+
 Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation,  ...
 
 Potential papers:
