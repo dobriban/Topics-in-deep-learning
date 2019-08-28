@@ -56,6 +56,8 @@ Potential papers:
 
 [CS224N (NLP)](http://web.stanford.edu/class/cs224n/)
 
+Conferences: [NeurIPS](https://nips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/)
+
 Convenient ways to run code online: https://colab.research.google.com/notebooks/welcome.ipynb, https://www.kaggle.com/kernels
 
 Keras is a user-friendly language for DL. Interfaces to R, see this [book](https://livebook.manning.com/book/deep-learning-with-r/about-this-book/)
