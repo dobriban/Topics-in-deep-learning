@@ -4,7 +4,7 @@ This repository hosts the materials for STAT 991: Topics in Deep Learning. This 
 
 # Fall 2019
 
-Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory, Interpretation,  ...
+Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation,  ...
 
 Potential papers:
 
