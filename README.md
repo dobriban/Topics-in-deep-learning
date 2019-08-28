@@ -1,6 +1,6 @@
 # STAT 991: Topics in deep learning (UPenn)
 
-This repository hosts the materials for STAT 991: Topics in Deep Learning. This is a seminar class at UPenn started in 2018. It surveys advanced topics in deep learning based on student presentations. 
+STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. It surveys advanced topics in deep learning based on student presentations. 
 
 # Fall 2019
 
