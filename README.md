@@ -50,15 +50,19 @@ Potential papers:
 
 ## Other resources
 
-Course on Coursera (A good way to learn the basics): https://www.coursera.org/specializations/deep-learning
+[Course on Coursera.](https://www.coursera.org/specializations/deep-learning) A good way to learn the basics.
 
-CS231N (Computer vision): http://cs231n.stanford.edu/
+[CS231N (Computer vision)](http://cs231n.stanford.edu/)
 
-CS224N (NLP): http://web.stanford.edu/class/cs224n/
+[CS224N (NLP)](http://web.stanford.edu/class/cs224n/)
 
 Convenient ways to run code online: https://colab.research.google.com/notebooks/welcome.ipynb, https://www.kaggle.com/kernels
 
-Keras is a user-friendly language for DL. Interfaces to R, see this book: https://livebook.manning.com/book/deep-learning-with-r/about-this-book/
+Keras is a user-friendly language for DL. Interfaces to R, see this [book](https://livebook.manning.com/book/deep-learning-with-r/about-this-book/)
+
+[Foundations of Deep Learning program at the Simons Institute for the Theory of Computing](https://simons.berkeley.edu/programs/dl2019). workshops: [1](https://simons.berkeley.edu/workshops/schedule/10624), [2](https://simons.berkeley.edu/workshops/schedule/10627), [3](https://simons.berkeley.edu/workshops/schedule/10629). [Reading groups and papers](http://simons.squidhive.net/doku.php)
+
+[IAS Special Year on Optimization, Statistics, and Theoretical Machine Learning](http://www.math.ias.edu/sp/Optimization_Statistics_and_Theoretical_Machine_Learning)
 
 # Materials from previous editions
 
