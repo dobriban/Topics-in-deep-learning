@@ -48,7 +48,17 @@ Potential papers:
 
 [Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
 
+## Other resources
 
+Course on Coursera: https://www.coursera.org/specializations/deep-learning. A good way to learn the basics
+
+CS231N (Computer vision): http://cs231n.stanford.edu/
+
+CS224N (NLP) http://web.stanford.edu/class/cs224n/
+
+Convenient ways to run code online: https://colab.research.google.com/notebooks/welcome.ipynb, https://www.kaggle.com/kernels
+
+# Materials from previous editions
 
 # Lecture notes
 
