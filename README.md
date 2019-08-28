@@ -50,13 +50,15 @@ Potential papers:
 
 ## Other resources
 
-Course on Coursera: https://www.coursera.org/specializations/deep-learning. A good way to learn the basics
+Course on Coursera (A good way to learn the basics): https://www.coursera.org/specializations/deep-learning
 
 CS231N (Computer vision): http://cs231n.stanford.edu/
 
-CS224N (NLP) http://web.stanford.edu/class/cs224n/
+CS224N (NLP): http://web.stanford.edu/class/cs224n/
 
 Convenient ways to run code online: https://colab.research.google.com/notebooks/welcome.ipynb, https://www.kaggle.com/kernels
+
+Keras is a user-friendly language for DL. Interfaces to R, see this book: https://livebook.manning.com/book/deep-learning-with-r/about-this-book/
 
 # Materials from previous editions
 
