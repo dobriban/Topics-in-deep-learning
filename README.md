@@ -48,6 +48,11 @@ Potential papers:
 
 [Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
 
+## Applications
+
+Climate, energy, healthcare...
+
+
 ## Other resources
 
 [Course on Coursera.](https://www.coursera.org/specializations/deep-learning) A good way to learn the basics.
