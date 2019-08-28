@@ -12,7 +12,8 @@ Potential papers:
 
 ### Uncertainty quantification
 
-  [Predictive inference with the jackknife+](https://arxiv.org/abs/1905.02928)
+  [Predictive inference with the jackknife+](https://arxiv.org/abs/1905.02928). [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf). 
+
   
   [High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach](http://proceedings.mlr.press/v80/pearce18a.html)
 
