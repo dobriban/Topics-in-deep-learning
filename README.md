@@ -44,6 +44,11 @@ Potential papers:
 
 ### Interpretation
 
+[Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav)](https://arxiv.org/abs/1711.11279)
+
+[Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
+
+
 
 # Lecture notes
 
