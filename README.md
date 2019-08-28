@@ -48,7 +48,7 @@ Potential papers:
 
 [Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
 
-## Applications
+### Applications
 
 Climate, energy, healthcare...
 
