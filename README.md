@@ -8,20 +8,41 @@ Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Th
 
 Potential papers:
 
-* Uncertainty quantification
+### Uncertainty quantification
 
   [Predictive inference with the jackknife+](https://arxiv.org/abs/1905.02928)
   
   [High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach](http://proceedings.mlr.press/v80/pearce18a.html)
 
+### Adversarial Examples
 
-* Adversarial Examples
+[Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples](https://arxiv.org/abs/1802.00420)
 
-* Symmetry
+[Certified Adversarial Robustness via Randomized Smoothing](https://arxiv.org/abs/1902.02918)
 
-* Theory
+[On Evaluating Adversarial Robustness](https://arxiv.org/abs/1902.06705)
 
-* Interpretation
+[VC Classes are Adversarially Robustly Learnable, but Only Improperly](https://arxiv.org/abs/1902.04217)
+
+[Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/abs/1905.02175)
+
+### Symmetry
+
+[Spherical CNNs](https://arxiv.org/abs/1801.10130)
+
+[Learning SO(3) Equivariant Representations with Spherical CNNs](http://openaccess.thecvf.com/content_ECCV_2018/html/Carlos_Esteves_Learning_SO3_Equivariant_ECCV_2018_paper.html)
+
+[Invariance reduces Variance: Understanding Data Augmentation in Deep Learning and Beyond](https://arxiv.org/abs/1907.10905)
+
+
+### Theory
+
+[Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
+
+[Gradient Descent Provably Optimizes Over-parameterized Neural Networks](https://arxiv.org/abs/1810.02054)
+
+
+### Interpretation
 
 
 # Lecture notes
