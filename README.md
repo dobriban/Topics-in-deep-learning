@@ -35,7 +35,11 @@ Potential papers:
 [Invariance reduces Variance: Understanding Data Augmentation in Deep Learning and Beyond](https://arxiv.org/abs/1907.10905)
 
 
-### Theory
+### Theory and empirical wonders
+
+[Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
+
+[Spectrally-normalized margin bounds for neural networks](http://papers.nips.cc/paper/7204-spectrally-normalized-margin-bounds-for-neural-networks)
 
 [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 
