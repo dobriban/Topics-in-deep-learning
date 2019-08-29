@@ -72,9 +72,7 @@ Climate, energy, healthcare...
 
 [Course on Coursera.](https://www.coursera.org/specializations/deep-learning) A good way to learn the basics.
 
-[CS231N (Computer vision)](http://cs231n.stanford.edu/)
-
-[CS224N (NLP)](http://web.stanford.edu/class/cs224n/)
+Stanford classes: [CS231N (Computer vision)](http://cs231n.stanford.edu/). [CS224N (NLP)](http://web.stanford.edu/class/cs224n/). [Cheat sheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning).
 
 Conferences: [NeurIPS](https://nips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/)
 
