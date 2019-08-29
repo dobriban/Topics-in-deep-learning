@@ -6,7 +6,7 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2019-syllabus.pdf). 
 
-Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation,  ...
+Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
 
 Potential papers:
 
@@ -54,6 +54,10 @@ Potential papers:
 [Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav)](https://arxiv.org/abs/1711.11279)
 
 [Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
+
+### Fairness
+
+[TBA]
 
 ### Applications
 
