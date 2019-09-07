@@ -29,6 +29,8 @@ Potential papers:
 
 [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/abs/1905.02175)
 
+See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf) for a collection of materials.
+
 ### Symmetry
 
 [Spherical CNNs](https://arxiv.org/abs/1801.10130)
