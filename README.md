@@ -46,7 +46,7 @@ See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep
 
 [Spectrally-normalized margin bounds for neural networks](http://papers.nips.cc/paper/7204-spectrally-normalized-margin-bounds-for-neural-networks)
 
-[Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572). [GNTK](https://arxiv.org/abs/1905.13192). [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/prez_gntk_july13.pdf)
+[Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572). [GNTK](https://arxiv.org/abs/1905.13192). [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_ntk_sep12.pdf)
 
 [Gradient Descent Provably Optimizes Over-parameterized Neural Networks](https://arxiv.org/abs/1810.02054)
 
