@@ -72,6 +72,15 @@ See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep
 
 Climate, energy, healthcare...
 
+## Lectures
+
+Lecture 1 and 2:
+
+Lecture 3
+
+Lecture 4
+
+[Lecture 5: ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf), presented by Dan Deutch
 
 ## Other resources
 
