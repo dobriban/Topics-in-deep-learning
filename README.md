@@ -10,11 +10,13 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 Lectures 1 and 2: Introduction and uncertainty quantification ([jacknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018](http://proceedings.mlr.press/v80/pearce18a.html)), presented by Edgar Dobriban. 
 
-Lecture 3: NTK. [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_ntk_sep12.pdf) by Jiayao Zhang.
+Lecture 3: [NTK](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_ntk_sep12.pdf) by Jiayao Zhang.
 
-Lecture 4: Adversarial robustness. [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/adversarial_robustness_yinjun_Lec_3_(9.19).pdf) by Yinjun Wu.
+Lecture 4: [Adversarial robustness](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/adversarial_robustness_yinjun_Lec_3_(9.19).pdf) by Yinjun Wu.
 
-Lecture 5: [ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf), presented by Dan Deutsch
+Lecture 5: [ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf) by Dan Deutsch.
+
+Lecture 6:...
 
 ### Topics 
 
