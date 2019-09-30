@@ -74,7 +74,7 @@ Climate, energy, healthcare...
 
 ## Lectures
 
-Lecture 1 and 2:
+Lecture 1 and 2: Introduction and uncertainty quantification ([jacknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018][Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf)), presented by Edgar Dobriban. 
 
 Lecture 3
 
