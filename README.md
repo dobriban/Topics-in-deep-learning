@@ -6,9 +6,19 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2019-syllabus.pdf). 
 
-Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
+## Lectures
 
-Potential papers:
+Lectures 1 and 2: Introduction and uncertainty quantification ([jacknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018](http://proceedings.mlr.press/v80/pearce18a.html)), presented by Edgar Dobriban. 
+
+Lecture 3
+
+Lecture 4
+
+[Lecture 5: ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf), presented by Dan Deutsch
+
+* Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
+
+* Potential papers:
 
 ### Uncertainty quantification
 
@@ -71,16 +81,6 @@ See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep
 ### Applications
 
 Climate, energy, healthcare...
-
-## Lectures
-
-Lecture 1 and 2: Introduction and uncertainty quantification ([jacknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018][Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf)), presented by Edgar Dobriban. 
-
-Lecture 3
-
-Lecture 4
-
-[Lecture 5: ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf), presented by Dan Deutch
 
 ## Other resources
 
