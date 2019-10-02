@@ -16,7 +16,7 @@ Lecture 4: [Adversarial robustness](https://github.com/dobriban/Topics-in-deep-l
 
 Lecture 5: [ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf) by Dan Deutsch.
 
-Lecture 6:...
+Lecture 6: TCAV by Ben Auerbach.
 
 ### Topics 
 
@@ -71,13 +71,16 @@ See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep
 
 [Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
 
+### Scalability and Federated Learning
+
+[Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)
+
+[Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873)
+
 ### Fairness
 
 [TBA]
 
-### Scalability
-
-[TBA]
 
 ### Applications
 
