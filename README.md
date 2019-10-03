@@ -6,15 +6,28 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2019-syllabus.pdf). 
 
-Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
+## Lectures
 
-Potential papers:
+Lectures 1 and 2: Introduction and uncertainty quantification ([jacknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018](http://proceedings.mlr.press/v80/pearce18a.html)), presented by Edgar Dobriban. 
+
+Lecture 3: [NTK](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_ntk_sep12.pdf) by Jiayao Zhang.
+
+Lecture 4: [Adversarial robustness](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/adversarial_robustness_yinjun_Lec_3_(9.19).pdf) by Yinjun Wu.
+
+Lecture 5: [ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf) by Dan Deutsch.
+
+Lecture 6: TCAV by Ben Auerbach.
+
+### Topics 
+
+* Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
+
+* Potential papers:
 
 ### Uncertainty quantification
 
   [Predictive inference with the jackknife+](https://arxiv.org/abs/1905.02928). [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf). 
 
-  
   [High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach](http://proceedings.mlr.press/v80/pearce18a.html)
 
 ### Adversarial Examples
@@ -31,8 +44,6 @@ Potential papers:
 
 See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf) for a collection of materials.
 
-[Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/adversarial_robustness_yinjun_Lec_3_(9.19).pdf) by Yinjun Wu.
-
 ### Symmetry
 
 [Spherical CNNs](https://arxiv.org/abs/1801.10130)
@@ -48,7 +59,7 @@ See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep
 
 [Spectrally-normalized margin bounds for neural networks](http://papers.nips.cc/paper/7204-spectrally-normalized-margin-bounds-for-neural-networks)
 
-[Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572). [GNTK](https://arxiv.org/abs/1905.13192). [Slides](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_ntk_sep12.pdf) by Jiayao Zhang.
+[Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572). [GNTK](https://arxiv.org/abs/1905.13192). 
 
 [Gradient Descent Provably Optimizes Over-parameterized Neural Networks](https://arxiv.org/abs/1810.02054)
 
@@ -60,18 +71,20 @@ See section 6.1 of [my lecture notes](https://github.com/dobriban/Topics-in-deep
 
 [Sanity checks for saliency maps](http://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps)
 
+### Scalability and Federated Learning
+
+[Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)
+
+[Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873)
+
 ### Fairness
 
 [TBA]
 
-### Scalability
-
-[TBA]
 
 ### Applications
 
 Climate, energy, healthcare...
-
 
 ## Other resources
 
