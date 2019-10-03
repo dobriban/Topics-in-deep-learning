@@ -16,7 +16,7 @@ Lecture 4: [Adversarial robustness](https://github.com/dobriban/Topics-in-deep-l
 
 Lecture 5: [ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/contextual-word-embeddings.pdf) by Dan Deutsch.
 
-Lecture 6: TCAV by Ben Auerbach.
+Lecture 6: [TCAV](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_auerbach_prez.pptx) by Ben Auerbach (adapted from Been Kim's slides).
 
 ### Topics 
 
