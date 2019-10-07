@@ -8,7 +8,7 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 ## Lectures
 
-Lectures 1 and 2: Introduction and uncertainty quantification ([jacknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018](http://proceedings.mlr.press/v80/pearce18a.html)), presented by Edgar Dobriban. 
+Lectures 1 and 2: Introduction and uncertainty quantification ([jackknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018](http://proceedings.mlr.press/v80/pearce18a.html)), presented by Edgar Dobriban. 
 
 Lecture 3: [NTK](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_ntk_sep12.pdf) by Jiayao Zhang.
 
