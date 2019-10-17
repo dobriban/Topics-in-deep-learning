@@ -18,6 +18,8 @@ Lecture 5: [ELMo and BERT](https://github.com/dobriban/Topics-in-deep-learning/b
 
 Lecture 6: [TCAV](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/stat991_auerbach_prez.pptx) by Ben Auerbach (adapted from Been Kim's slides).
 
+Lecture 7: [Spherical CNN](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991_spherical_cnn.pdf) by Arjun Guru and Claudia Zhu.
+
 ### Topics 
 
 * Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
