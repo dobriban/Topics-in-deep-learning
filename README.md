@@ -20,6 +20,8 @@ Lecture 6: [TCAV](https://github.com/dobriban/Topics-in-deep-learning/blob/maste
 
 Lecture 7: [Spherical CNN](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991_spherical_cnn.pdf) by Arjun Guru and Claudia Zhu.
 
+Lecture 7: [DNNs and approximation](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/DNN_presentation_yebiao.pdf) by Yebiao Jin.
+
 ### Topics 
 
 * Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
