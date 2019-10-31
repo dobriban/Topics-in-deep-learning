@@ -22,6 +22,11 @@ Lecture 7: [Spherical CNN](https://github.com/dobriban/Topics-in-deep-learning/b
 
 Lecture 8: [DNNs and approximation](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/DNN_presentation_yebiao.pdf) by Yebiao Jin.
 
+Lecture 9: [Deep Learning and PDE](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT%20991%20DL%20Chenyang%20(3).pdf) by Chenyang Fang.
+
+[Bias and Fairness](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Stat991_Chetan.pdf) by Chetan Parthiban.
+
+
 ### Topics 
 
 * Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
