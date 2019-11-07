@@ -24,7 +24,7 @@ Lecture 8: [DNNs and approximation](https://github.com/dobriban/Topics-in-deep-l
 
 Lecture 9: [Deep Learning and PDE](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT%20991%20DL%20Chenyang%20(3).pdf) by Chenyang Fang.
 
-           [Bias and Fairness](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Stat991_Chetan.pdf) by Chetan Parthiban.
+   [Bias and Fairness](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Stat991_Chetan.pdf) by Chetan Parthiban.
 
 Lecture 10: [Generalization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/ML_Generalization_Lynch_20191107.pptx) by Bradford Lynch.
 
