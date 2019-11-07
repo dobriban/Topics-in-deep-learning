@@ -28,7 +28,7 @@ Lecture 9: [Deep Learning and PDE](https://github.com/dobriban/Topics-in-deep-le
 
 Lecture 10: [Generalization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/ML_Generalization_Lynch_20191107.pptx) by Bradford Lynch.
 
- [Double Descent](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991_double_descent.pdf) by Junhui Cai.
+ [Double Descent](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991_double_descent.pdf) by Junhui Cai, adapted from slides by Misha Belkin and Ryan Tibshirani.
 
 ### Topics 
 
