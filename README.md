@@ -30,6 +30,9 @@ Lecture 10: [Generalization](https://github.com/dobriban/Topics-in-deep-learning
 
  [Double Descent](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991_double_descent.pdf) by Junhui Cai, adapted from slides by Misha Belkin and Ryan Tibshirani.
 
+Lecture 11: [Deep Learning in Practice](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Dewang_Sultania_Deep_Learning_in_Practice.pdf) by Dewang Sultania, adaping some slides from CIS 700.
+
+
 ### Topics 
 
 * Potential topics: Uncertainty quantification, Adversarial Examples, Symmetry, Theory and Empirics, Interpretation, Fairness,  ...
