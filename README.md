@@ -34,6 +34,8 @@ Lecture 11: [Deep Learning in Practice](https://github.com/dobriban/Topics-in-de
 
 Lecture 12: [Hindsight Experience Replay](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991%20-%20Achin%20Jain.pptx) by Achin Jain.
 
+Lecture 13: [Deep Learning and Chemistry](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Deep%20Learning%20and%20Chemical%20Design.pdf) by Chris Koch.
+
 
 ### Topics 
 
