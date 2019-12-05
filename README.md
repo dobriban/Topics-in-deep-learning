@@ -6,6 +6,8 @@ STAT 991: Topics in Deep Learning is a seminar class at UPenn started in 2018. I
 
 * [Syllabus](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Syllabus/stat-991-fall-2019-syllabus.pdf). 
 
+* [Lecture notes](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Lecture%20Notes/stat_991.pdf). (~170 pages, file size ~30 MB.)
+
 ## Lectures
 
 Lectures 1 and 2: Introduction and uncertainty quantification ([jackknife+](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/BarberSlides-whoa-psi-2019.pdf), and [Pearce at al, 2018](http://proceedings.mlr.press/v80/pearce18a.html)), presented by Edgar Dobriban. 
@@ -35,6 +37,11 @@ Lecture 11: [Deep Learning in Practice](https://github.com/dobriban/Topics-in-de
 Lecture 12: [Hindsight Experience Replay](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/STAT991%20-%20Achin%20Jain.pptx) by Achin Jain.
 
 Lecture 13: [Deep Learning and Chemistry](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Deep%20Learning%20and%20Chemical%20Design.pdf) by Chris Koch.
+
+Lecture 14: [Deep Learning and Langevin Dynamics](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Langevin_and_DNN.pdf) by Kan Chen.
+
+[Deep Learning in Asset Pricing](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Zhu%20Slides.pdf) by Wu Zhu.
+
 
 
 ### Topics 
