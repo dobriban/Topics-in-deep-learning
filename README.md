@@ -40,7 +40,7 @@ Lecture 13: [Deep Learning and Chemistry](https://github.com/dobriban/Topics-in-
 
 Lecture 14: [Deep Learning and Langevin Dynamics](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Langevin_and_DNN.pdf) by Kan Chen.
 
-[Deep Learning in Asset Pricing](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Zhu%20Slides.pdf) by Wu Zhu.
+[Deep Learning in Asset Pricing](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Zhu%20slides.pdf) by Wu Zhu.
 
 
 
