@@ -38,6 +38,9 @@ Lecture 12: [Hindsight Experience Replay](https://github.com/dobriban/Topics-in-
 
 Lecture 13: [Deep Learning and Chemistry](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Deep%20Learning%20and%20Chemical%20Design.pdf) by Chris Koch.
 
+[Text summarization](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/991Presentation.pdf) by Jamaal Hay.
+
+
 Lecture 14: [Deep Learning and Langevin Dynamics](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Langevin_and_DNN.pdf) by Kan Chen.
 
 [Deep Learning in Asset Pricing](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202019/Slides/Zhu%20slides.pdf) by Wu Zhu.
