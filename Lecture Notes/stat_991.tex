@@ -14,7 +14,7 @@
 
 
 
-\abstract{Deep learning has achieved many empirical successes, and has attracted considerable attention. However, it continues to be poorly understood. This advanced seminar course will explore several topics in deep learning. We will discuss both theory and applications. }
+\abstract{Deep learning has achieved many empirical successes, and has attracted considerable attention. However, it continues to be poorly understood. This advanced seminar course will explore several topics in deep learning. We will discuss both theory and applications.}
 
 \tableofcontents
 
@@ -179,7 +179,7 @@ There can be multiple outputs (e.g., center of car, width and height of the box 
 \subsubsection{Backpropagation}
 
 \benum
-\item \emph{Loss function}: Consider only binary classification for simplicity. For one training example, we will use the \emph{logistic loss}: 
+\item \emph{Loss function}: Consider only binary classification for simplicity. For one training example, we will use the \emph{logistic loss} (aka cross-entropy loss, corresponding to the MLE in a Bernoulli model): 
 
 $$\ell(\hat y,y) = - y \log(\hat y) - (1-y) \log(1-\hat y)$$
 
@@ -781,11 +781,7 @@ Watch this space. Much more to come.
 \end{figure}
 
 %\item Naming: ...Net, Deep...
-<<<<<<< HEAD
 \item Critical perspectives. There are a lot of questions. (Donoho speaking at the NAS Science of Deep learning colloquium, \url{https://www.youtube.com/watch?v=DTW8e_hQZqo})
-=======
-\item Critical perspectives. There are a lot of questions. (Donoho, \url{https://www.youtube.com/watch?v=DTW8e_hQZqo})
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 DL Research is expensive. Cost is not possible for academics. Huge scale data. Can't be reproduced. Benefits ought to be shared more widely. 
 
@@ -807,8 +803,23 @@ Younger generation: doesn't have access to the computing budget. Only their mind
 - Generative models for density estimation. Rate? 
 
 - Can we measure the intelligence of DNNS? 
+
+\item Feature embedding: use as metric
+
+e.g. Siamese network
+
+NoGAN
 \eenum
 
+
+\subsection{Problems}
+\benum
+\item Environmental cost. \url{https://arxiv.org/abs/1906.02243}
+
+Commentary. "Training a single AI model can emit as much carbon as five cars in their lifetimes". \url{https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/}
+
+
+\eenum 
 
 
 \section{Convolutional neural networks (CNNs)}
@@ -1453,14 +1464,10 @@ $$
 
 \subsection{Shapes beyond images, invariance}
 %
-\bitem
+\benum
 \item Classical CNNs are designed for images. However, in computer vision we often have other types of shapes. For instance, we may have to deal with 3D shapes (when interacting with an environment), or we may have spherical data (e.g., a self-driving car takes pictures on a sphere)
 
-\item To design NN architectures for such shapes, we need to replace convolutions with the appropriate generalization. One of the first modern works: 
-
-
-Cohen, T.S., Welling, M.: Group equivariant convolutional networks. arXiv
-preprint arXiv:1602.07576 (2016)
+\item To design NN architectures for such shapes, we need to replace convolutions with the appropriate generalization. 
 
 \item We can rely on groups. We are thinking of objects $x$ that are acted upon by members $g$ of a group $G$. For instance, images are acted upon by 2D translations. We want to extract filters (features) $f(x)$ from the group that are equivariant to the action of the group. Specifically, we want to ensure that there is a group $G'$ such that for every $g$, there is a $g'\in G'$ for which
 
@@ -1477,8 +1484,14 @@ The familiar convolution in 2D is a special case, where $G = (\R,+)$, and $e = 0
 $$(f *_G h)(x) = \int_{g\in \R^2} f(g)h(x-g)dg$$
 
 One can check that this leads to equivariant maps.
+\eenum
 
-\item 
+\subsubsection{Group equivariant convolutional networks}
+\benum 
+\item %
+One of the first modern works:  Cohen, T.S., Welling, M.: Group equivariant convolutional networks. arXiv
+preprint arXiv:1602.07576 (2016)
+
 A slightly different approach is "G-equivariant correlation", by Cohen and Welling . Suppose all signals are defined on $Z^2$. "The correlation is computed by shifting a filter and then computing a dot product with the feature maps. By
 replacing the shift by a more general transformation from
 some group G, we get the G-correlation used in the first
@@ -1598,16 +1611,12 @@ Future work: "Continuous. Full enumeration of
 transformations in a group may not be feasible if the group
 is large"
 
-\item 
+\eenum
 
-Other examples of invariance. E.g.,:
+\subsubsection{Harmonic networks}
+\benum 
 
-
-Translation and rotation: Worrall, D.E., Garbin, S.J., Turmukhambetov, D., Brostow, G.J.: Harmonic networks: Deep translation and rotation equivariance. CVPR 2017
-
-Full 2D rotations: Steerable CNN, Cohen and Welling, 2017
-
-\item Harmonic networks (Worrall et al CVPR 2017)
+\item Harmonic networks (Worrall, D.E., Garbin, S.J., Turmukhambetov, D., Brostow, G.J.: Harmonic networks: Deep translation and rotation equivariance. CVPR 2017)
 
 360 degree invariance. Widely used practice: data augmentation. Drawbacks: not exact, fails to capture
 local equivariances, and does not ensure equivariance at every
@@ -1636,26 +1645,297 @@ equivariance
 - The summation of two responses of the same order remains of the same order. Separate filter responses into
 streams of equal rotation order.
 
-4.1. Harmonic Networks
+\item 4.1. Harmonic Networks
 
 - "Create separate streams of constant rotation order responses running through the network. These streams contain multiple layers of feature maps, separated
 by rotation order zero cross-correlations and nonlinearities.
 
 - "Discretization: anti-alias the input to each discretized layer with a simple Gaussian blur. The order of bandlimited sampling and cross-correlation is interchangeable. $W(x) = \sum g(x,r) W(r)$, $g(x,r)\sim \exp(-|x-r|^2/[2\sigma^2])$ ($x$ is a pixel, $r$ is a polar pixel).
 
+\eenum
+
+
+
+
+\subsubsection{Steerable CNN}
+\benum 
+
+\item Steerable CNN, Cohen and Welling, ICLR 2017
+
+- 2D signal $f : Z^2 \to R^K$ with $K$ channels
+
+- group of transformations $G$ that acts on points in $Z^2$, we can transform signals $f$: Figure \ref{steer_cnn}
+
+$$[\pi(g)f](x) = f(g^{-1}x)$$
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{steer_cnn.png}
+    \caption{Steerable CNN. Feature maps, fibers, and the transformation law}
+    \label{steer_cnn}
+\end{figure}
+
+
+
+- Vector space of such signals $f$ and linear operators $\pi$ is a group representation
+
+- Neural network $\Phi:F\to F'$ (ie. function). $F'$ is steerable wrt $G$ if for all $g$, there is a map $\pi'(g)$ such that $$\Phi \pi (g) = \pi'(g)\Phi$$
+
+- Note $\pi'(gh) = \pi'(g)\pi'(h)$ (at least in the span of the image of $\Phi$)
+
+\item Consider discrete groups, constructed as a semi-direct product  from the group of translations $Z^2$ and a group $H$ of transformations that fixes the origin $0 \in Z^2$
+
+- Example: p4m. Translations, rotations by 90 degrees around any point, and reflections.  For p4m, we have $H = D4$, the 8-element group
+of reflections and rotations about the origin
+
+- Definition: "The fiber $F_x$ at position $x$ in the "base space" $Z_2$ is the $K$-dimensional vector space spanned by all channels at position $x$. Thus,
+$f \in F$ is comprised of feature vectors $f(x)$ that live in the fibers $F_x$
+
+
+-  "first construct a filter bank that generates $H$-steerable fibers, and then
+show that convolution with such a filter bank produces a feature space that is steerable with respect
+to the whole group $G$.
+
+\item 2.3 EQUIVARIANT FILTER BANKS
+
+-  Filter bank: "linear map $\Psi : F \to R^{K'}$ that takes as input a signal $f \in F$ and produces a $K'$ -dimensional feature vector (i.e., produce just one coordinate of the stack of feature maps). The filter bank only looks at an $s \times s$ patch in $F$, so the matrix representing $\Psi$ has shape $K' \times K \times s^2$. To correlate a signal $f$ using $\Psi$, apply it to translated copies of $f$
+
+- "assume (by induction) that we have a steerable representation $\pi$. To make
+the output of the convolution steerable, we need the filter bank $\Psi : F \to R^{K'}$
+to be H-equivariant, i.e., for some representation $\rho$ of $H$ that acts on the output fibers for all $h$:
+
+$$\rho(h)\Psi = \Psi \pi(h)$$
+
+- To be clear about the meaning: LHS: Take input $f$, apply $\Psi$, (meaning convolve it), then rotate the resulting output. Same as RHS: Take input $f$, rotate it, convolve it with $\Psi$
+
+
+- "only require equivariance with
+respect to $H$ (which excludes translations) and not $G$, because
+translations can move patterns into and out of the receptive
+field of a fiber, making full translation equivariance impossible.  
+
+- "The space of maps satisfying the equivariance constraint is denoted $Hom_H(\pi,\rho)$, because an equivariant map is a “homomorphism of group representations”. aka intertwiners.
+
+
+- "Since the equivariance constraint is linear in $\Psi$. Compute a basis by solving a linear system. [Can be done offline]
+
+\item 2.4 INDUCTION
+
+- "H-steerability of fibers $F'_x$  leads to G-steerability of the feature space $F'$. via induced representation
+
+Correlation: translate by $x$, and apply filter map:
+
+$$[\Psi * f](x) = \Psi[ \pi(x)^{-1} f]$$ 
+
+- Why is this equivariant? Apply translation $t$, transform $r\in H$, get $\pi(tr)f$, and correlate. Can derive (using all definitions, and at a critical step because $\Psi$ cares only about translations in $\pi$) 
+
+$$[\Psi * \pi(tr) f](x) = \rho(r)[[\Psi * f][ (tr)^{-1} x]
+$$ 
+
+- Define representation $\pi'$ of G induced by the representation $\rho$ of H  as
+
+$$[\pi'(tr)f](x) = \rho(r) f((tr)^{-1}x)$$
+
+Get equivariance $\Phi*\pi=\pi'*\Phi$
+
+- So: starting with feature map $f$, a filter bank $\Phi$, a group $G$ acting on $f$, represented by $\pi$, a subgroup decomposition $G = H\times Z^2$, a representation $\rho$ of $H$ such that the filter bank is equivariant with respect to $\pi,\rho$, convolution on the feature map using filter bank and with respect to shifts in $\pi$. Can get  steerable output features and a steerable representation $\pi'$.
+
+\item 2.5 FEATURE TYPES AND CHARACTER THEORY
+
+- how to choose $\rho$?
+
+- Representations and irreducible representations. 
+
+- all representations can be decomposed into a direct sum of irreps
+
+- Each irreducible representation corresponds to a type of symmetry
+
+- "So the most general way in which we can choose a representation $\rho$ is to choose multiplicities $m_i \ge 0$ (of irreps; aka type) and a basis matrix $A$ st $\rho(g) = A \diag[\phi_i(g)]A^{-1}$. [Turns  out no need to choose basis.]
+
+
+\item 2.6 DETERMINING THE TYPE OF THE INDUCED REPRESENTATION
+
+- Project character of $\rho$ into that of $\phi_i$
+
+- 2.6.1 THE PARAMETER COST OF EQUIVARIANT CONVOLUTION LAYERS
+
+- Number of parameters of a steerable rep, equals the intertwining number: 
+
+$$\dim Hom_H (\pi,\rho) = \langle \chi_\pi ,\chi_\rho \rangle.$$ 
+
+\item 2.7 EQUIVARIANT NONLINEARITIES \& CAPSULES
+
+- nonlinearities must commute with the group action
+
+- "any nonlinearity is admissible for a rep realized by permutation
+matrices: permuting a list of coordinates and then applying a nonlinearity is the same as applying the nonlinearity and then permuting.
+
+
+- "define a $\rho$-capsule as a feature vector that transforms
+according to a representation $\rho$. A capsule has
+a type, but not all representations of that type are equivalent as capsules. 
+
+
+
+\eenum
+
+
+\subsubsection{3D rotations, SO(3)}
+\benum 
+
 \item 
-An important example is the group 3D rotations, $SO(3)$, acting on the sphere. See work by Cohen and Welling (ICLR 2018), and Esteves, Allen-Blanchette, Makadia, Daniilidis [EAMD] (ECCV 2018)
+An important example is the group 3D rotations, $SO(3)$, acting on the sphere. See work by Cohen and Welling (ICLR 2018 best paper), and Esteves, Allen-Blanchette, Makadia, Daniilidis [EAMD] (ECCV 2018)
 
-A key point is that discretization is hard, because a sampling of the sphere with well distributed and compact cells with transitivity does not exist. 
+\item Cohen and Welling, Spherical CNNs (ICLR 2018 best paper),
 
+\benum 
+
+\item 
+- "spherical images: omnidirectional vision for drones, robots, and autonomous cars, molecular regression problems, and global weather and climate modelling.
+
+ - " A naive application of convolutional networks to a planar projection of the spherical
+signal is destined to fail, because the space-varying distortions introduced by such
+a projection will make translational weight sharing ineffective."
+
+-  spherical correlation: "The value of the output feature map evaluated at rotation $R \in SO(3)$ is computed
+as an inner product between the input feature map and a filter, rotated by R". Output map: function on $SO(3)$
+
+- The Unit Sphere $S^2$. Rotations $R\in SO(3)$. Rotation of spherical signals. Let $f:S^2\to R^k$, define the rotation operator $L_R$, taking $f\to L_Rf$ as
+
+$$[L_Rf](x) = f(R^{-1}x)$$ 
+
+- Inner products $\langle f,g \rangle = \int_{S^2} \sum_{k=1}^K g_k(x) f_k(x) dx$. Here $dx$ is the standard invariant measure. We conclude $L_{R^{-1}}$ is adjoint to $L_R$, so $L_R$ is unitary
+
+- Spherical correlation: 
+
+$$[f*g](R)= \langle L_R f,g \rangle$$
+
+ the output of the spherical correlation is a function on SO(3) 
+
+- "Rotation of $SO(3)$ signals $f:SO(3)\to R^k$
+
+$$[L_Rf](Q) = f(R^{-1}Q)$$ 
+
+- Rotation group correlation: 
+
+$$[f*g](R)= \langle L_R f,g \rangle$$
+
+- Equivariance: can check 
+
+$$f*L_Qg = L_Q[f*g]$$
+
+\item 4 FAST SPHERICAL CORRELATION WITH G-FFT
+
+ - "generalized Fourier transform (GFT). fast algo from abstract- or noncommutative harmonic analysis, representation theory ( Sugiura (1990) and Folland (1995).)
+
+ - "GFT is a linear projection of a function onto a set of orthogonal
+basis functions called "matrix element of irreducible unitary representations". For the circle or
+line, complex exponentials $exp(in\theta)$. For SO(3) , we have the Wigner $D$-functions $D_{mn}^l$. For $S^2$, the spherical harmonics
+
+- "Technically, $S^2$ is not a group and therefore does not have irreducible representations, but it is a quotient of
+groups $SO(3)/SO(2)$ and we have the relation $Y^l_m = D^l_{m0}|S^2$
+
+- "Manifold  $X$ ($S^2$ or $SO(3)$) by $X$ and the corresponding basis functions by $U^l$ (which is either vector-valued ($Y^l$) or matrix-valued ($D^l$))", we can write the  GFT of a function
+$f : X \to R$ as
+
+$$\hat f^l =\int_X f(x) \bar{U^l(x)}dx.$$
+
+Have formula for inverse $SO(3)$ FT is
+
+Convolution theorem:  $\widehat {f *g} = \hat g \cdot \hat g^{\dagger}$. Here $\cdot$ denotes matrix multiplication of the two block matrices.
+
+\item 5.2 ROTATED MNIST ON THE SPHERE
+
+- "two versions: one  in which each digit is projected on the northern hemisphere and one in
+which each projected digit is additionally randomly rotated."
+
+- "Train on the non-rotated (NR) and the rotated (R) training set and evaluated it on both test sets. Planar CNN: high accuracy in the NR/NR regime, low in R/R. Spherical CNN is unaffected.
+
+
+\eenum
+
+\item Esteves, Allen-Blanchette, Makadia, Daniilidis [EAMD]  - Learning SO(3) Equivariant Representations
+with Spherical CNNs (ECCV 2018)
+
+\benum 
+\item 
 " 3D rotations have been a challenging nuisance in 3D classification tasks requiring higher capacity and extended
 data augmentation in order to tackle it."
 
+- A key point is that discretization is hard, because a sampling of the sphere with well distributed and compact cells with transitivity does not exist. 
 
 \item Instead, EAMD work with spherical signals using the spherical harmonics (Fourier transform on the sphere). Then convolution is evaluated in the spectral domain, by multiplication. 
 
+-  "construct a rotationally equivariant representation of our 3D input. For a group $G$ and
+function $f : E \to F$, $f$ is said to be equivariant to transformations $g \in G$ when there is another group $G'$ and $g'\in G'$ for which
+
+$$f(gx) = g'f(x)$$
+
+\item One approach to construct this is group convolutions. " convolution can be viewed as the inner-products of
+some function $f$ with all elements of the orbit of a flipped filter $h$." 
+
+$$(f *_G h)(x) = \int_{g\in G} f(ge)h(g^{-1}x)dg$$
+
+for some $e\in G$, "typically a canonical element in the domain of $f$ (e.g. the origin if $E = R^n$, or $I_n$ if $E = SO(n)$). The familiar convolution in 2D is a special case, where $G = (\R,+)$, and $e = 0$, so that 
+
+$$(f *_G h)(x) = \int_{g\in \R^2} f(g)h(x-g)dg$$
+
+One can check that this leads to equivariant maps. $(gf)*h=g(f*h)$.
+
+\item 3.2 Spherical harmonics
+
+- "we can define convolution of spherical
+signal $f$ by a spherical filter $h$ with respect to the group of 3D rotations $SO(3)$:
+
+$$(f *_G h)(x) = \int_{g\in SO(3)} f(ge)h(g^{-1}x)dg$$
+where $e$  is north pole on the sphere.
+
+- "To implement (6), it is desirable to sample the sphere with well-distributed
+and compact cells with transitivity (rotations exist which bring cells into coincidence). Unfortunately, such a discretization does not exist [32]."
+
+- Instead use spherical FT. 
+
+$$f = \sum_{0\le l \le b} \sum_{|m|\le l}
+\hat f^l_m Y^l_m$$
+
+IFT
+
+$$\hat f^l_m = \int_{S^2} f(x)\bar Y^l_m dx$$
+
+where b is the bandwidth of f, and $Y^l_m$
+are the spherical harmonics of degree l
+and order m.
+
+-  letting $y = (f *_G h)(x)$, the spherical
+convolution theorem [34] gives us
+
+$$\hat y_m^l = 2\pi
+\sqrt{4\pi/(2l + 1)}
+\hat f^l_m
+\hat h^l_0
+$$
+
+\item 3.3 Practical considerations and optimizations
+
+- To evaluate the SFT, we use equiangular samples on the sphere according to the
+sampling theorem of [34]
+
+$$
+\hat f^l_m =
+\sqrt{2\pi/(2b)}
+\sum^{2b-1}_{j,k=0}
+a^{(b)}_j
+f(\theta_j ,\phi_k)
+\bar Y^l_m(\theta_j ,\phi_k),
+$$
+where $\theta_j = \pi j/2b,\phi_k=\pi k / b$  form the sampling grid, and a-s are the
+sample weights
+
+
+\item 
 There are many other details. They design architectures that are smaller and do not need data augmentation. They apply them to retrieval and classification of 3D models (retrieval = find similar objects)
 
+\eenum 
 \item This has many applications. In later work, Esteves, Sud, Luo, Daniilidis, Makadia, use it to design 3D equivariant image embeddings. 
 
 The basic problem is that 2d image embeddings learned by standard CNN are not equivariant to the 3d rotations of the underlying 3d objects of which we are taking the images. However, using spherical CNN one can construct approximately equivariant embeddings. 
@@ -1738,11 +2018,11 @@ So we can compute convolutions with rotated filters easily.
 
 [Only works for constructed, not learned filters.]
 
-\item To read: proposal, polar transformer networks
+\item To read: Polar transformer networks [also grant proposal]
 
 \item Extension of spherical CNNs to Unstructured Grids (Jiang et al, ICLR 2019)
 
-\eitem 
+\eenum
 
 \subsection{Spatial Transformer Networks}
 \benum
@@ -2815,29 +3095,20 @@ Feed to RNN as a state variable. Output: Caption.
 
 \benum
 
-<<<<<<< HEAD
 \item BERT: idirectional Encoder Representations from Transformers
 
 \item Temporal Convolutional Networks (TCN). Figure \ref{TCN}
-=======
-\item Temporal Convolutional Networks (TCN)
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 
 \begin{figure}
   \centering
-<<<<<<< HEAD
   \includegraphics[scale=0.4]{tcn.png}
-=======
-  \includegraphics[scale=0.5]{tcn.png}
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
     \caption{TCN}
     \label{TCN}
 \end{figure}
 
 
 
-<<<<<<< HEAD
 \item Ordered neurons: integrating tree structures into RNNs (ICLR 2019 best paper)
 
 \item Antisymmetric RNNs: Dynamical system view on RNNs
@@ -2861,12 +3132,6 @@ WaveNet by Google for sound synthesis uses an "atrous convolution", which is a h
 Translatotron: An End-to-End Speech-to-Speech Translation Model
 
 
-=======
-\item Ordered neurons: integrating tree structures into RNNs 
-
-\item Antisymmetric RNNs: Dynamical system view on RNNs
-
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 \eenum 
 
 \section{Unsupervised learning}
@@ -3141,13 +3406,8 @@ produces crisp samples and stable FID scores that are actually competitive with 
 of GAN models, all while retaining desirable attributes of the original VAE architecture"
 
 \item One can control the distribution of the latent space, by adding an extra penatly. "Sliced Wasserstein AE" (ICLR 2019)
-<<<<<<< HEAD
-=======
-
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 
-\item Understanding latent space
 
 \item Understanding latent space
 
@@ -3637,99 +3897,7 @@ into the both the discriminator and generator as additional input layer."
 
 "In the generator the prior input noise $p_z(z)$, and $y$ are combined in joint hidden representation, and the adversarial training framework allows for considerable flexibility in how this hidden representation is composed.
 In the discriminator $x$ and $y$ are presented as inputs and to a discriminative function."
-<<<<<<< HEAD
 
-
-cGAN objective: 
-
-$$\min_G\max_D V(D,G) 
-= \E_{x\sim P_n(x)}\log D(x|y) + 
-\E_{z\sim p(z)} \log[1-D(G(z|y))] $$
-
-
-\item 
-
-Harmonizing with MLE: Address the problem of mode collapse in cGAN. 
-
-Loss forces the moments of the generated distribution to be equal to the empirical moments. 
-
-Add a loss of the form $L_{MR} = \E_{z,x|y}(\E(G(z)) - \E x)^2$,
-
-\item 
-
-CycleGAN: unsupervised image-to-image translation
-
-GauGAN
-
-BigGAN
- 
-Bayesian GAN, ProbGAN
-
-\eenum 
-
-\subsection{Other questions in unsupervised learning}
-
-\benum 
-\item Deep Infomax (Hjelm et al, 2019): 
-
-Learning unsupervised representations: not enough labels. Labels do not tell whole story. Sparse rewards in RL. Want to learn structure not related to annotations (discovery)
-
-"There are many popular methods for learning representations. Classic methods, such as independent
-component analysis (ICA, Bell \& Sejnowski, 1995) and self-organizing maps (Kohonen, 1998),
-generally lack the representational capacity of deep neural networks."
-
-
-
-Maximize mutual information between an input and the output of a deep neural network encoder. (A type of self-supervision)
-
-Local structure is crucial. 
-=======
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
-
-To estimate MI, use MINE (Belghazi et al, 2018)
-
-Pipeline: Input image $\to$ Local feature vectors (patches) $\to$ Global rep
-
-$$(\hat \omega,\hat \psi)_G 
-= \arg\max_{\omega,\psi}
-\hat I_{\omega}(X;E_\psi(X)),$$ 
-
-where $E$ is the encoder NN, and the information estimator (MINE) depends on a discriminator $T_\omega$ which attempts to maximize the Donsker-Varadhan representation (where $J$ is the joint distribution of $X,Y$ and $M$ is the product of marginals)
-
-$$I(X;Y) := D_{KL}(J|M) \ge \hat I_\omega(X;Y) 
-:= \E_J[T_\omega (x,y)] - \log \E_M [\exp(T_\omega(x,y)],$$ 
-
-4.1 HOW DO WE EVALUATE THE QUALITY OF A REPRESENTATION?
-
-Evaluation of representations is case-driven and relies on various proxies. Linear separability is
-commonly used as a proxy for disentanglement and mutual information (MI) between representations
-and class labels.  This will not show whether the representation has high MI with
-the class labels when the representation is not disentangled.
-
-
-1. Estimate MI of input/output. 
-
-2. Next, we can directly measure the independence of the representation using a discriminator. Given a
-batch of representations, we generate a factor-wise independent distribution with the same per-factor
-marginals by randomly shuffling each factor along the batch dimension. A similar trick has been used
-for learning maximally independent representations for sequential data (Brakel \& Bengio, 2017). We
-can train a discriminator to estimate the KL-divergence between the original and shuffled representations.
-
-
-[If you learn the right features, supervised learning becomes easy. You can learn the right features in an unsupervised manner my maximizing information-theoretic quantities and information extraction.]
-
-\item Spectral Inference Networks
-
-One can also measure the compositionality of representations (see e.g., J Andreas, ICLR 2019).
-
-\item Semi-supervised learning: can learn a dimension reduction method to capture the structure of the output of a supervised method. (Teacher-student network. see Law et al, 2019 ICLR)
-
-\item Discriminative models are susceptible to overconfidence on out-of-distribution (OOD) inputs. Generative models are believed to be more robust. However, some deep gen models can assign higher density estimates to OOD dataset than the training data.
-
-\item Glow (Kingma, Dharival, 2018)
-
-Disentanglement
-\eenum
 
 cGAN objective: 
 
@@ -3816,6 +3984,8 @@ One can also measure the compositionality of representations (see e.g., J Andrea
 \item Discriminative models are susceptible to overconfidence on out-of-distribution (OOD) inputs. Generative models are believed to be more robust. However, some deep gen models can assign higher density estimates to OOD dataset than the training data.
 
 \item Glow (Kingma, Dharival, 2018)
+
+Disentanglement
 \eenum
 
 
@@ -5266,8 +5436,9 @@ $$v_*(s)
 
 \item Iterative solution methods: Value/Policy iteration, Q-learning
 
+\item Model-based RL: fit model to one-step transition quantities, such as $P,R$
 
-
+Model-free RL: do not work with model, but rather directly estimate value functions $Q,V$ (e.g., Q-learning)
 
 \eenum
 
@@ -5442,7 +5613,7 @@ $$
 %---
 \item Approximate $\hv (s,w) \approx v_\pi(s)$
 
-How to do it? Nees to set up an objective, compute the gradient, and approximate it
+How to do it? Need to set up an objective, compute the gradient, and approximate it
 
 Goal: 
 
@@ -6134,11 +6305,6 @@ between choice states
 - Reward of 0 for timesteps where M does not change
 \end{enumerate}
 
-<<<<<<< HEAD
-=======
-\item  Conclusion: Add temporally-extended activities without
-precluding fine-grained control
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 "A HAMQ-learning agent keeps track of the following quantities:  the current environment
 state; the current machine state; $s_t$ and $m_t$, the environment state and machine state at
@@ -6162,115 +6328,6 @@ state transition functions for each machine
 solutions are well known, but whose relationships are not
 \end{enumerate}
 
-\item Hierarchies of Abstract Machines (HAMs)
-
-\benum
-\item 
-
-"A HAM is a program which, when executed by an agent in an environment, constrains the
-actions that the agent can take in each state."
-
-
-Apply temporal abstraction to
-SIMPLIFY rather than augment
-
-Well-known set of optimal (or
-good enough) policies for long-
-time horizon actions, e.g., Robot navigation
-
-\item Formalization: 
-
-"Machines for HAMs are defined by a set of states, a transition function, and a
-start function that determines the initial state of the machine."
-
-\benum 
-
-\item
-Collection $H$ of finite state machines $H_i$. States $m_t$, state set $S$
-\item
-Core environment MDP $M$ (i.e., a model). States $s_t$, state set $S_M$
-\item
-Machine state initialization function $I_i: S_M\to S$ [In my environment state, I decided to call machine $i$, and I should start in a specific machine state]
-\item
-Stochastic state transition function: $\delta_i: S\to S$ (withing machines)
-\item
-
-"The state space of the problem is $S \times S_M$, where $S$ is the machine state and $S_M$ is the state of the underlying MDP. The actions are executed as usual, adhering to a policy defined on the states."
-\eenum 
-
-
-State set $S$ within machines:
-
-\begin{enumerate}
-\item Action: Executes action of $M$, depending on machine state $m_t$, and environment state $s_t$: $a = \pi(m_t, s_t)$. 
-
-\item Call: Suspends execution
-of current machine,
-calls another
-machine $H_j$, function
-of machine state $m_t$.
-Machine state initialization function applied to the environment $I_j(s_t)$ sets initial
-state
-
-\item Choice: Non-
-deterministically
-chooses next
-state of $H_i$
-
-\item Stop: Suspends execution
-of current machine.
-Resumes execution
-of calling machine
-
-
-\end{enumerate}
-
-\item HAMs: SMDP view. Equivalent to SMPD : $H \odot M$. 
-
-\begin{enumerate}
-\item 
-• State : $S \times S_M$, "cross-product of the states of HAM with the states of MDP."
-
-\item  Actions: Choice points of $H$. "For each state where the machine component is a choice state,
-actions that change only the machine component of the state are introduced."
-
-- Runs autonomously via action states until next choice point reached
-
-- Do not learn within machine policies - program these
-
-\item  Reward: Discounted awards accumulated during timesteps
-between choice states
-
-- Reward of 0 for timesteps where M does not change
-\end{enumerate}
-
-
-"A HAMQ-learning agent keeps track of the following quantities:  the current environment
-state; the current machine state; $s_t$ and $m_t$, the environment state and machine state at
-the previous choice point; $a$, the choice made at the previous choice point; and the total accumulated reward and discount since the previous choice point. It also maintains
-an extended Q-table, indexed by an environment-state/machine-state
-pair and by an action taken at a choice point."
-
-\item 
-HAMs - Conclusions
-
-
-\begin{enumerate}
-\item 
-• Success depends on quality of programmed policies and
-state transition functions for each machine
-
-\item • Not used a great deal in large-scale applications
-
-
-\item  • Allows integration of multiple controls problems, whose
-solutions are well known, but whose relationships are not
-\end{enumerate}
-
-
-\eenum
-
-\item Goal conditioned Hier RL
 
 \eenum
 
@@ -6421,7 +6478,7 @@ Here define $r_{i+1} = |f_{i+1}-\hat f_{i+1}|^2$, where $\hat f_{i+1} = F(s_{i},
 "This involves two neural networks: a fixed and randomly initialized target network which sets the
 prediction problem, and a predictor network trained on data collected by the agent. The target network
 takes an observation to an embedding $f : O \to R^k$ and the predictor neural network $\hat f : O \to R^k$
-is trained by gradient descent to minimize the expected MSE $\|\hat f(x;W) − f(x)\|^2$ with respect to its
+is trained by gradient descent to minimize the expected MSE $\|\hat f(x;W) - f(x)\|^2$ with respect to its
 parameters W. This process distills a randomly initialized neural network into a trained one. The
 prediction error is expected to be higher for novel states dissimilar to the ones the predictor has been
 trained on."
@@ -6431,11 +6488,8 @@ trained on."
 
 [This seems pretty puzzling to me.]
 
-<<<<<<< HEAD
 \item Evolutionary algorithms: Evolution Strategies as a Scalable Alternative to Reinforcement Learning (Salimans et al, OpenAI, 2017, \url{https://openai.com/blog/evolution-strategies/})
 
-=======
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \eenum 
 
@@ -6461,7 +6515,7 @@ Website: \url{robust-ml.org/}.
 
 \item How can we learn models robust to adversarial inputs?
 
-\item Let $x$ be the training example, $f(x):=f(x;W)$ be the model, and  $L$ be the loss. A simple way to create an adversarial example out of $x$ is to maximize the loss subject to a small perturbation. We can solve the problem 
+\item Let $x$ be the training example, $f(x ):=f(x;W)$ be the model, and  $L$ be the loss. A simple way to create an adversarial example out of $x$ is to maximize the loss subject to a small perturbation. We can solve the problem 
 
 \begin{align*}
 &\max_\delta L(f(x+\delta))\\
@@ -8077,7 +8131,6 @@ PCA: Good approximation by low-rank model
 
 \item Local SGD: Only synchronize models every $H$ rounds. ICLR 2019 paper shows it can be as good as mini-batch global SGD.
 
-<<<<<<< HEAD
 \item Measuring the Limits of Data Parallel Training for Neural Networks (Shallue, Lee et al, Google, 2018)
 
 "For the most common neural network training algorithms (synchronous stochastic gradient descent and its variants), the scale of data parallelism corresponds to the batch size.
@@ -8102,8 +8155,6 @@ cost." [It is interesting that a problem about distributed learning is reduced t
 larger batch sizes than plain SGD
 
 
-=======
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 \item Federated learning
 
 
@@ -8121,12 +8172,9 @@ larger batch sizes than plain SGD
 \item Reference: \url{http://www.automl.org/book/}
 
 Meta-data sharing: \url{OpenML.org}
-<<<<<<< HEAD
 
 NeurIPS 2018 tutorial, Frank Hutter and Joaquin Vanschoren: \url{https://www.youtube.com/watch?v=0eBR8a4MQ30}
 
-=======
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \item What is AutoML?
 
@@ -8175,7 +8223,7 @@ string – the “child network” – on the real data will result in an accura
 this accuracy as the reward signal, we can compute the policy gradient to update the controller."
 
 
-Policy: $\pi(A|W)$. Actions $A$ - architectures. Weights $W$ - weights of NN. NN implementing the policy: RNN.
+Policy: $\pi(A|W)$. Actions $A$ - architectures. Weights $W$ - weights of NN (the mother network). NN implementing the policy: RNN.
 
 
 \item Cell Search Spaces. Figure \ref{nas3}  
@@ -8518,7 +8566,6 @@ Transferring Knowledge across learning processes (ICLR 2019)
 
 DELTA: Deep learning transfer using feature map with attenction for CNN (ICLR 2019)
 
-<<<<<<< HEAD
 \item Google's AutoML system, as of 2019, has competitive performance to the best Kaggle competitors in Hackathon style events. See Figure \ref{automl} for a plot of the pipeline. (\url{http://ai.googleblog.com/2019/05/an-end-to-end-automl-solution-for.html})
 
 
@@ -8531,8 +8578,6 @@ DELTA: Deep learning transfer using feature map with attenction for CNN (ICLR 20
 
 \item AutoRL (Learning Navigation Behaviors End-to-End With AutoRL, Chiang et al, 2019)
 "is an evolutionary automation layer around deep RL that searches for a reward and neural network architecture using large-scale hyperparameter optimization. It works in two phases, reward search and neural network architecture search. During the reward search, AutoRL trains a population of DDPG agents concurrently over several generations, each with a slightly different reward function optimizing for the local planner’s true objective: reaching the destination. At the end of the reward search phase, we select the reward that leads the agents to its destination most often. In the neural network architecture search phase, we repeat the process, this time using the selected reward and tuning the network layers.
-=======
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \eenum 
 
@@ -8615,7 +8660,9 @@ Concern: how to make the market as large as possible.
 
 locally linear, Shapley value
 
-<<<<<<< HEAD
+- Book: \url{https://christophm.github.io/interpretable-ml-book/}
+
+
 - Classical ways to interpret models: 
 
 \url{https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e}
@@ -8633,11 +8680,6 @@ locally linear, Shapley value
 - Saliency map is very local, and specific to input. How about more global? Recursive definition, starting from last layer? Prune/assign weights, repeat?
 
 - Can we define interpretability via "class-specific features"? For cat, it's ears and eyes, and nose. For truck, it's wheels, windows, etc. They are different for different classes. E.g., can we use the class-average of the saliency maps to select important features at all layers? [Automatically detect which features are important]
-=======
-
-\item Reference \url{https://distill.pub/2018/building-blocks/}
-
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 \item Class model visualization ("Deep inside convolutional networks: Visualising image classification models and saliency maps", Simonyan, Vedaldi, Zisserman, 2013)
 
@@ -8682,10 +8724,7 @@ thresholding might not be able to highlight the whole object"
 
 \item Can also use generative models. Ask "what part of the image when changed would have altered the classification?" by generative models. Find the image part $x_r$ by variational dropout. (Explaining image classifiers by counterfactual generation, ICLR 2019) 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 \item Hierarchical interpretations for NN predictions (ICLR 2019)
 
 \item L-Shapley and C-Shapley: efficient model interpretation for structured data (Chen, Song, Wainwright, Jordan)
@@ -8836,7 +8875,7 @@ Weight quantization: small storage, fast inference. Training can be time-consumi
 
 "In BinaryConnect (Courbariaux et al., 2015), each weight is binarized using the sign function either
 deterministically or stochastically. In ternary-connect (Lin et al., 2016), each weight is stochastically
-quantized to \{−1, 0, 1\}. Stochastic weight quantization often suffers severe accuracy degradation,
+quantized to \{-1, 0, 1\}. Stochastic weight quantization often suffers severe accuracy degradation,
 while deterministic weight quantization (as in the binary-weight-network (BWN) (Rastegari et al.,
 2016) and ternary weight network (TWN) (Li \& Liu, 2016)) achieves much better performance."
 
@@ -8906,19 +8945,11 @@ weights based on their initial magnitudes instead, large-init and small-init , v
 for both, large-init-large-final and small-init-small-final , two mask criteria that evaluate how far
 weights moved, magnitude-increase and movement , and a control, random , that chooses masks
 randomly."
-<<<<<<< HEAD
 
 "As can be seen, the
 magnitude-increase criterion turns out to work just as well as the large-final criterion, and in some
 cases significantly better."
 
-=======
-
-"As can be seen, the
-magnitude-increase criterion turns out to work just as well as the large-final criterion, and in some
-cases significantly better."
-
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 2. Treatment of kept weights during retraining (mask-1 action): "As long as you keep the sign, reinitialization is not a deal breaker"
 
 3. Treatment of pruned weights during
@@ -9446,7 +9477,6 @@ Big topics:
 \item 
 Optimization landscape
 
-<<<<<<< HEAD
 - Deep linear networks have no bad local minima (Kawaguchi et al)
 
 - Montanari
@@ -9463,17 +9493,6 @@ It is sometimes possible to design architectures that have good optimization lan
 - GD only converges to minimizers (Jason Lee et al)
 
 - Star-convexity holds with over-parametrization, allows SGD to converge to global min (Zhou et al, ICLR 2019. Some of it is empirical) 
-=======
-Deep linear networks have no bad local minima (Kawaguchi et al)
-
-Montanari
-
-\item Convergence of optimization algorithms
-
-GD only converges to minimizers (Jason Lee et al)
-
-Star-convexity holds with over-parametrization, allows SGD to converge to global min (Zhou et al, ICLR 2019. Some of it is empirical) 
->>>>>>> 36d1093ab5c3bf4ed4298c4a7e51ef121e1f9f5d
 
 
 \item Connections Opt+Gen: Implicit bias, Implicit regularization, algorithmic regularization 
@@ -9609,6 +9628,71 @@ GD or SGD with weight or batch normalization implement generalization bounds For
 "Many of the future breakthroughs will be inspired by neuroscience. It will be hard for Google to get monkeys in their labs"
 
 \eenum
+
+\item "Uniform convergence may be unable to explain generalization in deep learning", Nagarajan, Kolter
+
+- "many existing bounds are numerically large". "in practice, these bounds can increase with the dataset size."
+
+- "present examples of overparameterized linear classifiers and
+neural networks trained by stochastic gradient de-
+scent (SGD) where UC cannot explain gen, even if we take
+into account implicit regularization to the fullest
+extent possible. Even if we consider only the set of classifiers output by SGD that
+have test errors less than c, applying
+(two-sided) uniform convergence on this set of
+classifiers yields a generalization guarantee that is
+larger than 1 - c.
+
+-  The goal is to derive
+bounds on the generalization error that (a) are small, ideally
+non-vacuous (i.e., $<$ 1 ), (b) reflect the same width/depth
+dependence as the generalization error (e.g., become smaller
+or at least stay constant with increasing width, as has been
+surprisingly observed in practice), (c) apply to the network
+learned by SGD rather than to a network modified through
+compression or stochasticization and (d) increase with the
+proportion of randomly flipped training labels.
+
+
+- why do we need generalization bounds?
+
+- why do we need UC? 
+
+\begin{enumerate}
+\item To theoretically bound the generalization error of the algo-
+rithm, the most common approach is to provide a two-sided
+uniform convergence bound on the hypothesis class used
+by the algorithm
+\item We take this to the
+extreme by applying uniform convergence on the smallest
+possible class of hypotheses, namely, only those hypotheses
+that are picked by A under D , excluding everything else.
+\end{enumerate} 
+
+ - Example
+
+\begin{enumerate}
+\item 
+	- few coordinates contain signal (small magnitude), lots of noise coordinates
+\item 	- whp classify most correctly (signal is in first coords)
+\item 	- whp misclassify examples with flipped noise incorrectly 
+\end{enumerate} 
+
+\item On the Power and Limitations of Random Features
+for Understanding Neural Networks
+
+-  "spate of papers have provided positive theoretical results for training over-parameterized
+neural network", "they are all based on the following striking observation: When the networks are sufficiently large, standard gradient-based methods change certain components of the network (such as the weights of a certain layer) very slowly, so
+that if we run these methods for a bounded number of iterations, they might as well be fixed.
+
+- "this
+approach can only explain learnability of hypothesis classes which can already be learned using random
+features"
+
+- "Thus, it does not capture any
+element of representation learning, which appears to lend much of the power of modern neural networks."
+
+
 
 \item See: "The role of over-parametrization in generalization of NNs". Neyshabur,..., LeCun et al, ICLR 2019
 
