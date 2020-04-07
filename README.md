@@ -199,10 +199,15 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Lecture 13: Deep Learning in Marketing Research](https://github.com/dobriban/Topics-in-deep-learning/blob/master/Stat%20991%20presentations/Fall%202018/991-Lec-13-Deep-Learning-in-Marketing-Research-Mingyung-Kim.pdf). Presented by Mingyung Kim.
 
-# Papers for future editions
+# Materials for future editions
+
+## Papers 
 
 * [Few-Shot Adversarial Learning of Realistic Neural Talking Head Models](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.html)
 
+## Books and other educational materials
+
+* [Dive into Deep Learning: An interactive deep learning book with code, math, and discussions, based on the NumPy interface](http://d2l.ai/), see also [Reddit post](https://www.reddit.com/r/MachineLearning/comments/fvq3n6/p_dive_into_deep_learning_an_interactive_deep/)
 
 
 
