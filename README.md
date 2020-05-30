@@ -203,7 +203,18 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 ## Papers 
 
+### Applications
+
 * [Few-Shot Adversarial Learning of Realistic Neural Talking Head Models](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.html)
+
+* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+
+### Theory
+
+* [Machine Learning from a Continuous Viewpoint](https://arxiv.org/abs/1912.12777)
+
+* [A Mean Field View of the Landscape of Two-Layers Neural Networks](https://arxiv.org/abs/1804.06561)
+
 
 ## Books and other educational materials
 
