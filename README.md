@@ -213,8 +213,6 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Machine Learning from a Continuous Viewpoint](https://arxiv.org/abs/1912.12777)
 
-* [A Mean Field View of the Landscape of Two-Layers Neural Networks](https://arxiv.org/abs/1804.06561)
-
 
 ## Books and other educational materials
 
