@@ -207,7 +207,10 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Few-Shot Adversarial Learning of Realistic Neural Talking Head Models](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.html)
 
-* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), from OpenAI, introducing GPT-3
+
+* [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709), introducing SimCLR, a prominent method for self-supervised learning
+
 
 ### Theory
 
