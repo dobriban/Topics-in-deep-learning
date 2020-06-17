@@ -223,3 +223,4 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [DeepMind x UCL | Deep Learning Lectures 2020](https://www.youtube.com/watch?v=7R52wiUgxZI&list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF&index=1)
 
+* [Deep Learning: Do-It-Yourself!](https://mlelarge.github.io/dataflowr-web/dldiy.html), from Ecole Polytechnique
