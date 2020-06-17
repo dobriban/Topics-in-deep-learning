@@ -221,5 +221,5 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Dive into Deep Learning: An interactive deep learning book with code, math, and discussions, based on the NumPy interface](http://d2l.ai/), see also [Reddit post](https://www.reddit.com/r/MachineLearning/comments/fvq3n6/p_dive_into_deep_learning_an_interactive_deep/)
 
-
+* [DeepMind x UCL | Deep Learning Lectures 2020](https://www.youtube.com/watch?v=7R52wiUgxZI&list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF&index=1)
 
