@@ -207,7 +207,7 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Few-Shot Adversarial Learning of Realistic Neural Talking Head Models](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.html)
 
-* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), from OpenAI, introducing GPT-3. See [Youtube video](https://www.youtube.com/watch?v=SY5PvZrJhLE) explanation by Yannic Kilcher. Argument: is it more than just elaborate pattern-matching?
+* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), from OpenAI, introducing GPT-3. See [Youtube video](https://www.youtube.com/watch?v=SY5PvZrJhLE) explanation by Yannic Kilcher. Argument: is it more than just elaborate pattern-matching (a lookup table)?
 
 * [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709), introducing SimCLR, a prominent method for self-supervised learning
 
@@ -224,3 +224,7 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 * [DeepMind x UCL | Deep Learning Lectures 2020](https://www.youtube.com/watch?v=7R52wiUgxZI&list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF&index=1)
 
 * [Deep Learning Courses by Marc Lelarge](https://mlelarge.github.io/dataflowr-web), taught at Ecole Polytechnique, ENS, etc
+
+## Implementation and reproducibility
+
+* [AI Research, Replicability and Incentives](https://dennybritz.com/blog/ai-replication-incentives), by Denny Britz
