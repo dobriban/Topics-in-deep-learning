@@ -227,6 +227,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Deep Learning Courses by Marc Lelarge](https://mlelarge.github.io/dataflowr-web), taught at Ecole Polytechnique, ENS, etc
 
+* [AtHomeWithAI](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf) Curated Resource List by DeepMind
+
 ## Implementation and reproducibility
 
 * [AI Research, Replicability and Incentives](https://dennybritz.com/blog/ai-replication-incentives), by Denny Britz
