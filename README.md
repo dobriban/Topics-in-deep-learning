@@ -229,7 +229,7 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [AtHomeWithAI](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf) Curated Resource List by DeepMind
 
-* [Machine Learning Summer School 2020, Tuebingen](http://mlss.tuebingen.mpg.de/2020/schedule.html)
+* [Machine Learning Summer School 2020, Tuebingen](http://mlss.tuebingen.mpg.de/2020/schedule.html), see also materials from previous years at [mlss.cc](http://mlss.cc/)
 
 ## Implementation and reproducibility
 
