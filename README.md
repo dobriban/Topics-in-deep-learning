@@ -229,6 +229,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [AtHomeWithAI](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf) Curated Resource List by DeepMind
 
+* [Machine Learning Summer School 2020, Tuebingen](http://mlss.tuebingen.mpg.de/2020/schedule.html)
+
 ## Implementation and reproducibility
 
 * [AI Research, Replicability and Incentives](https://dennybritz.com/blog/ai-replication-incentives), by Denny Britz
