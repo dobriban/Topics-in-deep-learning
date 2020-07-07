@@ -213,6 +213,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [A Survey on Bias and Fairness in Machine Learning](https://arxiv.org/abs/1908.09635)
 
+* [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565)
+
 
 ### Theory
 
