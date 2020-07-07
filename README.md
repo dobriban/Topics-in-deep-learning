@@ -225,6 +225,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [DeepMind x UCL | Deep Learning Lectures 2020](https://www.youtube.com/watch?v=7R52wiUgxZI&list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF&index=1)
 
+* [Deep Learning with PyTorch Course by Alfredo Canziani at NYU](https://atcold.github.io/pytorch-Deep-Learning/), co-taught with Yann LeCun. Has slides, videos, code etc.
+
 * [Deep Learning Courses by Marc Lelarge](https://mlelarge.github.io/dataflowr-web), taught at Ecole Polytechnique, ENS, etc
 
 * [AtHomeWithAI](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf) Curated Resource List by DeepMind
