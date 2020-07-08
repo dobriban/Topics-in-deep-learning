@@ -229,6 +229,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Deep Learning with PyTorch Course by Alfredo Canziani at NYU](https://atcold.github.io/pytorch-Deep-Learning/), co-taught with Yann LeCun. Has slides, videos, code etc.
 
+* [EPFL EE-559 – DEEP LEARNING](https://fleuret.org/ee559/) by Francois Fleuret
+
 * [Deep Learning Courses by Marc Lelarge](https://mlelarge.github.io/dataflowr-web), taught at Ecole Polytechnique, ENS, etc
 
 * [AtHomeWithAI](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf) Curated Resource List by DeepMind
