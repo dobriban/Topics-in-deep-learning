@@ -220,6 +220,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Machine Learning from a Continuous Viewpoint](https://arxiv.org/abs/1912.12777)
 
+* [Theoretical issues in deep networks](https://www.pnas.org/content/early/2020/06/08/1907369117)
+
 
 ## Books and other educational materials
 
@@ -240,3 +242,21 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 ## Implementation and reproducibility
 
 * [AI Research, Replicability and Incentives](https://dennybritz.com/blog/ai-replication-incentives), by Denny Britz
+
+## Online seminar series
+
+* [IAS ML](https://twitter.com/iasmlseminars?lang=en)
+
+* [DEEP LEARNING: CLASSICS AND TRENDS](http://rosanneliu.com/dlct/)
+
+* [One World ML](https://www.oneworldml.org/)
+
+* [1W-MINDS](https://sites.google.com/view/minds-seminar/home)
+
+* [Math for Arbitrary Data Sources (NOMADS)](http://www.nonlocal-methods.eu/oneworld/)
+
+
+
+
+
+
