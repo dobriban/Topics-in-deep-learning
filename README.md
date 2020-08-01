@@ -241,7 +241,7 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Machine Learning Summer School 2020, Tuebingen](http://mlss.tuebingen.mpg.de/2020/schedule.html), see also materials from previous years at [mlss.cc](http://mlss.cc/)
 
-* [Eastern European Machine Learning Summer School (EEML), 2020](https://www.eeml.eu/program)
+* [Eastern European Machine Learning Summer School (EEML), 2020](https://www.eeml.eu/program), recorded lectures. see e.g., the lecture by Misha Belkin on the theory of deep learning.
 
 ## Implementation and reproducibility
 
