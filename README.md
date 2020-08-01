@@ -222,6 +222,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Theoretical issues in deep networks](https://www.pnas.org/content/early/2020/06/08/1907369117)
 
+* [Polylogarithmic width suffices for gradient descent to achieve arbitrarily small test error with shallow ReLU networks](https://arxiv.org/abs/1909.12292)
+
 
 ## Books and other educational materials
 
@@ -238,6 +240,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 * [AtHomeWithAI](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf) Curated Resource List by DeepMind
 
 * [Machine Learning Summer School 2020, Tuebingen](http://mlss.tuebingen.mpg.de/2020/schedule.html), see also materials from previous years at [mlss.cc](http://mlss.cc/)
+
+* [Eastern European Machine Learning Summer School (EEML), 2020](https://www.eeml.eu/program)
 
 ## Implementation and reproducibility
 
