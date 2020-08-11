@@ -224,6 +224,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Polylogarithmic width suffices for gradient descent to achieve arbitrarily small test error with shallow ReLU networks](https://arxiv.org/abs/1909.12292)
 
+* [The large learning rate phase of deep learning: the catapult mechanism](https://arxiv.org/abs/2003.02218)
+
 
 ## Books and other educational materials
 
