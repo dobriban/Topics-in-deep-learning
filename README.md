@@ -226,6 +226,9 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [The large learning rate phase of deep learning: the catapult mechanism](https://arxiv.org/abs/2003.02218)
 
+* [Symmetry & critical points for a model shallow neural network](https://arxiv.org/abs/2003.10576), also: [Analytic Characterization of the Hessian in Shallow ReLU Models: A Tale of Symmetry
+](https://arxiv.org/abs/2008.01805)
+
 
 ## Books and other educational materials
 
