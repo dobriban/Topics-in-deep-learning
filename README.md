@@ -201,6 +201,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 # Materials for future editions
 
+Relatively more recent developments or additions.
+
 ## Papers 
 
 ### Applications and Methods
@@ -228,6 +230,8 @@ Topics: basics (deep feedforward networks, training, CNNs, RNNs). Generative Adv
 
 * [Symmetry & critical points for a model shallow neural network](https://arxiv.org/abs/2003.10576), also: [Analytic Characterization of the Hessian in Shallow ReLU Models: A Tale of Symmetry
 ](https://arxiv.org/abs/2008.01805)
+
+* [Prevalence of Neural Collapse during the terminal phase of deep learning training](https://arxiv.org/abs/2008.08186)
 
 
 ## Books and other educational materials
