@@ -233,6 +233,7 @@ Relatively more recent developments or additions.
 
 * [Prevalence of Neural Collapse during the terminal phase of deep learning training](https://arxiv.org/abs/2008.08186)
 
+* [Traces of Class/Cross-Class Structure Pervade Deep Learning Spectra](https://arxiv.org/abs/2008.11865)
 
 ## Books and other educational materials
 
