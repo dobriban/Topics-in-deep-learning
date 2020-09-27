@@ -220,7 +220,7 @@ Relatively more recent developments or additions.
 
 ### Theory
 
-* [Machine Learning from a Continuous Viewpoint](https://arxiv.org/abs/1912.12777)
+* [Machine Learning from a Continuous Viewpoint](https://arxiv.org/abs/1912.12777); [Towards a Mathematical Understanding of Neural Network-Based Machine Learning: what we know and what we don't](https://arxiv.org/abs/2009.10713)
 
 * [Theoretical issues in deep networks](https://www.pnas.org/content/early/2020/06/08/1907369117)
 
@@ -234,6 +234,10 @@ Relatively more recent developments or additions.
 * [Prevalence of Neural Collapse during the terminal phase of deep learning training](https://arxiv.org/abs/2008.08186)
 
 * [Traces of Class/Cross-Class Structure Pervade Deep Learning Spectra](https://arxiv.org/abs/2008.11865)
+
+* [Generalization bound of globally optimal non-convex neural network training: Transportation map estimation by infinite dimensional Langevin dynamics](https://arxiv.org/abs/2007.05824)
+
+
 
 ## Books and other educational materials
 
