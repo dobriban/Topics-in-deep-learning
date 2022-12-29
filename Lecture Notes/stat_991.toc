@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Deep feedforward neural networks}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}The model}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Training}{6}{subsection.1.2}%
